@@ -13,7 +13,7 @@
             "name": "PhDave"
         }
     ],
-    "version": "0.0.2",
+    "version": "0.0.3",
     "compatibility":{
         "minimum": "11",
         "verified": "11.315"
@@ -80,6 +80,14 @@
             "type": "JournalEntry",
             "system": "ep2e",
             "flags":{}
+        },
+        {
+            "name": "tablerules-morphs",
+            "label": "Morphs",
+            "path": "packs/morphs",
+            "type": "Actor",
+            "system": "ep2e",
+            "flags":{}
         }
     ],
     "packFolders": [
@@ -94,7 +102,8 @@
             "tablerules-tablerules",
             "tablerules-book",
             "tablerules-qaa",
-            "tablerules-manuals"
+            "tablerules-manuals",
+            "tableruels-morphs"
             ],
           "folders": [
           ]
