@@ -1,0 +1,1 @@
+console.log({ reportString: `- \`title\`: ${game.system.title}\n- \`id\`: ${game.system.id}\n- \`download\`: [Download-URL](${game.system.id})\n- \`manifest\`: [Manifest-URL](${game.system.manifest})\n- \`url\`: [Project-URL](${game.system.url})\n` })

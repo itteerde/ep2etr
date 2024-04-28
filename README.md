@@ -9,12 +9,10 @@ Eclipse Phase 2nd Edition Foundry VTT -- Tablerules and Configuration Module
 
 + [Foundry Virtual Tabletop - API Documentation - Version 11](https://foundryvtt.com/api/)
 + [Foundry VTT Discord Server](https://discord.gg/foundryvtt)
-+ [Roll-Formulas](https://github.com/foundryvtt/dnd5e/wiki/Roll-Formulas)
 + [Module-Development](https://foundryvtt.com/article/module-development/)
 + [Foundry VTT Community Wiki](https://foundryvtt.wiki/en/home)
 + [Deleting Properties from Documents](https://discord.com/channels/170995199584108546/699750150674972743/1043341804742914141)
 + [Deleting Documents](https://github.com/GamerFlix/foundryvtt-api-guide/blob/main/macro_guide.md#deleting-documents)
-+ [Font-Awesome](https://fontawesome.com/search?m=free&o=r)
 
 
 
@@ -22,16 +20,11 @@ Eclipse Phase 2nd Edition Foundry VTT -- Tablerules and Configuration Module
 
 ## System
 
-| Key | Value |
-| --------------- | ---------------  |
-| `title` | `Eclipse Phase 2e` |
-| `id` | `eclipsephase` |
-| `download` | `https://github.com/DerDiemen/eclipsephase/archive/v0.9.8/eclipsephase-0.9.8.zip` |
-| `manifest` | `https://github.com/DerDiemen/eclipsephase2e-foundryVTT/raw/v0.9.8/system.json` |
-| `url` | `https://github.com/DerDiemen/eclipsephase` |
-
-[Project-URL](https://github.com/DerDiemen/eclipsephase)
-
+- `title`: Eclipse Phase 2e
+- `id`: ep2e
+- `download`: [Download-URL](ep2e)
+- `manifest`: [Manifest-URL](https://github.com/Bubz43/ep2e/releases/latest/download/system.json)
+- `url`: [Project-URL](https://github.com/Bubz43/ep2e)
 
 ## Modules
 
@@ -39,7 +32,9 @@ Eclipse Phase 2nd Edition Foundry VTT -- Tablerules and Configuration Module
 
 `game.modules.filter(m => m.active)` (might not order alphabetically, `id` is probably key for ordering while `title` is what we use). This list can be updated [by Macro](https://github.com/itteerde/fvttconfig/blob/main/tools/macros/dev/listModules.js). This list is supposed to be to real Production list. There might be a bit of a gap during preparing the next update. Maybe in the future it should reflect the accpeted list instead, which would mean it is either Production or what production is supposed to catch up soon, with the list already being somewhat approved.
 
-
 1. Autocomplete Whisper (version: 1.0.5) : [Project-URL](https://github.com/orcnog/autocomplete-whisper/), [Manifest](https://raw.githubusercontent.com/orcnog/autocomplete-whisper/master/module.json)
-1. Dice Tray (version: 1.5.3) : [Project-URL](https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator), [Manifest](https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator/raw/master/module.json)
-1. ep2e - Tablerules (version: 0.0.1) : [Project-URL](https://github.com/itteerde/ep2eFVTT/), [Manifest](https://raw.githubusercontent.com/itteerde/ep2eFVTT/main/ep2e-tr/module.json)
+1. ep2edavemaps (version: 1.0.0) : [Project-URL](undefined), [Manifest](undefined)
+1. FXMaster (version: 4.0.2) : [Project-URL](https://github.com/ghost-fvtt/fxmaster), [Manifest](https://github.com/ghost-fvtt/fxmaster/releases/latest/download/module.json)
+1. libWrapper (version: 1.12.13.0) : [Project-URL](https://github.com/ruipin/fvtt-lib-wrapper), [Manifest](https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json)
+1. PopOut! (version: 2.16) : [Project-URL](https://github.com/League-of-Foundry-Developers/fvtt-module-popout), [Manifest](https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-module-popout/master/module.json)
+1. ep2e - Tablerules (version: 0.0.1) : [Project-URL](https://github.com/itteerde/ep2etr/), [Manifest](https://raw.githubusercontent.com/itteerde/ep2etr/main/ep2e-tr/module.json)
