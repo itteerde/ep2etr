@@ -1,0 +1,3 @@
+<ol class="tr-manual">
+	<li><div class="tr-liHeader">Blueprint</div> All items bought at mission start come with Blueprints.</li>
+</ol>

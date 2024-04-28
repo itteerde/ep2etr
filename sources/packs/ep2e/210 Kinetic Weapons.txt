@@ -1,0 +1,282 @@
+Kinetic weapons fire hard-impact projectiles at high velocities to damage the target. There are two categories of slug-throwers, based on their firing mechanisms: chemical firearms and railguns. Railguns have higher penetration and inflict more damage, offset by battery needs and more limited ammunition choices. Most firearms are equipped with programmable smart bullets by default and have a range of other ammunition choices. Due to their lethality and versatility, they remain in widespread use. Both firearms and railguns work in vacuum. They are wielded with Guns skill and resisted with kinetic armor.
+
+<h1>Firearms</h1>
+Modern chemical firearms use caseless smart ammunition that is auto-loaded from a magazine. They are effectively recoilless (thanks to rheological smart fluid mechanisms) and electronically fired (an electric charge vaporizes the propellant, using the expanding steam and plasma to eject and accelerate the projectile).
+
+<ul>
+	<li><strong>Pistol:</strong> Holdout pistols sacrifice penetrating ability for concealability. Heavy pistols focus on stopping power, with medium pistols occupying a middle ground. Machine pistols use smaller caliber rounds but provide larger magazines for automatic firing.</li>
+	<li><strong>Submachine Gun:</strong> SMGs are designed in bullpup configurations for close-quarters operations and are ideal for tactical and strike teams.</li>
+	<li><strong>Assault Rifle:</strong> Automatic rifles use rifle ammunition and have greater range and penetration than SMGs.</li>
+	<li><strong>Battle Rifle:</strong> Battle rifles use higher caliber rounds, providing better range and stopping power than assault rifles.</li>
+	<li><strong>Machine Gun:</strong> Machine guns are heavy weapons, typically mounted, and intended to provide continuous fire for support or suppressive purposes.</li>
+	<li><strong>Sniper Rifle:</strong> Sniper rifles are optimized for range, accuracy, penetration, and stopping power.</li>
+	<li><strong>Polygun Pistol:</strong> Polyguns are modular, shape-changing weapons that can switch between holdout, medium pistol, heavy pistol, and machine pistol forms. Each form requires separate ammunition. Switching forms takes 3 action turns.</li>
+	<li><strong>Polygun Rifle:</strong> This carbine functions like the polygun pistol, except that it can switch between SMG, assault rifle, and sniper rifle as needed.</li>
+</ul>
+
+<h1>Railguns</h1>
+Railguns slide and accelerate a non-explosive conductive tungsten slug along electromagnetic rails at extremely high velocities (Mach 6+) to create an overwhelming, penetrating attack. The kinetic energy of the projectile exceeds that of an explosive-filled shell of greater mass and creates shock and heat waves upon impact that shatter and incinerate the target, or portions of it. While railguns are more potent than firearms, they cannot use smart or specialty ammunition as the projectile must be conductive and able to survive both acceleration and heat created in the process due to friction. Nanofabrication allows railguns to be manufactured on the personal-weapons scale while high-energy portable batteries provide the power to fire them. Railgun operation makes no flash and is silent except for the supersonic crack of the projectile.
+
+Railguns are available in the same models as firearms. They are equipped with standard and nuclear batteries just like beam weapons, holding enough power for 200 shots.
+
+<h1>Kinetic Ammunition</h1>
+Ammunition is defined by its various types (regular, armor-piercing, capsule, etc.) and by the class of gun (light pistol, heavy pistol, SMG, etc.). For simplicity, each gun can trade ammunition with another gun of its class, though ammunition for firearms and railguns is not exchangeable. For example, all railgun SMGs can share ammo. Due to the high speeds at which railguns fire, they can only use railgun ammo; firearms have more options.
+
+The ammunition’s Damage Value modifiers are added to the weapon’s base DV.
+
+<h2>Smart Ammo</h2>
+Firearm smart ammo is made from programmable matter. In addition to its standard form, it can transform into accushot, hollowpoint, or plastic rounds. The firer can change all or some of the bullets in the magazine (in any order) with a complex action. All of the bullets fired together with a single complex action must be of the same programmed type.
+
+<h2>Specialty Firearm Ammo</h2>
+This ammunition can only be used with firearms, not railguns. It is acquired in lots of 100 rounds and must be tracked separately.
+<ul>
+	<li><strong>Accushot:</strong> Accushot bullets change shape during flight to keep dead on course, countering the effects of wind, drag, and gravity over distance. Attacks made with Accushots ignore all range modifiers.</li>
+	<li><strong>Armor-Piercing:</strong> This tungsten-carbide ammunition penetrates armor effectively.</li>
+	<li><strong>Biter:</strong> Biters fragment in opposite proportion to the hardness of the target they strike. For hard targets (synthmorphs), they fragment very little, blasting a big hole. For soft targets (biomorphs), they fragment and tumble in multiple directions within the body.</li>
+	<li><strong>Bug:</strong> Bug rounds are equipped with a microbug and medical sensor nanobots. They attempt to gather information on the target’s location (via standard mesh tracking), health (querying the target’s medichines), and surroundings (typically hindered by being inside the target’s body). They will transmit status reports in a pre-programmed manner via the mesh or a pre-chosen frequency band either continuously or in pre-set intervals.</li>
+	<li><strong>Capsule:</strong> Capsule ammo carries one dose of a drug, toxin, or nanobot payload (acquired separately) that is released inside the target after the round penetrates.</li>
+	<li><strong>Hollow-Point:</strong> Hollow-point bullets deform, widen, and fragment once they penetrate a target, inflicting more damage to soft targets like biomorphs. They do not provide extra damage to synthmorphs or objects.</li>
+	<li><strong>Homing:</strong> This bullet identifies a smartlink-tagged target and uses nanosensors and telemetry from previous bullets to lock on, correcting the bullet’s trajectory with surface alterations and tiny vectored nozzles. Apply a +10 modifier to hit for attacks following an aim action (cumulative with the aim modifier) or previous attacks against the same target. Homing bullets can also be used for indirect fire ▶206, though without the to-hit modifier.</li>
+	<li><strong>Jammer:</strong> Jammers stick to the target and pulse out jamming electromagnetic signals, jamming the target’s wireless communications with an Interface of 40 (Jam Signals ▶263). They are difficult to remove, requiring a Hardware: Electronics task action (10 action turns) or use of a fixer, disassembler, or saboteur nanoswarm.</li>
+	<li><strong>Plastic:</strong> Plastic ammo is designed to hurt but not wound targets and is commonly used for crowd control purposes.</li>
+	<li><strong>Proximity:</strong> This reactive bullet uses nanosensors to determine if it is going to miss a smartlink-tagged target and explodes in their vicinity. If the attack misses without a superior or critical failure, the target still suffers DV 1d10.</li>
+	<li><strong>Reactive Armor-Piercing (RAP):</strong> This is a tungsten-carbide armor-piercing round with a reactive casing that superheats and explodes upon impact.</li>
+	<li><strong>Standard Ammo:</strong> This basic metal projectile is designed to put holes into morphs and other objects.</li>
+	<li><strong>Splash:</strong> Splash rounds carry a payload (acquired separately) like capsule ammo, but are designed to break upon impact rather than penetrating, splashing their contents on the target’s exterior. Splash rounds are typically loaded with paint, taggant nanobots, tracker dye, and similar substances.</li>
+	<li><strong>Zap:</strong> Zap rounds are rubber or gel bullets that shock the target with a piezoelectric charge.</li>
+</ul>
+
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:15%; margin-left:5px;">Kinetic Weapons</div>
+			<div style="width:13%; text-align: center;">Damage Value</div>
+			<div style="width:13%; text-align: center;">Firing Modes</div>
+			<div style="width:10%; text-align: center;">Ammo</div>
+			<div style="width:10%; text-align: center;">Range</div>
+			<div style="width:15%; text-align: center;">Complexity/GP</div>
+			<div style="width:24%;">Notes</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Holdout</div>
+			<div style="width:13%; text-align: center;">1d10 + 1d6 [9]</div>
+			<div style="width:13%; text-align: center;">SA/BF</div>
+			<div style="width:10%; text-align: center;">9 + 1</div>
+			<div style="width:10%; text-align: center;">25</div>
+			<div style="width:15%; text-align: center;">Min/R/1</div>
+			<div style="width:24%;">Concealable</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Medium Pistol</div>
+			<div style="width:13%; text-align: center;">2d10 [11]</div>
+			<div style="width:13%; text-align: center;">SA/BF/FA</div>
+			<div style="width:10%; text-align: center;">15 + 1</div>
+			<div style="width:10%; text-align: center;">30</div>
+			<div style="width:15%; text-align: center;">Min/R/1</div>
+			<div style="width:24%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Heavy Pistol</div>
+			<div style="width:13%; text-align: center;">2d10 + 2 [13]</div>
+			<div style="width:13%; text-align: center;">SA/BF/FA</div>
+			<div style="width:10%; text-align: center;">9 + 1</div>
+			<div style="width:10%; text-align: center;">35</div>
+			<div style="width:15%; text-align: center;">Min/R/1</div>
+			<div style="width:24%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Machine Pistol</div>
+			<div style="width:13%; text-align: center;">1d10 + 1d6 [9]</div>
+			<div style="width:13%; text-align: center;">SA/BF/FA</div>
+			<div style="width:10%; text-align: center;">30 + 1</div>
+			<div style="width:10%; text-align: center;">25</div>
+			<div style="width:15%; text-align: center;">Min/R/1</div>
+			<div style="width:24%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Submachine Gun</div>
+			<div style="width:13%; text-align: center;">2d10 [11]</div>
+			<div style="width:13%; text-align: center;">SA/BF/FA</div>
+			<div style="width:10%; text-align: center;">30 + 1</div>
+			<div style="width:10%; text-align: center;">50</div>
+			<div style="width:15%; text-align: center;">Mod/R/2</div>
+			<div style="width:24%;">Two-Handed</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Assault Rifle</div>
+			<div style="width:13%; text-align: center;">2d10 + 2 [13]</div>
+			<div style="width:13%; text-align: center;">SA/BF/FA</div>
+			<div style="width:10%; text-align: center;">45 + 1</div>
+			<div style="width:10%; text-align: center;">100</div>
+			<div style="width:15%; text-align: center;">Mod/R/2</div>
+			<div style="width:24%;">Long, Two-Handed</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Battle Rifle</div>
+			<div style="width:13%; text-align: center;">2d10 + 4 [15]</div>
+			<div style="width:13%; text-align: center;">SA/BF/FA</div>
+			<div style="width:10%; text-align: center;">30 + 1</div>
+			<div style="width:10%; text-align: center;">200</div>
+			<div style="width:15%; text-align: center;">Mod/R/2</div>
+			<div style="width:24%;">Long, Two-Handed</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Machine Gun</div>
+			<div style="width:13%; text-align: center;">3d10 + 2 [19]</div>
+			<div style="width:13%; text-align: center;">BF/FA</div>
+			<div style="width:10%; text-align: center;">50 + 1</div>
+			<div style="width:10%; text-align: center;">500</div>
+			<div style="width:15%; text-align: center;">Maj/R/3</div>
+			<div style="width:24%;">Fixed, Long</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Sniper Rifle</div>
+			<div style="width:13%; text-align: center;">3d10 + 10 [26]</div>
+			<div style="width:13%; text-align: center;">SA</div>
+			<div style="width:10%; text-align: center;">9 + 1</div>
+			<div style="width:10%; text-align: center;">500</div>
+			<div style="width:15%; text-align: center;">Maj/R/3</div>
+			<div style="width:24%;">Fixed, Long</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Polygun Pistol</div>
+			<div style="width:13%; text-align: center;">As Pistol</div>
+			<div style="width:13%; text-align: center;">As Pistol</div>
+			<div style="width:10%; text-align: center;">As Pistol</div>
+			<div style="width:10%; text-align: center;">As Pistol</div>
+			<div style="width:15%; text-align: center;">Mod/R/2</div>
+			<div style="width:24%;">As Pistol</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Polygun Rifle</div>
+			<div style="width:13%; text-align: center;">As Rifle/SMG</div>
+			<div style="width:13%; text-align: center;">As Rifle/SMG</div>
+			<div style="width:10%; text-align: center;">As Rifle/SMG</div>
+			<div style="width:10%; text-align: center;">As Rifle/SMG</div>
+			<div style="width:15%; text-align: center;">Maj/R/3</div>
+			<div style="width:24%;">As Rifle/SMG</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:15%; margin-left:5px;">Railguns</div>
+			<div style="width:13%; text-align: center;">As Above</div>
+			<div style="width:13%; text-align: center;">As Above</div>
+			<div style="width:10%; text-align: center;">x2</div>
+			<div style="width:10%; text-align: center;">x1.5</div>
+			<div style="width:15%; text-align: center;">As Above</div>
+			<div style="width:24%;">As Above, Armor-Piercing</div>
+		</div>
+	</div>
+</div>
+
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:30%; margin-left:5px; color: #660000;">Kinetic Ammo</div>
+			<div style="width:20%; text-align: center;">Damage Value Modifier</div>
+			<div style="width:20%; text-align: center;">Complexity/GP (per 100)</div>
+			<div style="width:30%;">Notes</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Accushot</div>
+			<div style="width:20%; text-align: center;">—</div>
+			<div style="width:20%; text-align: center;">Min/R/1</div>
+			<div style="width:30%;">Steady</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Armor-piercing</div>
+			<div style="width:20%; text-align: center;">–1d10</div>
+			<div style="width:20%; text-align: center;">Min/R/1</div>
+			<div style="width:30%;">Armor-Piercing</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Biter</div>
+			<div style="width:20%; text-align: center;">+1d6</div>
+			<div style="width:20%; text-align: center;">Mod/R/2</div>
+			<div style="width:30%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;"></div>
+			<div style="width:20%; text-align: center;"></div>
+			<div style="width:20%; text-align: center;"></div>
+			<div style="width:30%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Bug</div>
+			<div style="width:20%; text-align: center;">—</div>
+			<div style="width:20%; text-align: center;">Min/R/1</div>
+			<div style="width:30%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Capsule</div>
+			<div style="width:20%; text-align: center;">÷2</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:30%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Hollow-point</div>
+			<div style="width:20%; text-align: center;">+1d6</div>
+			<div style="width:20%; text-align: center;">Min/R/1</div>
+			<div style="width:30%;">Extra DV only vs. biomorphs</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Homing</div>
+			<div style="width:20%; text-align: center;">—</div>
+			<div style="width:20%; text-align: center;">Mod/R/2</div>
+			<div style="width:30%;">Indirect fire or +10 to hit</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Jammer</div>
+			<div style="width:20%; text-align: center;">No damage</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:30%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Plastic</div>
+			<div style="width:20%; text-align: center;">÷2</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:30%;">Stun (biomorphs only)</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Proximity</div>
+			<div style="width:20%; text-align: center;">+1d6</div>
+			<div style="width:20%; text-align: center;">Mod/R/2</div>
+			<div style="width:30%;">DV 1d10 on miss</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">RAP</div>
+			<div style="width:20%; text-align: center;">—</div>
+			<div style="width:20%; text-align: center;">Mod/R/2</div>
+			<div style="width:30%;">Armor-Piercing</div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Railgun</div>
+			<div style="width:20%; text-align: center;">—</div>
+			<div style="width:20%; text-align: center;">Min/R/1</div>
+			<div style="width:30%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Smart</div>
+			<div style="width:20%; text-align: center;">As type</div>
+			<div style="width:20%; text-align: center;">Mod/R/2</div>
+			<div style="width:30%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Splash</div>
+			<div style="width:20%; text-align: center;">No damage</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:30%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Standard</div>
+			<div style="width:20%; text-align: center;">—</div>
+			<div style="width:20%; text-align: center;">Min/R/1</div>
+			<div style="width:30%;"></div>
+		</div>
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9; margin-top: 1px;">
+			<div style="width:30%; margin-left:5px;">Zap</div>
+			<div style="width:20%; text-align: center;">÷2</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:30%;">Shock</div>
+		</div>
+	</div>
+</div>

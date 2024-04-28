@@ -1,0 +1,122 @@
+<p>Drawing on a sleight to procure an effect does not always require a test. Each sleight description details how the power is used.</p>
+
+
+<h2>PSI Range</h2>
+<p>Psi-chi sleights only affect the async. Psi-gamma sleights may be used on the self or other biological life at a short distance. While there is no modifier for using a ranged sleight on yourself, using ranged sleights on others imposes a modifier according to the distance.</p>
+
+<ul>
+	<li><strong>Touch:</strong> Touch range gives you a +20 modifier to your Psi Test (but not on sleights used on yourself ). You must have physical contact with the target (clothing, armor, vacsuits, etc. do not impede). If the target avoids being touched, this requires a successful melee attack as a quick action, applying the touch-only +20 modifier. This attack does not cause damage, but the target may Fray to avoid. If you fail to touch, you may still use the sleight at Point-Blank range.</li>
+	<li><strong>Point-Blank:</strong> +10 Psi Test (but not on sleights used on yourself ). You must be within 2 meters of the target or less.</li>
+	<li><strong>Close:</strong> No modifier. You must be within 10 meters of the target. For every 2 meters beyond that, apply a –10 modifier to the test.</li>
+	<li><strong>Psi vs. Psi:</strong> Due to the nature of psi, sleights are more effective against other asyncs and exsurgents. Double the range of each category above: Point-Blank counts to 4 meters, Close counts out to 20 meters.</li>
+</ul>
+
+
+<h2>Targeting</h2>
+<p>You may not target synthmorphs, bots, and vehicles with psi sleights, as they lack biological systems. Pods and biomorphs with cyberbrains are less susceptible; asyncs suffer a –30 modifier against them. Note that infomorphs may never be targeted by psi sleights as psi is not effective within the mesh or simulspace.</p>
+
+<p>You must have line of sight to your target or otherwise be aware of their presence in relation to yours (such as by using the ego sense sleight or viewing them through a tacnet). Walls with a combined Armor/DR total of 100 or more will block psi sleights. Ranged combat modifiers for cover and hidden targets apply to Psi Tests.</p>
+
+<ul>
+	<li><strong>Animals and Less Complex Life Forms:</strong> Psi works against any living creature with a brain and/or nervous system. Against partially sapient and partially uplifted animals, it suffers a –20 modifier. Against non-sapient animals, it suffers a –30 modifier. It has no effect on or against less complex life forms like plants, algae, bacteria, etc.</li>
+	<li><strong>Factors and Aliens:</strong> At the GM’s discretion, psi sleights may not work on alien creatures at all, depending on their physiology and neurology. If it does work, it is likely to suffer at least a –20 modifier.</li>
+</ul>
+
+
+<h2>Opposed Tests</h2>
+<p>Psi that targets another character is handled as an opposed test, the async’s Psi skill versus the defender’s WIL Check. Moxie pool may be used by both. Willing characters may choose not to resist, but they must be aware of what is happening (either the async has warned them or they have experienced it before). Unconscious or sleeping characters cannot resist.</p>
+
+<ul>
+	<li><strong>Psi Full Defense:</strong> Like full defense in physical combat ▶226, you may spend a complex action to concentrate your mental defenses, gaining a +30 modifier to resist sleights until your next action.</li>
+	<li><strong>Criticals:</strong> If the defender wins with a critical success, the async is temporarily “locked out” of their mind and may not target them again until they take a recharge action ▶35.</li>
+</ul>
+
+<p>If the async rolls a critical failure, they suffer 1d6 DV as the effort takes a physical toll in the form of headaches and ruptured blood vessels.</p>
+
+<p>If the async wins with a critical success, double the potency of the sleight’s effect. In the case of psi attacks, the DV is doubled.</p>
+
+
+<h2>Mental Armor</h2>
+<p>The Psi Armor and Psi Shield sleights (▶281 and ▶285) provide mental armor, a form of neural hardening against psi-based attacks. Like physical armor, this mental armor reduces the amount of damage inflicted by a psychic assault.</p>
+
+<h2>Target Awareness</h2>
+<p>The target of a psi sleight is aware they are being targeted any time they succeed on their half of the opposed test (regardless of whether the async rolls higher or not). Note that awareness does not necessarily mean that the target understands that psi abilities are being used on them, especially as most people in Eclipse Phase are unaware of psi’s existence. Instead, the target understands that some outside influence is at work or that something strange is happening. They may suspect that they have been drugged, hacked, or are under the influence of some strange technology. A character with Psi skill may make a Psi Test to identify the sleight used against them.</p>
+
+<p>Targets who fail their roll remain unaware.</p>
+
+
+<h2>Duration</h2>
+<p>Psi sleights have one of four durations: constant, instant, temporary, or sustained.</p>
+<ul>
+	<li><strong>Constant:</strong> Constant sleights are always “on.”</li>
+	<li><strong>Instant:</strong> Instant sleights inflict an immediate and permanent effect that lasts without effort.</li>
+	<li><strong>Temporary:</strong> Temporary sleights last for a limited duration with no extra effort. The temporary duration is determined your WIL ÷ 5 and is measured in action turns, minutes, or hours, as noted. Influence effects ▶278 are applied immediately when the sleight is activated, not at the end of the duration.</li>
+	<li><strong>Sustained:</strong> Sustained sleights last as long as you want, but require active effort and concentration: apply a –10 modifier to all other skill tests while the sleight is sustained. The async must also stay within Close range + 10 meters of the target, otherwise the sleight immediately ends. More than one sleight may be sustained at a time, with a cumulative modifier. Influence effects are applied immediately when the sleight is activated, not at the end of the duration. At the GM’s discretion, sleights that are sustained for long periods may incur additional Infection Modifiers and Infection Tests.</li>
+</ul>
+
+
+<h2>Infection Modifiers</h2>
+<p>Whenever you take advantage of your psychic abilities, there is a cost to pay. This may manifest physically, in the form of fatigue, headaches, and hemorrhaging. Or it may give the infection a chance to claw at the cracks in your psyche and manipulate your outlook.</p>
+
+<p>Whenever you use psi-gamma sleights, two things happen. First, your Infection Rating increases by that sleight’s Infection modifier. This represents the infection temporarily taking a stronger hold over your mind. Second, the exovirus must make an Infection Test. As the infectee, the async player rolls this test.</p>
+
+<p>Asyncs that only use psi-chi sleights do not need to worry about infection flare-ups unless they push ▶277.</p>
+
+
+<h3>Infection Test</h3>
+<p>The target number for your Infection Test equals your current Infection Rating (including the modifier from the sleight you are using). If this test fails, nothing happens, and you pull off the sleight without any negative effects. If it succeeds, you suffer an influence effect appropriate to the sub-strain (Influence Effects ▶278).</p>
+
+<p>You may not spend pool to affect the Infection Test, but you may spend Moxie to avoid making the Infection Test altogether, powering through the sleight with sheer willpower. However, your Infection Rating still increases.</p>
+
+<ul>
+	<li><strong>Critical Failure:</strong> If you roll a critical failure, the exovirus temporarily loses its grip on you. You are immune to influence effects until your next recharge.</li>
+	<li><strong>Superior Success:</strong> Apply a +1 modifier to the influence effect roll per superior success.</li>
+	<li><strong>Critical Success:</strong> On a critical success, an influence effect is chosen and the GM also picks one of the following:</li>
+	<ul>
+		<li><strong>Checkout Time:</strong> The infection is awakened, but bides its time. The next time you take a long recharge or are rendered unconscious, you may awaken to discover that the infection has been active while your mind was under — literally taking control of your body. What the exovirus does during this time is up to the GM and may not be immediately apparent to your character. You may awaken to a corpse in your bed or strange symbols meticulously etched with bloody fingernails over every inch of your wall, or you may discover a half-completed alien device secreted away in a locker weeks later. More than one async has stimmed themselves awake for days, afraid to fall asleep and let the presence inside them take control.</li>
+		<li><strong>Interference:</strong> The exovirus actively impedes you at a critical point. At some point in the future, when you are about to make a test, you must make an opposed test pitting your WIL Check against your Infection Rating +30. If the infection wins, your test will automatically suffer a critical failure (pools may not be applied). GMs are encouraged to select situations that will have dramatic and dire results.</li>
+	</ul>
+</ul>
+
+
+<h2>The Infection's Influence</h2>
+<p>Every time an Infection Test succeeds, the exovirus exerts a bit more control over your psyche. Every async experiences this differently, depending on their particular sub-strain.</p>
+<p>Roll 1d6 and consult your sub-strain’s influence effects ▶278, applying +1 per superior success rolled on the Infection Test. During character creation (or when your PC becomes infected with Watts-MacLeod), you should write down these six influence effects on your character sheet.</p>
+<p>Influence effects kick in immediately as the sleight is activated.</p>
+<ul>
+	<li><strong>Physical Damage:</strong> You suffer DV 1d6 in the form of fatigue, headaches, and hemorrhaging.</li>
+	<li><strong>Enhanced/Restricted Behavior:</strong> For a temporary period of 1d6 minutes, you acquire an Enhanced or Restricted Behavior trait. This trait should directly impact your roleplaying. The level of the trait depends on your current Infection Rating: under 33 (Level 1), 33+ (Level 2), 66+ (Level 3).</li>
+	<li><strong>Motivation:</strong> For a temporary period of 1d6 hours, you acquire an extra motivation that should be actively roleplayed. This itch lurks in the back of your mind, relentlessly pushing you to take action. If the motivation is satisfied, you benefit by healing stress (Motivational Recovery ▶223). Like any motivation, you do not need to act on it immediately. However, if the duration ends and the GM determines you have not satisfied its terms, you suffer SV 1d6. At the GM’s discretion, staying in proximity to the motivation’s focus (if any) without acting upon it may require a WIL Check to restrain yourself and may inflict a –10 modifier to all skill tests until you give in or the duration ends.</li>
+	<li><strong>Other Effects:</strong> A few influence effects (such as frenzy and hallucinations) are unique to the sub-strain and function as detailed.</li>
+</ul>
+
+
+<h2>Pushing Sleights</h2>
+<p>You may boost your sleight’s effectiveness, at the cost of increasing the infection’s influence. You may choose to push a psi-gamma sleight when you activate it, but before any test is made. Your Infection Modifier doubles and you automatically suffer DV 1d6 in addition to making an Infection Test per normal.</p>
+<p>Choose one of the following effects for your pushed sleight:</p>
+<ul>
+	<li><strong>Increased Range:</strong> Range doubles; Point-Blank extends to 4 meters, Close extends to 20 meters. This effect is cumulative with the range increase against other asyncs (Point-Blank becomes 6, Close 30).</li>
+	<li><strong>Increased Effect:</strong> Any modifiers provided by the sleight are doubled. For example, +10 becomes +20; +1 pool becomes +2; and so on.</li>
+	<li><strong>Increased Power:</strong> The sleight is resisted by WIL Check ÷ 2.</li>
+	<li><strong>Increased Penetration:</strong> Psi Shield armor is reduced by half.</li>
+	<li><strong>Increased Duration:</strong> Double the sleight’s Duration (temporarysleights only).</li>
+	<li><strong>Extra Target:</strong> You may affect one extra target with the sleight, with the same action, as long as each of them can be targeted via the rules above. You only roll once, with each of the defending characters making their opposed tests against that roll.</li>
+</ul>
+<p>You may also push already active psi-chi sleights. In this case, increase your Infection Rating by 5 and make an Infection Test. Psi-chi pushes are temporary, lasting only WIL ÷ 5 minutes.</p>
+<p>Moxie pool may be used when pushing to negate the physical damage, but you must still make an Infection Test as normal. If 2 points of Moxie pool are spent, however, the test is negated entirely.</p>
+<p>Pushing a sleight is not necessarily obvious, though the mental effort and pain/damage may be apparent with a Kinesics Test.</p>
+
+
+<h2>Infection Rating Thresholds</h2>
+<p>As your infection takes a stronger hold, your sleights become more powerful:</p>
+<ul>
+	<li><strong>Infection Rating 33+:</strong> Apply the Increased Effect push effect to all of your psi-chi sleights. This lasts until your Infection Rating drops below 33.</li>
+	<li><strong>Infection Rating 66+:</strong> Apply one free push effect to all of your psi-gamma sleights. The same effect must be applied to each. This lasts until your Infection Rating drops below 66.</li>
+</ul>
+<p>You may still push sleights when you are over a threshold, but you may not apply the same push effect that a threshold already provides, with the exception of extra target.</p>
+
+
+<h2>Easing the Infection</h2>
+<p>For every short recharge action ▶35 you take, reduce your Infection Rating by 10. It may not be decreased lower than your base Infection Rating (Psi Level × 10). For every long recharge, reset your Infection to its base rating.</p>
+<p>You may not reduce your Infection Rating if you have active influence effects — the urge must be satiated first.</p>
+

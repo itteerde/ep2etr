@@ -1,0 +1,192 @@
+<p>The universe of Eclipse Phase is ripe with experiences that will rattle your sanity. Some are as mundane and human as extreme violence, extended isolation, or helplessness. Others are less common, but even more terrifying: encountering alien species, infection by the exsurgent virus, or facing down an extinction threat.</p>
+
+<h1>Willpower Stress Tests</h1>
+<p>Whenever you encounter a situation that might impact your ego’s psyche, make a WIL Check. Some incidents are so horrific that a modifier is applied. If you fail, the experience scars your mental landscape and you suffer stress damage (and possibly trauma) as appropriate to the situation. If you succeed, you cope with the unnerving situation, but it may still rattle and shake you.</p>
+
+<p>A list of stress-inducing scenarios and suggested SVs are listed on the Stressful Experiences table. The GM should use these as a guideline, modifying them as appropriate to the situation at hand.</p>
+
+
+<h1>Hardening</h1>
+<p>The more you are exposed to horrible or terrifying things, the less scary they become. After repeated exposure, you become hardened to such things, able to shake them off without effect.</p>
+
+<p>Every time you suffer a trauma due to stress from alienation, helplessness, or violence (Stress Categories ▶222), take note. If you survive such a traumatic situation 5 times without acquiring a disorder, you become effectively immune to that type of stress in the future. You acquired the Hardening trait ▶74 for that type of stress. You can never become hardened to stress from the unknown. You also cannot become hardened to stress if you currently have a disorder triggered by that type of stress.</p>
+
+<p>The drawback to hardening yourself is that you grow detached and callous. In order to protect yourself, you cut off your emotions — but it is such emotions that make you transhuman. You have erected mental walls that affect your empathy and ability to relate to others. Each Hardening trait means you suffer –10 to both WIL Checks and Persuade Tests.</p>
+
+<p>Psychosurgery can be used to overcome hardening, in the same way a disorder is treated.</p>
+
+<h1>Stressful Experiences</h1>
+<table>
+	<tr style="background-color: #660000; color: white; font-weight: bold;">
+		<td>Alienation</td>
+		<td>SV</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Resleeving alienation/continuity loss/lack</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Extensive lack</td>
+		<td>1d10/1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Encountering inexplicably lost memories</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Extended isolation (per week)</td>
+		<td>1d6 + 2/half</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Exsurgent virus infection</td>
+		<td>Varies ▶388</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Unwillingly controlled via puppet sock</td>
+		<td>1d10/half</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Mind-controlled</td>
+		<td>1d10 + 2/half</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Forced to act opposite to Motivation</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #660000; color: white; font-weight: bold;">
+		<td>Helplessness</td>
+		<td>SV</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Asphyxiation ▶234</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Set on fire</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Awareness of imminent death</td>
+		<td>1d10/1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Betrayal by a trusted friend</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Cyberbrain hacked</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Drugged against your will</td>
+		<td>1d6 – 1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Losing a loved one</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Watching a loved one die</td>
+		<td>1d10</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Being responsible for the death of a loved one</td>
+		<td>1d10 + 1/1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Suffering moderate torture</td>
+		<td>1d6 + 2/half</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Suffering severe torture</td>
+		<td>1d10 + 2/half</td>
+	</tr>
+	<tr style="background-color: #660000; color: white; font-weight: bold;">
+		<td>The Unknown</td>
+		<td>SV</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Encountering unusual non-sapient alien life</td>
+		<td>1d6 – 2</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Encountering sapient alien life</td>
+		<td>1d10/1</td> 
+		<!-- 
+			https://discord.com/channels/575153209065340929/1082012122050990192/1223271088474161152 
+			meant to be on success/failure
+		-->
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Encountering highly advanced technology</td>
+		<td>1d6 – 1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Pandora gate in operation</td>
+		<td>1d6 − 2</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Encountering exsurgent-infected transhumans</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Encountering full exsurgents</td>
+		<td>1d10/1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Witnessing async sleights</td>
+		<td>1d6 – 2</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Witnessing psi-epsilon sleights</td>
+		<td>1d10/half</td>
+	</tr>
+	<tr style="background-color: #660000; color: white; font-weight: bold;">
+		<td>Violence</td>
+		<td>SV</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Encountering a gruesome corpse or murder scene</td>
+		<td>1d6 – 1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Viewing extreme violence/torture</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Committing violence in self-defense</td>
+		<td>1d6 – 1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Killing in self-defense</td>
+		<td>1d6 + 1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Committing offensive violence</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Murdering in cold blood</td>
+		<td>1d10/1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Harming an innocent</td>
+		<td>1d6 + 2/1</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Killing an innocent</td>
+		<td>1d10 + 2/half</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Experiencing death via XP</td>
+		<td>1d10</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Popping a cortical stack</td>
+		<td>1d6</td>
+	</tr>
+	<tr style="background-color: #eaddd9; color: black;">
+		<td>Remember your death</td>
+		<td>1d10/1</td>
+	</tr>
+</table>

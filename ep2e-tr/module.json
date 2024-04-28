@@ -1,0 +1,122 @@
+{
+    "id": "tablerules",
+    "title": "ep2e - Tablerules",
+    "description": "Simple module to add and configure table rules and compendia for our games.",
+    "authors": [
+        {
+            "name": "Umbratica"
+        },
+        {
+            "name": "Tak"
+        },
+        {
+            "name": "PhDave"
+        }
+    ],
+    "version": "0.0.1",
+    "compatibility":{
+        "minimum": "11",
+        "verified": "11.315"
+    },
+    "scripts":[
+        "scripts/ep2e-tr.js"
+    ],
+    "styles":[
+        "styles/ep2e-tr.css"
+    ],
+    "packs":[
+        {
+            "name": "tablerules-items",
+            "label": "TR Items",
+            "path": "packs/items",
+            "type": "Item",
+            "system": "ep2e",
+            "flags":{}
+        },
+        {
+            "name": "tablerules-macros-gm",
+            "label": "TR Macros GM",
+            "path": "packs/macros_gm",
+            "type": "Macro",
+            "system": "ep2e",
+            "flags":{}
+        },
+        {
+            "name": "tablerules-macros-players",
+            "label": "TR Macros Players",
+            "path": "packs/macros_players",
+            "type": "Macro",
+            "system": "ep2e",
+            "flags":{}
+        },
+        {
+            "name": "tablerules-tablerules",
+            "label": "Table Rules",
+            "path": "packs/tablerules",
+            "type": "JournalEntry",
+            "system": "ep2e",
+            "flags":{}
+        },
+        {
+            "name": "tablerules-book",
+            "label": "Eclipse Phase 2e",
+            "path": "packs/book",
+            "type": "JournalEntry",
+            "system": "ep2e",
+            "flags":{}
+        },
+        {
+            "name": "tablerules-qaa",
+            "label": "Questions & Answers",
+            "path": "packs/qaa",
+            "type": "JournalEntry",
+            "system": "ep2e",
+            "flags":{}
+        },
+        {
+            "name": "tablerules-manuals",
+            "label": "Manuals",
+            "path": "packs/manuals",
+            "type": "JournalEntry",
+            "system": "ep2e",
+            "flags":{}
+        }
+    ],
+    "packFolders": [
+        {
+          "name": "Tablerules",
+          "sorting": "a",
+          "color": "#ff0000",
+          "packs": [
+            "tablerules-items",
+            "tablerules-macros-gm",
+            "tablerules-macros-players",
+            "tablerules-tablerules",
+            "tablerules-book",
+            "tablerules-qaa",
+            "tablerules-manuals"
+            ],
+          "folders": [
+          ]
+        }
+      ],
+    "url": "https://github.com/itteerde/ep2eFVTT/",
+    "manifest": "https://raw.githubusercontent.com/itteerde/ep2eFVTT/main/ep2e-tr/module.json",
+    "download": "https://github.com/itteerde/ep2eFVTT/releases/download/v0.0.1/ep2e-tr.zip",
+    "relationships":{
+        "systems": [
+            {
+                "id": "ep2e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "1.0.0",
+                    "verified": "1.1.7"
+                },
+                "manifest": "https://github.com/Bubz43/ep2e/releases/latest/download/system.json"
+            }
+
+        ],
+        "requires": [
+        ]
+    }
+}

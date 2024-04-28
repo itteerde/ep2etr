@@ -1,0 +1,1233 @@
+<p>Every character receives two gear packs during character creation. The first of these is according to your type of campaign: Firewall, criminal, or gatecrashing. The second is based on the profession chosen in Step 2.</p>
+
+<p>The gear provided in these packs is optional. If there is another piece of gear you want your character to have — whether from another gear pack or from listings in the Gear chapter ▶310— then simply swap it out with gear from your packs of an equivalent GP value.</p>
+
+<p>These gear packs can also be used as an easy way to assign gear for new missions during gameplay (Acquiring Gear ▶312).</p>
+
+<p>All starting gear includes the physical gear item and the digital blueprint for nanofabrication.</p>
+
+<p><strong>Free Muse:</strong> Every character starts with a muse ALI ▶250 for free.</p>
+
+<p><strong>Infomorphs:</strong> The gear packs are built with embodied characters in mind. If you have chosen an infomorph, some of it may not work with your concept. In this case, you can either adopt the optional infomorph gear pack or switch out the gear you can’t use for meshware, apps, services, bots, etc. of an equivalent GP.</p>
+
+<h1>Campaign Packs</h1>
+<h2>Firewall Agent/Criminal</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Anonymizer</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Masks your mesh ID.</div>
+			<div style="width:10%; text-align: center;">315</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Armor Vest (Light)*</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">AV 4/10. Concealable.</div>
+			<div style="width:10%; text-align: center;">215</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Fake Ego ID</div>
+			<div style="width:20%; text-align: center;">Maj/R/3</div>
+			<div style="width:50%;">Forged ID and back history, with its own rep scores.</div>
+			<div style="width:10%; text-align: center;">315</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Medium Pistol Firearm</div>
+			<div style="width:20%; text-align: center;">Min/R/1</div>
+			<div style="width:50%;">DV 2d10, SA/BF/FA, Ammo 15 + 1, Range 30.</div>
+			<div style="width:10%; text-align: center;">210</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Smart Clothing*</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Can change color, texture, and cut. +10 Infiltrate, +30 covered and stationary.</div>
+			<div style="width:10%; text-align: center;">317</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">TacNet App</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Share tactical data in real-time.</div>
+			<div style="width:10%; text-align: center;">327</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">VPN App</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Creates virtual private network.</div>
+			<div style="width:10%; text-align: center;">326</div>
+		</div>
+	</div>
+</div>
+
+<h3>Synthmorph Alternative</h3>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Anti-Glare</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">No glare modifiers.</div>
+			<div style="width:10%; text-align: center;">318</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Industrial Armor</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">AV +6/+4.</div>
+			<div style="width:10%; text-align: center;">214</div>
+		</div>
+	</div>
+</div>
+
+
+<h2>Gatecrashing</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Autocook*</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Fab food and drink only.</div>
+			<div style="width:10%; text-align: center;">343</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Electronic Rope</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Controllable rope.</div>
+			<div style="width:10%; text-align: center;">341</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Healing Spray*</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Heals 1d10 damage per hour for 12 hours.</div>
+			<div style="width:10%; text-align: center;">342</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Medium Pistol Firearm</div>
+			<div style="width:20%; text-align: center;">Min/R/1</div>
+			<div style="width:50%;">DV 2d10, SA/BF/FA, Ammo 15 + 1, Range 30.</div>
+			<div style="width:10%; text-align: center;">210</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Portable SolArchive</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Enable Research Tests related to one Know skill while isolated from mesh.</div>
+			<div style="width:10%; text-align: center;">340</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Standard Vacsuit*</div>
+			<div style="width:20%; text-align: center;">Maj/3</div>
+			<div style="width:50%;">As smart clothes, protects from vacuum, 48 hours air, AV 8/6.</div>
+			<div style="width:10%; text-align: center;">341</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">TacNet App</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Share tactical data in real-time.</div>
+			<div style="width:10%; text-align: center;">327</div>
+		</div>
+	</div>
+</div>
+
+<h3>Synthmorph Alternative</h3>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Anti-Glare</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">No glare modifiers.</div>
+			<div style="width:10%; text-align: center;">318</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Industrial Armor</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">AV +6/+4.</div>
+			<div style="width:10%; text-align: center;">214</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Medichines</div>
+			<div style="width:20%; text-align: center;">Maj/3</div>
+			<div style="width:50%;">Ignore 1 wound, heal faster, drug/toxin effect/duration halved.</div>
+			<div style="width:10%; text-align: center;">322</div>
+		</div>
+	</div>
+</div>
+
+<h2>Optional Pack: Infomorph</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Drone Rig</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Ignore the –10 modifier when jamming.</div>
+			<div style="width:10%; text-align: center;">320</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Enhanced Security</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">–10 Infosec to hack, –30 in defensive mode but no Insight pool and –3 INIT.</div>
+			<div style="width:10%; text-align: center;">326</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Exploit App</div>
+			<div style="width:20%; text-align: center;">Mod/R/2</div>
+			<div style="width:50%;">Hacking library tool.</div>
+			<div style="width:10%; text-align: center;">326</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Private Server</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Private server, self-administrated.</div>
+			<div style="width:10%; text-align: center;">315</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gnat</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Surveillance rotorcraft. Small size.</div>
+			<div style="width:10%; text-align: center;">349</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Guardian Angel</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Personal defense rotorcraft. Small size.</div>
+			<div style="width:10%; text-align: center;">347</div>
+		</div>
+	</div>
+</div>
+
+<h1>Profession Packs</h1>
+
+<h2>Academic</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Creepy Bot</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Worn companion bot. Small size.</div>
+			<div style="width:10%; text-align: center;">348</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Holographic Projector</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Projects 3D, HD, ultra-realistic images/video. +20 to Perceive as fake w/in 20 m.</div>
+			<div style="width:10%; text-align: center;">317</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Microcar</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">One-person two-wheeler.</div>
+			<div style="width:10%; text-align: center;">350</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Multi-Tasking</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Focus on 2 things at once. +1 Insight.</div>
+			<div style="width:10%; text-align: center;">320</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Neem (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">+20 COG Check for recall of memories learned while on Neem.</div>
+			<div style="width:10%; text-align: center;">331</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Portable SolArchive</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Enable Research Tests related to one Know skill while isolated from mesh.</div>
+			<div style="width:10%; text-align: center;">340</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Servitor Bot</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Common helper/cook/janitor bots.</div>
+			<div style="width:10%; text-align: center;">348</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Simulspace</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Access to a VR space.</div>
+			<div style="width:10%; text-align: center;">315</div>
+		</div>
+	</div>
+</div>
+
+<h2>Covert Operative</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Chameleon Cloak</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Camouflage, +10 Infiltrate, +30 stationary.</div>
+			<div style="width:10%; text-align: center;">338</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Cleaner Swarm</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Cleans, eliminates forensic evidence.</div>
+			<div style="width:10%; text-align: center;">345</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Covert Operations Tool</div>
+			<div style="width:20%; text-align: center;">Maj/R/3</div>
+			<div style="width:50%;">Bypasses locks, cuts/repairs holes, Hardware: Electronics 60 vs. electronic locks, more.</div>
+			<div style="width:10%; text-align: center;">338</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Microbug</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Micro-sized camera/audio recorder.</div>
+			<div style="width:10%; text-align: center;">338</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Skinflex*</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Disguise face, skin, hair. +30 to impersonation/disguise Deceive Tests.</div>
+			<div style="width:10%; text-align: center;">321</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Spy Nanoswarm</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Surveillance, Perceive 60.</div>
+			<div style="width:10%; text-align: center;">345</div>
+		</div>
+	</div>
+</div>
+
+<h3>Synthmorph Alternative</h3>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Synthetic Mask</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Faux skin for synthmorph. +30 disguise-based Deceive Tests.</div>
+			<div style="width:10%; text-align: center;">321</div>
+		</div>
+	</div>
+</div>
+
+<h2>Enforcer</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Aggro (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">+20 Provoke to intimidate/taunt, –20 other social tests.</div>
+			<div style="width:10%; text-align: center;">331</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Claws</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">DV 2d6, concealable.</div>
+			<div style="width:10%; text-align: center;">204</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Flex Cutter</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Flexible blade, DV 1d10 + 3, concealable.</div>
+			<div style="width:10%; text-align: center;">204</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Grin (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Ignore 1 wound.</div>
+			<div style="width:10%; text-align: center;">331</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Muscle Augmentation</div>
+			<div style="width:20%; text-align: center;">Maj/3</div>
+			<div style="width:50%;">Muscles enhanced with myofibers. +1d6 DV melee, +10 SOM Checks.</div>
+			<div style="width:10%; text-align: center;">322</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Shock Glove</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">DV 1d6, Shock, Touch-Only.</div>
+			<div style="width:10%; text-align: center;">204</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Shredder</div>
+			<div style="width:20%; text-align: center;">Mod/R/2</div>
+			<div style="width:50%;">Flechette gun, DV 2d10 + 6, SA/BF/FA, Ammo 100, Range 25, Two-Handed.</div>
+			<div style="width:10%; text-align: center;">209</div>
+		</div>
+	</div>
+</div>
+
+<h2>Explorer</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Breadcrumb System</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Leaves mote trail for meshing/positioning.</div>
+			<div style="width:10%; text-align: center;">336</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Direction Sense</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Innate sense of direction and distance.</div>
+			<div style="width:10%; text-align: center;">318</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Enhanced Vision</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Tetrachromatic vision, wider frequency range, better focus. +10 vision Perceive Tests.</div>
+			<div style="width:10%; text-align: center;">318</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Mission Recorder</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Backs up all mission data.</div>
+			<div style="width:10%; text-align: center;">336</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Pressure Tent</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Self-erecting shelter for 4, built-in breather.</div>
+			<div style="width:10%; text-align: center;">341</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Saucer</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Spinning disc recon drone. Small size.</div>
+			<div style="width:10%; text-align: center;">349</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Scout Missile</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Maps 5 km radius or 10 km in one direction in 20 minutes, Perceive 60.</div>
+			<div style="width:10%; text-align: center;">340</div>
+		</div>
+	</div>
+</div>
+
+<h2>Face/Dealer</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Enhanced Hearing</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Hear higher and lower frequencies. +10 hearing-based Perceive.</div>
+			<div style="width:10%; text-align: center;">318</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Guardian Angel</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Personal defense rotorcraft. Small size.</div>
+			<div style="width:10%; text-align: center;">347</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Medium Fabber</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Fab small items.</div>
+			<div style="width:10%; text-align: center;">343</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Nanodetector</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Detects nanobots, Exotic Skill: Nanobot Detection 40 (70 w/active swarm), Know: Nanotech 60.</div>
+			<div style="width:10%; text-align: center;">342</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Neuromodulation</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Control over neurotransmitters and emotions. +1 Moxie.</div>
+			<div style="width:10%; text-align: center;">321</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Smart Hawk</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Used for surveillance.</div>
+			<div style="width:10%; text-align: center;">328</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Stiff (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">+10 SAV/WIL Checks vs. Persuade/Provoke, Enhanced Behavior: Stubborn (Level 2).</div>
+			<div style="width:10%; text-align: center;">335</div>
+		</div>
+	</div>
+</div>
+
+<h2>Genehacker</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Archive</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">+10 Research Tests related to one Know skill.</div>
+			<div style="width:10%; text-align: center;">315</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Dino Pet</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Genehacked dinosaur pets.</div>
+			<div style="width:10%; text-align: center;">328</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Fokus (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Enhanced Behavior: Obsessive (2), reduce timeframes 25%.</div>
+			<div style="width:10%; text-align: center;">331</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Medichines</div>
+			<div style="width:20%; text-align: center;">Maj/3</div>
+			<div style="width:50%;">Ignore 1 wound, heal faster, drug/toxin effect/duration halved.</div>
+			<div style="width:10%; text-align: center;">322</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Pusher Swarm</div>
+			<div style="width:20%; text-align: center;">Min/R/1 + drug/toxin</div>
+			<div style="width:50%;">Exposes biomorphs to drug/toxin.</div>
+			<div style="width:10%; text-align: center;">345</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Specimen Container</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Holds samples in stasis conditions.</div>
+			<div style="width:10%; text-align: center;">340</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Tools (Kit)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Portable, applies to specific skill.</div>
+			<div style="width:10%; text-align: center;">317</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Twitch (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/R/1</div>
+			<div style="width:50%;">–20 actions, SOM Check vs. incapacitation.</div>
+			<div style="width:10%; text-align: center;">335</div>
+		</div>
+	</div>
+</div>
+
+<h2>Hacker</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Exploit App</div>
+			<div style="width:20%; text-align: center;">Mod/R/2</div>
+			<div style="width:50%;">Hacking library tool.</div>
+			<div style="width:10%; text-align: center;">326</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gray Box</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Establishes a wireless mesh link.</div>
+			<div style="width:10%; text-align: center;">338</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Radio Booster</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Extends radio ranges, 25/250km range.</div>
+			<div style="width:10%; text-align: center;">336</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Sniffer App</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Collect/view traffic between two systems.</div>
+			<div style="width:10%; text-align: center;">326</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Spoofer App</div>
+			<div style="width:20%; text-align: center;">Mod/R/2</div>
+			<div style="width:50%;">Fake transmissions and mesh IDs.</div>
+			<div style="width:10%; text-align: center;">326</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Tracker App</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Trace connections.</div>
+			<div style="width:10%; text-align: center;">326</div>
+		</div>
+	</div>
+</div>
+
+<h2>Investigator</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Biometric Matcher</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Match biometric patterns.</div>
+			<div style="width:10%; text-align: center;">326</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Brainprint Scanner</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Scans brainprint in 5 minutes.</div>
+			<div style="width:10%; text-align: center;">338</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Cuffband</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Electronic handcuffs, remote operation, shock attack DV 1d6.</div>
+			<div style="width:10%; text-align: center;">338</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Klar (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">+10 Perceive, no distraction modifiers.</div>
+			<div style="width:10%; text-align: center;">331</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Microbug</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Micro-sized camera/audio recorder.</div>
+			<div style="width:10%; text-align: center;">338</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Oracles</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Negate distraction modifiers.</div>
+			<div style="width:10%; text-align: center;">318</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Scout Nanoswarm</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60.</div>
+			<div style="width:10%; text-align: center;">345</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Speck</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Insectoid spy bots. Very small size.</div>
+			<div style="width:10%; text-align: center;">349</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Spy Nanoswarm</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Surveillance, Perceive 60.</div>
+			<div style="width:10%; text-align: center;">345</div>
+		</div>
+	</div>
+</div>
+
+<h2>Medic</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Docbot</div>
+			<div style="width:20%; text-align: center;">Maj/3</div>
+			<div style="width:50%;">Medical bot.</div>
+			<div style="width:10%; text-align: center;">347</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Healing Spray</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Heals 1d10 damage per hour for 12 hours.</div>
+			<div style="width:10%; text-align: center;">342</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Healing Vat</div>
+			<div style="width:20%; text-align: center;">Maj/3</div>
+			<div style="width:50%;">Heal/cure biomorphs, customize/augment morph.</div>
+			<div style="width:10%; text-align: center;">342</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Meds (5 doses)</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Heals 1d10 damage per hour or 1 wound per day for 4 days.</div>
+			<div style="width:10%; text-align: center;">332</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Med Scanner</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Scans health, diagnosis w/Medicine at 60, detect nanobots as nanodetector.</div>
+			<div style="width:10%; text-align: center;">342</div>
+		</div>
+	</div>
+</div>
+
+<h2>Mindhacker</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Comfurt (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">+5 LUC, +1 TT, +5 IR.</div>
+			<div style="width:10%; text-align: center;">332</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Eelware</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">DV 1d6, shock effect, touch-only.</div>
+			<div style="width:10%; text-align: center;">204</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Ego Bridge</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Upload from/download to biological brains.</div>
+			<div style="width:10%; text-align: center;">342</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Fokus (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Enhanced Behavior: Obsessive (2), reduce timeframes 25%.</div>
+			<div style="width:10%; text-align: center;">331</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Multi-Tasking</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Focus on 2 things at once. +1 Insight.</div>
+			<div style="width:10%; text-align: center;">320</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Private Server</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Private server, managed by others.</div>
+			<div style="width:10%; text-align: center;">315</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Servitor</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Common helper/cook/janitor bots.</div>
+			<div style="width:10%; text-align: center;">348</div>
+		</div>
+	</div>
+</div>
+
+<h2>Scavenger</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Breadcrumb System</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Leaves mote trail for meshing/positioning.</div>
+			<div style="width:10%; text-align: center;">336</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Diamond Axe</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">DV 2d10 + 3, armor-piercing, reach, two-handed.</div>
+			<div style="width:10%; text-align: center;">204</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Disassembly Tools</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Heavy and smart tools for taking things apart.</div>
+			<div style="width:10%; text-align: center;">340</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Guardian Swarm</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Disables other swarms; both swarms take DV 5 per turn.</div>
+			<div style="width:10%; text-align: center;">345</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Nanodetector</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Detects nanobots, Exotic Skill: Nanobot Detection 40 (70 w/active swarm), Know: Nanotech 60.</div>
+			<div style="width:10%; text-align: center;">342</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Orbital Hash (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Ignore 1 trauma, –10 Know Tests/memory-related COG Checks.</div>
+			<div style="width:10%; text-align: center;">334</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Robomule</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Gear-hauling bot.</div>
+			<div style="width:10%; text-align: center;">349</div>
+		</div>
+	</div>
+</div>
+
+<h2>Scientist</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Enhanced Vision</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Tetrachromatic vision, wider frequency range, better focus. +10 vision Perceive Tests.</div>
+			<div style="width:10%; text-align: center;">318</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Mind Amp</div>
+			<div style="width:20%; text-align: center;">Maj/3</div>
+			<div style="width:50%;">Accelerates mind. +2 Insight.</div>
+			<div style="width:10%; text-align: center;">320</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Mission Recorder</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Backs up all mission data.</div>
+			<div style="width:10%; text-align: center;">336</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Pocket Lab</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Analyze gases, liquids, materials, Know: Chemistry 60.</div>
+			<div style="width:10%; text-align: center;">340</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Servitor</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Common helper/cook/janitor bots.</div>
+			<div style="width:10%; text-align: center;">348</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Specimen Container</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Holds samples in stasis conditions.</div>
+			<div style="width:10%; text-align: center;">340</div>
+		</div>
+	</div>
+</div>
+
+<h2>Soldier</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Assault Rifle Railgun</div>
+			<div style="width:20%; text-align: center;">Mod/R/2</div>
+			<div style="width:50%;">DV 2d10 + 2, SA/BF/FA, Ammo 90 + 1, Range 150, Armor-Piercing, Long, Two-Handed.</div>
+			<div style="width:10%; text-align: center;">210</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Enhanced Vision</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Tetrachromatic vision, wider frequency range, better focus. +10 vision Perceive Tests.</div>
+			<div style="width:10%; text-align: center;">318</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Grin (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Ignore 1 wound.</div>
+			<div style="width:10%; text-align: center;">331</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Meds (5 doses)*</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Heals 1d10 damage per hour or 1 wound per day for 4 days.</div>
+			<div style="width:10%; text-align: center;">332</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Neurachem</div>
+			<div style="width:20%; text-align: center;">Maj/3</div>
+			<div style="width:50%;">Enhanced synapses and neurotransmitters. +2 Vigor.</div>
+			<div style="width:10%; text-align: center;">322</div>
+		</div>
+	</div>
+</div>
+
+<h3>Synthmorph Alternative</h3>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Fixer Swarm</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Repairs 1d10 damage per hour or 1 wound per day for 4 days.</div>
+			<div style="width:10%; text-align: center;">345</div>
+		</div>
+	</div>
+</div>
+
+<h2>Techie</h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Automech</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Repair bot.</div>
+			<div style="width:10%; text-align: center;">349</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Electrical Sense</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Sense electrical fields w/in 5 m.</div>
+			<div style="width:10%; text-align: center;">318</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Fixer Swarm</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Repairs DV 1d10 per hour or 1 wound per day for 4 days.</div>
+			<div style="width:10%; text-align: center;">345</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Fokus (5 doses)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Enhanced Behavior: Obsessive (2), reduce timeframes 25%.</div>
+			<div style="width:10%; text-align: center;">331</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Medium Fabber</div>
+			<div style="width:20%; text-align: center;">Mod/2</div>
+			<div style="width:50%;">Fab small items.</div>
+			<div style="width:10%; text-align: center;">343</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Tools (Kit)</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">Portable, applies to specific skill.</div>
+			<div style="width:10%; text-align: center;">317</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Utilitool</div>
+			<div style="width:20%; text-align: center;">Min/1</div>
+			<div style="width:50%;">All-purpose smart-material tool.</div>
+			<div style="width:10%; text-align: center;">317</div>
+		</div>
+	</div>
+</div>
+
+
+<h2></h2>
+<div style="width:100%; background-color: #660000; color: black; margin-bottom: 5px;">
+	<div style="padding-bottom: 1px;">
+		<div style="font-weight: bold; display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;">Gear</div>
+			<div style="width:20%; text-align: center;">Complexity/GP</div>
+			<div style="width:50%;">Description</div>
+			<div style="width:10%; text-align: center;">Page</div>
+		</div>
+	</div>
+	<div style="padding-bottom: 1px;">
+		<div style="display: flex; flex-direction: row; background-color: #eaddd9;">
+			<div style="width:20%; margin-left:5px;"></div>
+			<div style="width:20%; text-align: center;"></div>
+			<div style="width:50%;"></div>
+			<div style="width:10%; text-align: center;"></div>
+		</div>
+	</div>
+</div>
+...

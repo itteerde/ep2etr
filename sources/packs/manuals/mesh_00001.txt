@@ -1,0 +1,5 @@
+<h1>Characterize Environment</h1>
+
+<ol>
+	<li>Is there any Mesh availability?</li>
+</ol>

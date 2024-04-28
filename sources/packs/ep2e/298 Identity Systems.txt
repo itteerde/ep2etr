@@ -1,0 +1,66 @@
+The practice of digitizing egos and switching bodies created massive obstacles for identity verification systems. Despite the existence of mass surveillance systems and the accumulation of extensive databases on peoples’ lives and habits, factors such as forking, privacy and anonymization safeguards, and the ease of identity theft make ascertaining someone’s true identity a challenge.
+
+<h1>Ego ID</h1>
+Your identity is tied to your ego, and various authorities institute verification and security measures on this basis. Within the inner system, your ego is assigned an ID number, which is used to validate your identity, citizenship, legal status, credit accounts, licensing, reputation scores, and so on. This ego ID is verifiable by your brain patterns, which remain the same even when resleeving. If you backup, upload, or egocast your mind, the service is required to incorporate your ego ID in your digital mind-state as a readable cryptographic hash. Likewise, when you resleeve, the body bank is required to verify your ID and hardcode it into your morph, in the form of a nanotattoo on the tip of your index finger. Many jurisdictions require these services to register morphs and the embodied ego ID with local authorities. This nanotat can be easily scanned at security checkpoints to verify identity.
+
+<h2>Complications</h2>
+Though efficient, this method is far from perfect. There is no system-wide ID system. Record-keeping is far from standardized and varies drastically from habitat to habitat. To protect privacy and deter ID theft, most habitats will only share basic details on their citizens — and even then only upon request — with other stations, unless they are part of the same political alliance. This means that if you are a Lunar-Lagrange Alliance citizen traveling to a Planetary Consortium habitat, the local authorities may not have a complete profile on you. However, many habitats contract with data-harvesting firms to access their dossiers on the Solar System’s populace.
+
+On top of this, many identity records were lost during the Fall. The systems currently in use were devised within the past decade as new polities cohered. Most people’s personal records do not extend back beyond that point. This situation was undoubtedly exploited by those who preferred to erase their past or adopt a new persona entirely.
+
+Complicating matters further, many autonomist and brinker habitats operate without identity checks altogether. While even anarchists see the need for some ID measures to prevent reputation-system gaming, protect their backups, and identify bodies in the case of death, these systems are structured so that the user controls their own data; few records are kept.
+
+These all make for a situation where identity records are patchwork at best. This means that officials must rely on the security of other habitats for ID verification. If a person egocasts to Nectar on Luna from Qing Long in the Martian Trojans and the Nectar officials have no record of this person, they can only trust that the Qing Long officials did their job when verifying the subject’s ID and background. If an autonomist or similar ID-less visitor arrives, they are scanned against databases for criminals and other undesirables and then assigned a temporary ID for the duration of their stay (and sometimes any future visits). Some habitats (including the Jovians) often limit the privileges and stay duration of visitors who fail to meet their stringent ID measures, if they don’t bar them outright.
+
+<h2>Special Cases</h2>
+There are certain circumstances that have an impact on identity and verification worth noting.
+
+In polities where forks are legally limited, they are required to be encoded with their originating ego’s identity and designation that identifies them as a fork, including their inception date. Those operating with fork IDs are sometimes barred from certain activities such as travel or making financial transactions without their originator’s authorization in order to deter fraud or the fork seeking independence or to bypass legal limitations. Fork IDs may be banned from activities such as voting or sleeving entirely.
+
+Those with criminal records linked to their IDs face similar restrictions. They often are required to disclose their criminal history to employers/contractors and are subject to additional security screenings. This also applies to indentures, who are banned from travel and considered a flight risk to some authorities.
+
+Certain polities require uplifts and AGIs to openly identify themselves as such — and may even limit their rights and privileges. Though they can take the risk with fake IDs or traveling incognito, a full brain scan will automatically detect the differences inherent to an uplift or infolife’s mind, marking them as non-human.
+
+Notably, the process of Watts-MacLeod infection is known to create changes to an async’s brain structure, permanently altering their brainprint. Given that brainprints naturally change over time, this is not always significant enough to be noticed. However, as authorities across the Solar System work to eradicate the vestiges of the exsurgent virus from transhumanity, asyncs are finding themselves under increased scrutiny, especially when entering habitats with more paranoid or sophisticated security apparatuses.
+
+<h2>ID and Rep Systems</h2>
+Your ID is irrevocably tied to your reputation scores.
+
+<h1>Identity Verification</h1>
+There are three ways to verify someone’s identity: nanotat scan, brainwave scan, and checking the cryptographic hash on a digital mind.
+
+<h2>Nanotat Scans</h2>
+In most jurisdictions, every time you sleeve a morph, special nanobots are deployed to encode a small nanotat on your index finger. The information contained on this nanotat includes your name, ego ID, brainwave pattern, citizenship/legal status, credit account number, insurance information, licenses, rep system IDs, and similar relevant data in an encrypted format. Depending on the local habitat laws, it may include other information such as criminal convictions, travel history, restricted implants, employment records, and so on. This nanotat serves as your physical ID and can be read with a nanotat ID scanner ▶338 that decodes the nanobot data.
+
+ID nanotats include information on the company that did the resleeving, so that the data can be accessed and verified with their records online. The data on the nanotat is also cryptographically signed with the company’s public key, meaning that anyone who checks the data and the signature online can tell if the data has been altered.
+
+Nanotat ID data can be passcode-protected, though authorities require decoding for security checkpoints. This does not always deter ID thieves, who deploy trick devices, drones, and nanoswarms to break the code and steal data from the unsuspecting — or simply take your entire finger.
+
+<h2>Brainprints</h2>
+Brain scans are one of the few biometric prints that remain similar no matter what morph an ego is in. Brainprints are recorded using a combination of deep neuro-imaging techniques to measure your neural activity and responses to invoked sensory stimuli. This process takes about an hour to produce a unique brain signature. Egos existing in virtual mind-states (infomorphs or cyberbrains) are measured in a similar manner using a sequence of diagnostic inputs, though this takes only 5 minutes. Full brain scans in this manner are difficult to fool, barring hacking of the brainprint scanner itself, and so are considered quite reliable. For this reason they are occasionally used for access control in high-security facilities.
+
+Such thorough brain scans are impractical for most security purposes in the field, given the time frame. Instead, security personnel can use a portable brainprint scanner to verify an ID in 5 minutes. This scanner includes a skull cap placed on the head, ultra-sensitive nano-electrodes that extrude in the scalp, and either a visor and earplugs or injected AR sensory input that feeds a sequence of images, sounds, and sensations to measure your response. Though not as deep or accurate, this short test is enough to compare measurements against a secure ID database. Pods, synthmorphs, and infomorphs can be verified in a single action turn via sensory diagnostic inputs.
+
+Thanks to the plasticity of transhuman brains, your brainprint will change over time. This is a natural result of new memories and synaptic structures, trauma, and even adaptation over time to different morphs and headware. Such changes are minor and incremental, but mean your brainprint must be updated on a roughly yearly basis, and sometimes more frequently. Though uncommon, recent psychological trauma, psychosurgery, exsurgent-virus infection, or other brain alterations may create enough deviation to cause a brainprint ID check to fail.
+
+<h2>Digital Code</h2>
+Digital ID codes are incorporated into backups and infomorphs. Not only does this help identify who the backup belongs to, but it serves as an electronic signature for verifying ID when the backup is to be resleeved. This digital code contains the same information as a nanotat ID, and is signed with a cryptographic hash that makes it difficult to forge and which can be verified online.
+
+<h2>Other ID Forms</h2>
+Given that transhumans are almost always meshed, your Mesh ID ▶246 serves as a unique identifier and has served as proof of identity in criminal and legal cases. Mesh IDs can be used to track or reveal information about you, though they can also be spoofed ▶247. Some habitats continue to rely on older ID technologies, such as ID cards or embedded wireless chips. The Jovians in particular, due to their opposition to resleeving and nanotech, use wireless ID chips and biometrics primarily.
+
+<h1>Circumventing ID Checks</h1>
+Firewall sentinels and clandestine agents often have a need to hide or alter their identities. While ID systems are challenging, they are not insurmountable.
+
+<h2>Fake IDs</h2>
+The easiest way to bypass security checks is to establish a fake ID ▶315. Given the patchwork nature of identity records and the lack of any centralized authority, this is not very difficult. Numerous crime syndicates and even some autonomist groups maintain a thriving ID fabrication business, often with complete histories and medical covers for implants that might be restricted or illegal.
+
+These IDs are usually registered with habitats that are either known criminal havens, have autonomist sympathies, or are isolated and remote. Though the ID is actually verifiable and registered with these stations, the potential shady origins of such IDs is known to most inner system authorities and so the character may be exposed to extra scrutiny or monitoring. Fake IDs can be acquired that are registered with more respected authorities, but this often requires a much higher expense or connections to hypercorp clandestine operations.
+
+Black market darkcast and resleeving options offer fake IDs as a matter of course.
+
+<h2>Altering Nanotat IDs</h2>
+Special nanobot treatments can be manufactured to erase, rewrite, or replace nanotat IDs. Erasing a nanotat is easy, but not having one is a crime and immediate grounds for suspicion in many habitats. Rewriting a nanotat is also easy, though this means that the nanotat will fail its authorization online unless the encryption has also been cracked. Replacing a nanotat ID with a fake one is just as possible and is part of the process of acquiring a fake ID.
+
+<h2>Digital ID Tampering</h2>
+Digital ID codes can also be tampered with, though like nanotat IDs this will mean that the ID fails online verification unless the encryption is also defeated.

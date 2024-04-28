@@ -1,0 +1,1673 @@
+<p>The morphs here represent a fraction of the sleeves and shells available to characters. You must purchase at least one morph during character creation ▶36. During gameplay, you may need to acquire a new morph when forking, egocasting, or resleeving (Acquiring Morphs ▶290) — or when the one you have is destroyed.</p>
+<ul>
+    <li>
+        <p><strong>Movement Rate:</strong> The mobility system used and distance covered (Movement ▶230).</p>
+    </li>
+    <li>
+        <p><strong>Ware:</strong> Bioware, cyberware, hardware, meshware, and/or nanoware the morph is equipped with (Gear, ▶316–327).</p>
+    </li>
+    <li>
+        <p><strong>Morph Traits:</strong> Traits that each morph of this type has (Traits ▶72).</p>
+    </li>
+    <li>
+        <p><strong>Common Extras:</strong> Prevalent but not baseline traits or ware for the morph type. These are not included in the MP cost and must be acquired separately.</p>
+    </li>
+</ul>
+<h1>Common Biomorphs</h1>
+<p>Biomorphs are fully biological sleeves (often genetically modified and equipped with implants), birthed naturally or from an exowomb, and grown to adulthood either naturally or at a slightly accelerated rate.</p>
+
+
+<h2>Flat</h2>
+<p>Flats are baseline unmodified humans, born with all of the natural defects, hereditary diseases, and other genetic mutations that evolution so lovingly applies. Flats are increasingly rare outside bioconservative enclaves — most died off with the rest of humanity during the Fall.</p>
+<p></p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Flat</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 0 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 30</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 6</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 30</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 45</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Common Extras: Many have the Genetic Defect trait (pg. 78).</div>
+	</div>
+</div>
+
+<h2>Splicer</h2>
+<p>Splicers are genefixed humans. Their genome cleansed of hereditary diseases and optimized for looks and health, but not otherwise substantially upgraded. Splicers make up the majority of transhumanity.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Splicer</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 1 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 90</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 6</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 30</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 45</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cortical Stack, Mesh Inserts</div>
+	</div>
+</div>
+
+<h2>Exalt</h2>
+<p>Exalts are the common, non-specialized “enhanced human” model. They are genetically upgraded to make them healthier, smarter, and more attractive (based on everevolving beauty standards). A modified metabolism keeps them fit and athletic for the duration of an extended lifespan.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Exalt</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 2 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 70</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cortical Stack, Mesh Inserts</div>
+	</div>
+</div>
+
+<h2>Neotenic</h2>
+<p>Neotenics are transhumans modified to retain a child-like form. They are smaller, more agile, inquisitive, and less resource-depleting, making them ideal for habitat living and spacecraft. Some people find neotenic sleeves distasteful, especially when employed in certain media and sex work capacities, but most are designed to be neuter-gendered.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Neotenic</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 2 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 6</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 30</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 45</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/12</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Circadian Regulation, Cortical Stack, Mesh Inserts</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 1)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Small size ▶227</div>
+	</div>
+</div>
+
+<h2>Ruster</h2>
+<p>Adapted for survival with minimum gear in the not-fully-terraformed Martian environment, these transgenic morphs feature insulated skin for more effective thermoregulation and respiratory system improvements to require less oxygen and filter carbon dioxide, among other mods.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Ruster</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 3 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 70</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cold Tolerance, Cortical Stack, Enhanced Respiration, Mesh Inserts, Radiation Sense</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Common Extras: Many have the Planned Obsolescence trait ▶79.</div>
+	</div>
+</div>
+
+<h2>Bouncer</h2>
+<p>Bouncers are genetically adapted for microgravity. Their legs are more limber and their feet can grasp as well as their hands. They can tolerate the cold temperatures of beehive tunnels and have an oxygen reserve in case they are exposed to vacuum. Bouncers are very common in the outer system and zero-g habitats.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Bouncer</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 4 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 60</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 2</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/12</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cold Tolerance, Cortical Stack, Grip Pads, Mesh Inserts, Oxygen Reserve, Prehensile Feet</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Limberness (Level 1)</div>
+	</div>
+</div>
+
+<h2>Futura</h2>
+<p>Futura morphs were specially crafted for the “Lost Generation” of accelerated-growth children. Adjusted for confidence, self-reliance, and adaptability, futuras were intended to help transhumanity regain its foothold. These programs proved disastrous and the line was discontinued, but some models and various spin-offs remain, viewed by some with distaste and others as collectibles or exotic oddities.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Futura</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 4 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 25</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 4</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cortical Stack, Mesh Inserts</div>
+	</div>
+</div>
+
+<h2>Hibernoid</h2>
+<p>Hibernoids are transgenic-modified humans with heavily altered sleep patterns and metabolic processes. Hibernoids have a decreased need for sleep, requiring only 1–2 hours a day on average. They can also trigger a form of voluntary hibernation, effectively halting their metabolism and need for oxygen. Hibernoids make excellent long-duration space travelers, but these morphs are also favored by personal aides and hypercapitalists with non-stop lifestyles.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Hibernoid</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 4 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 70</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 2</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Circadian Regulation, Clean Metabolism, Cold Tolerance, Cortical Stack, Hibernation, Mesh Inserts</div>
+	</div>
+</div>
+
+<h2>Menton</h2>
+<p>Mentons are genetically modified to increase cognitive abilities, particularly learning ability, creativity, attentiveness, and memory. They are favored by academics, intellectuals, scientists, and engineers.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Menton</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 4 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 60</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cortical Stack, Mesh Inserts, Mnemonics</div>
+	</div>
+</div>
+
+<h2>Olympian</h2>
+<p>Olympians are human upgrades with improved athletic capabilities like endurance, hand-eye coordination, and cardiovascular functions. Olympians are common among athletes, dancers, freerunners, gatecrashers, and soldiers.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Olympian</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 4 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 60</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 8</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 40</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 60</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cortical Stack, Mesh Inserts</div>
+	</div>
+</div>
+
+<h2>Sylph</h2>
+<p>Sylph morphs are ideal for media icons, elite socialites, XP stars, models, and narcissists. Sylph gene sequences are tailored for distinctive good looks, ethereal and elfin features, and slim and lithe bodies. Their metabolism has also been sanitized to eliminate unpleasant bodily odors and their pheromones adjusted for universal appeal.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Sylph</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 4 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 60</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 6</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 30</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 45</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Clean Metabolism, Cortical Stack, Enhanced Pheromones, Mesh Inserts</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Common Extras: Many have the Striking Looks trait ▶76.</div>
+	</div>
+</div>
+
+<h2>Fury</h2>
+<p>Furies are combat morphs. These transgenic humans are upgraded for endurance, strength, reflexes, and capacity to handle physical trauma. Behavioral modifications for aggressiveness are offset by gene sequences promoting pack mentalities and cooperation, and they tend to be biologically female.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Fury</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 6 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 40</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 10</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 50</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 75</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 4</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 2</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Bioweave Armor (+2/+3), Claws, Cortical Stack, Enhanced Vision, Mesh Inserts</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Enhanced Behavior (Aggressiveness, Level 2; Cooperation, Level 2)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Common Extras: Many are equipped with neurachem ▶322, hardened skeleton ▶322, toxin filters ▶323.</div>
+	</div>
+</div>
+
+<h2>Ghost</h2>
+<p>Ghosts are partially designed for combat applications, but their primary focus is stealth and infiltration. Their genetic profile encourages speed, agility, and reflexes, and their minds are modified for patience and problem-solving.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Ghost</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 6 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 40</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 9</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 45</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 68</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 2</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Chameleon Skin, Cortical Stack, Grip Pads, Mesh Inserts</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Enhanced Behavior (Patience, Level 2)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Common Extras: Many are equipped with adrenal surge ▶322, skinflex ▶321</div>
+	</div>
+</div>
+
+<h2>Remade</h2>
+<p>The remade are completely redesigned: humans 2.0. Their cardiovascular system is stronger, their digestive tract sanitized and restructured, and they have been optimized for health, intelligence, and longevity with numerous transgenic mods. They look close to human, but are different in very noticeable and sometimes eerie ways: taller, lack of hair, slightly larger craniums, wider eyes, smaller noses, smaller teeth, and elongated digits. The remade are popular with the Ultimates faction.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Remade</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 7 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 30</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 9</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 45</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 68</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 2</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Circadian Regulation, Clean Metabolism, Cold Tolerance, Cortical Stack, Enhanced Respiration, Enhanced Vision, Mesh Inserts</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 1)</div>
+	</div>
+</div>
+
+<h1>Pod Biomorphs</h1>
+<p>Pods (a colloquialism derived from “pod people”) were originally designed as biological androids. Their parts are vat-grown separately using accelerated-growth processes and assembled with a number of cybernetic system “short-cuts;” this entire process producing a functional body in a fraction of the time it takes to clone a standard biomorph. Cyberbrains replace their undeveloped gray matter. The first generations of pods were operated by ALIs and primarily used in service industries where a biological aesthetic was preferred to robots, in hazardous labor industries, and for sex work. They were visually distinguished from normal humans by stylized seamlined patterns in their skin, a designation that remains common today. In the wake of the Fall and the subsequent demand for more biomorphs, pods are now commonly sleeved by transhumans, especially indentures, but they still often suffer a classist stigma. Pods lack reproductive functions and are usually neuter. Non-human pods are increasingly common.</p>
+
+<h2>Basic Pod</h2>
+<p>These original general-purpose models are designed to keep the buyer/user dependent on the manufacturer.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Basic Pod</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 1 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 80</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 6</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 30</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 45</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Biomods, Cortical Stack, Cyberbrain, Mesh Inserts, Mnemonics, Puppet Sock</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Planned Obsolescence</div>
+	</div>
+</div>
+
+<h2>Worker Pod</h2>
+<p>Heavily feature in menial-labor jobs that involve interaction with other transhumans.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Worker Pod</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 3 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 70</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Biomods, Cortical Stack, Cyberbrain, Mesh Inserts, Mnemonics, Puppet Sock</div>
+	</div>
+</div>
+
+<h2>Novacrab</h2>
+<p>Bioengineered from coconut crab and spider crab stock and grown to a larger (human) size, novacrabs are ideal for hazardous work environments as well as vacworker, police, or bodyguard duties. They climb and handle microgravity well and can withstand a wide range of atmospheric pressure (and sudden pressure changes) from vacuum to deep sea. They are equipped with ten 2-meter long legs, massive claws, chitinous armor, compound eyes (with human-equivalent image resolution), gills, dexterous manipulatory digits on their fifth set of limbs, and transgenic vocal cords.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Novacrab</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 4 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 9</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 45</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 68</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Biomods, Carapace Armor (+6/+7), Cold Tolerance, Cortical Stack, Cyberbrain, Enhanced Respiration, Gills, Mesh Inserts, Mnemonics, Oxygen Reserve, Puppet Sock, Vacuum Sealing</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 3), Non-Human Biochemistry (Level 2)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Claw Attack (DV 2d10)</div>
+	</div>
+</div>
+
+<h2>Pleasure Pod</h2>
+<p>Pleasure pods are faux humans intended for intimate entertainment purposes and indulgent hedonism. Their biology includes extra nerve clusters in their erogenous zones, fine motor control over certain muscle groups, enhanced pheromones, sanitized metabolisms, and the capability to purr. They are capable of switching between multiple sex configurations and are often enhanced in other areas.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Pleasure Pod</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 4 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 70</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 6</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 30</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 45</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Biomods, Clean Metabolism, Cortical Stack, Cyberbrain, Enhanced Pheromones, Mesh Inserts, Mnemonics, Puppet Sock, Scent Alteration, Sex Switch</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Common Extras: Many have Striking Looks ▶76 or Addiction ▶76.</div>
+	</div>
+</div>
+
+<h2>Security Pod</h2>
+<p>Security pods were originally manufactured as mass-produced AI-operated soldiers for joint peacekeeping missions and enclave border/security roles. Many were co-opted by the TITANs during the Fall, so they fell out of favor for many years, but a demand for cheap mercenary morphs has revived interest.</p2>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Security Pod</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 5 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 60</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Biomods, Bioweave Armor (+2/+3), Claws, Cortical Stack, Cyberbrain, Eelware, Enhanced Hearing, Enhanced Vision, Mesh Inserts, Mnemonics, Puppet Sock</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Common Extras: Many are equipped with adrenal surge ▶322, and t-ray emitters ▶318. Space marine variants have oxygen reserve ▶324, prehensile feet ▶324, and vacuum sealing ▶325.</div>
+	</div>
+</div>
+
+<h2>Shaper</h2>
+<p>Shapers are designed for infiltration and disguise. They lack the seamlines common to pods and incorporate ware that allowsthem to alter their appearance. Favored by spies and criminals, they are illegal in many habitats.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Shaper</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 5 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 40</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Biomods, Chameleon Skin, Cortical Stack, Cyberbrain, Mesh Inserts, Mnemonics, Nanotat ID Flux, Puppet Sock, Sex Switch, Skinflex</div>
+	</div>
+</div>
+
+<h1>Uplift Biomorphs</h1>
+<p>These biomorphs are the original bodies of various sapient non-humans. Though uncommon and sometimes stigmatized, they are also sleeved by non-uplifts.</p>
+
+<h2>Neo-Avian</h2>
+<p>Neo-avians include ravens, crows, and gray parrots uplifted to human-level intelligence. Their physical sizes are much larger than their non-uplifted cousins (to the size of a human child), with larger heads for their increased brain size. Numerous transgenic modifications have been made to their wings, allowing them to retain limited flight capabilities at 1 g, but giving them a more bat-like physiology so they can bend and fold better and adding primitive digits for basic tool manipulation. Their toes are also more articulated and now accompanied with an opposable thumb. Neo-avians have adapted well to microgravity environments, and are favored for their small size and reduced resource use.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Neo-Avian</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 0 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 5</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 25</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 38</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 2/8, Winged 8/40</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Claws, Cortical Stack, Direction Sense, Enhanced Vision, Mesh Inserts, Prehensile Feet, Wings</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 3), Non-Human Biochemistry (Level 2)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Beak/Claw Attack (DV 2d6), Small size ▶227</div>
+	</div>
+</div>
+
+<h2>Neo-Bonobo/ Neo-Chimpanzee</h2>
+<p>Like other neo-hominids, uplifted bonobo and chimpanzee morphs feature enhanced intelligence and bipedal frames. Their long arms and prehensile feet are a boon for climbing and maneuvering in microgravity environments. They retain the body hair of their forebears, though it is a common cultural practice to dye, stylize, or otherwise manipulate it. Transgenic vocal systems allow them to speak as humans do.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Neo-Bonobo/ Neo-Chimpanzee</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 1 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 6</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 30</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 45</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/12</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cortical Stack, Enhanced Smell, Mesh Inserts, Prehensile Feet</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 1) Non-Human Biochemistry (Level 1)</div>
+	</div>
+</div>
+
+<h2>Neo-Neanderthal</h2>
+<p>This morph is derived from fossilized Neanderthal DNA, uplifted and enhanced to transhuman equivalence. Neanderthal morphs appear muscular with a heavy bone structure, distinctively long skulls, heavy brow ridges, and weak chins. Pale complexions and red hair are common features.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Neo-Neanderthal</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 2 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 35</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cortical Stack, Mesh Inserts</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Non-Human Biochemistry (Level 1)</div>
+	</div>
+</div>
+
+<h2>Neo-Gorilla</h2>
+<p>Neo-gorillas benefit from enhanced cognition and upright stances like other neo-hominids, though they are not as adept at climbing. They stand roughly as tall as humans and have stronger and larger frames.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Neo-Gorilla</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 3 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 40</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 9</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 45</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 68</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/12</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cortical Stack, Enhanced Smell, Mesh Inserts, Prehensile Feet</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 1), Non-Human Biochemistry (Level 1)</div>
+	</div>
+</div>
+
+<h2>Neo-Octopus</h2>
+<p>Colloquially known as “octomorphs,” these uplifted octopus sleeves are quite useful in zero-gravity environments. They retain eight arms, their chameleon ability to change skin color, ink sacs, and a sharp beak. They also have increased brain mass and longevity, can breathe both air and water, and lack a skeletal structure so they can squeeze through tight spaces. Octomorphs typically crawl along in zero gravity using their arm suckers and expelling air for propulsion; in low gravity they walk on two of their arms. Their eyes have been enhanced with color vision, provide a 360-degree field of vision, and rotationally adjust to keep the slitshaped pupil aligned with “up.” A transgenic vocal system allows them to speak.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Neo-Octopus</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 3 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 35</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 6</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 30</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 35</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 2</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Swim 4/20, Thrust Vector 4/12, Walker 2/8</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: 360-Degree Vision, Biomods, Chameleon Skin, Cortical Stack, Gills, Mesh Inserts, Polarization Vision</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 3), Limberness (Level 2), Non-Human Biochemistry (Level 2)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: 8 prehensile arms, Beak Attack (DV 1d10), Ink Attack (use Athletics, blinding, 5-meter uniform area-effect in water and micrograv)</div>
+	</div>
+</div>
+
+<h2>Neo-Orangutan</h2>
+<p>Neo-orangutans have the same uplifted features as their neo-hominid cousins. Compared to humans, their legs are shorter and arms longer. Neo-orangutans tend to be more solitary than social.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Neo-Orangutan</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 3 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 35</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 53</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/12</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Biomods, Cortical Stack, Enhanced Smell, Mesh Inserts, Prehensile Feet</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 1), Limberness (Level 1), Non-Human Biochemistry (Level 1)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Reach (+10)</div>
+	</div>
+</div>
+
+<h1>Synthmorphs</h1>
+<p>Most synthmorph designs were originally intended to be robots, piloted by ALIs. Robot forms are optimized to suit their function, and so a wide variety of body plans exist. Robots designed to interact with transhumans often have biped or quadruped walker frames, to better navigate transhuman dwellings and spaces, but were often distinctly non-human in appearance. Many feature a sort of symbolic “face,” to give transhumans something to look at and interact with, but these were rarely realistic, so as to avoid uncanny-valley creepiness. Since the Fall, more synthmorphs have been designed specifically for transhuman egos, as they are cheaper and quicker to make than biomorphs. Without specialized robotic functions in mind, many of these synthmorph designs feature anthropomorphic frames (androids and gynoids) specifically tailored for egos used to human forms, including heads and distinctive (though still non-realistic) faces. As transhumanity grows accustomed to synthmorphs and more creative, however, innovative and unusual synthmorph designs become more common-place.</p>
+
+<div style="background-color: #660000;">
+	<div style="font-size: x-large;">Synthmorph Characteristics</div>
+	<div>
+		<ul>
+			<li>
+				<strong>Lack of Biological Functions: </strong><p>Shells need not be bothered with trivialities like breathing, eating, defecating, aging, sleeping, or any similar minor but crucial aspects of biological life. They are also immune to toxins and pathogens. Synthmorphs are powered by nuclear and standard batteries, and sometimes solar power; for game purposes, power is not an issue for them.</p>
+			</li>
+			<li>
+				<strong>Pain Filter: </strong><p>Synthmorphs can filter out their pain receptors so that they are unhampered by wounds or physical damage. This allows them to ignore the −10 modifier from 1 wound (Wound Effects ▶220 ), but they suffer −30 on any tactile-based Perceive Tests and will not even notice they have been damaged unless they succeed in a (modified) Perceive Test.</p>
+			</li>
+			<li>
+				<strong>Immunity to Shock: </strong><p>Synthmorphs have no nervous system to disrupt, and their optical electronics are carefully shielded from interference. Shock attacks temporarily disrupt wireless radio communications, however, impeding all mesh actions until the end of the next action turn.</p>
+			</li>
+			<li>
+				<strong>Environmental Durability: </strong><p>Synthmorphs are built to withstand a wide range of environments, from dusty Mars to the oceans of Europa to the vacuum of space. They are unaffected by any but the most extreme temperatures and atmospheric pressures. Treat as cold tolerance ▶324 and vacuum sealing ▶325.</p>
+			</li>
+			<li>
+				<strong>Toughness: </strong><p>Synthetic shells are made to last — a fact reflected in their higher Durability and built-in Armor ratings. Their composition also makes their physical strikes more damaging; unarmed strikes by shells inflict DV 2d6.</p>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<h2>Case</h2>
+<p>Cases are mass-produced robotic shells, an affordable resleeving option for the poor, though of notoriously poor quality. They are available in many varieties to suit a client’s taste. Most case morphs are anthropomorphic, with a thin framework body standing just shorter than an average human.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Case</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 0 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 100</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 5</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 25</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/12</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Cortical Stack, Cyberbrain, Lidar, Mesh Inserts, Mnemonics, Puppet Sock</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 1), Inherent Flaws</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Light Frame (Armor 6/4)</div>
+	</div>
+</div>
+
+<h2>Spare</h2>
+<p>Spares are small, portable shells designed as a temporary replacement sleeve should your primary morph be killed/destroyed. They are common gear for gatecrashing missions. Packed as a flat 15-centimeter disc, when activated they pop into a six-limbed spherical shape. Just plug your original cortical stack in and you are ready to go. Built-in stress-management systems help survivors handle the trauma of their recent death.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Spare</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 0 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 80</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 15</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 30</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/12</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Cortical Stack (optional), Cyberbrain, Grip Pads, Lidar, Mesh Inserts, Mnemonics, Puppet Sock, Skinlink, Stress Control</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 3)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Light Frame (Armor 6/4), Small size ▶227</div>
+	</div>
+</div>
+
+<h2>Dragonfly</h2>
+<p>The dragonfly takes the shape of a meterlong flexible shell with eight wings, four manipulator limbs, and a prehensile tail. Capable of near-silent flight in Earth gravity, dragonfly bots fare even better in microgravity. Their wings operate independently and can rotate, allowing for graceful maneuvering, hovering, and tight turns.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Dragonfly</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 1 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 70</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 5</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 25</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 2/8, Winged 8/32</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Cortical Stack, Cyberbrain, Mesh Inserts, Mnemonics, Puppet Sock, Prehensile Tail, Radar, Wings</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 3)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Light Frame (Armor 6/4), Small size ▶227</div>
+	</div>
+</div>
+
+<h2>Swarmanoid</h2>
+<p>Swarmanoids are swarms composed of hundreds of insect-sized microbots. Each individual “bug” is capable of crawling, rolling, hopping several meters, or using nanocopter fan blades for airlift. The cyberbrain, cortical stack, and sensor systems are distributed throughout the swarm. Though the swarm can “meld” together into various loose shapes, it is incapable of physical tasks like grabbing, lifting, or holding. Individual bots are linked by radio and laser and are quite capable of interfacing with electronics. Swarmanoids follow swarm rules ▶344.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Swarmanoid</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 2 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 60</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: -</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 40</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 80</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Hopper 4/12, Rotor 4/20, Walker 2/8</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: 360-Degree Vision, Access Jacks, Cortical Stack, Cyberbrain, Lidar, Mesh Inserts, Mnemonics, Puppet Sock</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 3)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Swarm Attack (DV 1d6, ignores armor, blinding), comes with specialized swarmanoid hive ▶342</div>
+	</div>
+</div>
+
+<h2>Synth</h2>
+<p>Synths are even more humanoid than cases and of better quality. They are commonly deployed for labor-intensive tasks in environments not suited for biomorphs or for people who need a body quickly and cheaply or simply on a transient basis. Most designs are anthropomorphic, though various alternatives exist, including some based on uplift physiology.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Synth</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 3 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 80</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 8</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 40</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 80</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Cortical Stack, Cyberbrain, Lidar, Mesh Inserts, Mnemonics, Puppet Sock</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 1)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Light Frame (Armor 6/4)</div>
+	</div>
+</div>
+
+<h2>Savant</h2>
+<p>Developed by brinker hardware hackers, savants feature neural-state enhancements that make them appealing to engineers, scientists, and intellectuals.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Savant</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 4 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 70</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Cortical Stack, Cyberbrain, Lidar, Mesh Inserts, Mnemonics, Puppet Sock</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 1)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Light Frame (Armor 6/4)</div>
+	</div>
+</div>
+
+<h2>Galatea</h2>
+<p>This high-end shell was designed to increase the appeal and social acceptance of synthmorphs. Galateas look expensive and their mental architecture is crafted to enhance the wearer’s personality and charm. Though many media icons have embraced this morph’s novelty, biochauvinists still view it as a monstrosity.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Galatea</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 5 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 8</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 40</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 80</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 2</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Cortical Stack, Chameleon Skin, Cyberbrain, Enhanced Hearing, Lidar, Mesh Inserts, Mnemonics, Puppet Sock</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 1)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Light Frame (Armor 6/4)</div>
+	</div>
+</div>
+
+<h2>Slitheroid</h2>
+<p>Slitheroid shells take the form of a humanoid torso with retractable arms atop a 2-meter-long segmented metallic snake. Slitheroids use lateral undulation to move, though they can also pull themselves along by their arms or coil, twist, and roll their bodies like a ball or hoop.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Slitheroid</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 5 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 9</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 45</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 90</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Roller 8/32, Snake 4/12</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Cortical Stack, Cyberbrain, Enhanced Vision, Mesh Inserts, Mnemonics, Puppet Sock, Retracting Limbs</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 2)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Medium Frame (Armor 8/6)</div>
+	</div>
+</div>
+
+<h2>Steel Morph</h2>
+<p>Like the galatea, this upscale shell was designed to counter biochauvinist attitudes and make synthmorphs more appealing. Where the galatea is optimized for social interaction, steel morphs provide enhanced physical capabilities for both work and recreation.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Steel Morph</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 5 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 8</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 40</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 80</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Cortical Stack, Cyberbrain, Lidar, Mesh Inserts, Mnemonics, Puppet Sock</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 1)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Medium Frame (Armor 8/6)</div>
+	</div>
+</div>
+
+<h2>Arachnoid</h2>
+<p>Arachnoid shells mimic the shapes of spiders, termites, ants, beetles, and other arthropods. Three or four sets of pneumatic limbs are capable of rotating around their meter-long torso, and an additional set of manipulator arms near the head enables fine manipulation and tool use. Arachnoids move by walking, hopping, extending omnidirectional mini-wheels for skating movement, or by retracting their limbs and maneuvering with vectored-air thrusters in microgravity.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Arachnoid</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 6 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 40</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 11</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 55</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 110</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Hopper 4/12, Thrust Vector 8/40, Walker 4/20, Wheeled 8/40</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Access Jacks, Cortical Stack, Cyberbrain, Lidar, Magnetic System, Mesh Inserts, Mnemonics, Pneumatics, Puppet Sock, Retracting Limbs</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 3)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Medium Frame (Armor 8/6)</div>
+	</div>
+</div>
+
+<h2>Reaper</h2>
+<p>The reaper is a combat morph in the form of an armored disc, so that it can turn and present a thin profile to an enemy. Four legs/manipulating arms and four weapon pods are folded inside its frame. It uses vector-thrust nozzles to maneuver in microgravity and also takes advantage of an ionic drive for fast movement over distance. Reapers are infamous due to military sims and Fall XPs; bringing one into most habitats will undoubtedly raise eyebrows if not get you arrested.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Reaper</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 12 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 10</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 12</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 60</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 120</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 6</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Movement Rate: Hopper 4/20, Ionic 8/40, Thrust Vector 8/40, Walker 4/20</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: 360-Degree Vision, Access Jacks, Anti- Glare, Cortical Stack, Cyberbrain, Enhanced Vision, Magnetic System, Mesh Inserts, Mnemonics, Pneumatics, Puppet Sock, Radar, Retracting Limbs, T-Ray Emitter, Weapon Mount (Articulated, 4)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Exotic Morphology (Level 3)</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Notes: Heavy Frame (Armor 12/10)</div>
+	</div>
+</div>
+
+<h2>Flexbot</h2>
+
+<p>Maybe later.</p>
+
+<h1>Infomorphs</h1>
+<p>Infomorphs are digital-only forms — they lack a physical body. They are software mind-states on which living egos are run, though they may be limited by the capabilities of the hardware that supports them. Rules for infomorphs can be found on ▶252.</p>
+
+<h2>Digimorph</h2>
+<p>Digimorphs are bare-bones mind emulations, though customizable and widely used. By default, an ego that evacuates (or is forked from) a cyberbrain is run on a digimorph, unless another infomorph option is available.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Digimorph</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 0 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 100</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 5</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 25</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 50</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Mnemonics</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Digital Speed, Exotic Morphology (Level 3)</div>
+	</div>
+</div>
+
+<h2>Ikon</h2>
+<p>Designed for online performers, media icons, and social networkers, this infomorph is coded to enhance charisma and social skills.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Ikon</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 1 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 100</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 6</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 30</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 60</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 1</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Copylock, Memory Lock, Mnemonics</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Digital Speed, Exotic Morphology (Level 3)</div>
+	</div>
+</div>
+
+<h2>Agent</h2>
+<p>Popular with network security specialists, penetration testers, and hackers, this infomorph is optimized for infosec roles.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Agent</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 2 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 100</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 8</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 40</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 80</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 4</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 0</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Enhanced Security, E-Veil, Mnemonics</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Digital Speed, Exotic Morphology (Level 3)</div>
+	</div>
+</div>
+
+<h2>Operator</h2>
+<p>This infomorph is ideal for professions that involve drone remote operation, whether maintenance bot fleets, surveillance drones, or fighter craft and combat machines.</p>
+<div style="width:100%; color: black;">
+	<div style="display: flex; flex-direction: row; width:100%;">
+		<div style="width: 60%;"></div>
+		<div style="background-color: #c7b2b2; width:40%; font-size: 200%; color: #660000; text-align: center;">Operator</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: end;">
+		<div style="margin-left:5px; margin-right:5px;">Cost: 2 MP</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Avail: 100</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">WT: 7</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DUR: 35</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">DR: 70</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Insight: 3</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Moxie: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Vigor: 0</div>
+		<div style="text-align: center;">•</div>
+		<div style="margin-left:5px; margin-right:5px;">Flex: 1</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Ware: Drone Rig, Mnemonics, Oracles</div>
+	</div>
+	<div style="background-color: #c7b2b2;display: flex; flex-direction: row; justify-content: start;">
+		<div style="margin-left:5px; margin-right:5px;">Morph Traits: Digital Speed, Exotic Morphology (Level 3)</div>
+	</div>
+</div>
+
