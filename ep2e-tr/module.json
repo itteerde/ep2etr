@@ -100,9 +100,9 @@
           ]
         }
       ],
-    "url": "https://github.com/itteerde/ep2eFVTT/",
-    "manifest": "https://raw.githubusercontent.com/itteerde/ep2eFVTT/main/ep2e-tr/module.json",
-    "download": "https://github.com/itteerde/ep2eFVTT/releases/download/v0.0.1/ep2e-tr.zip",
+    "url": "https://github.com/itteerde/ep2etr/",
+    "manifest": "https://raw.githubusercontent.com/itteerde/ep2etr/main/ep2e-tr/module.json",
+    "download": "https://github.com/itteerde/ep2etr/releases/download/v0.0.1/ep2e-tr.zip",
     "relationships":{
         "systems": [
             {
