@@ -13,7 +13,7 @@
             "name": "PhDave"
         }
     ],
-    "version": "0.0.3",
+    "version": "0.0.4",
     "compatibility":{
         "minimum": "11",
         "verified": "11.315"
@@ -103,7 +103,7 @@
             "tablerules-book",
             "tablerules-qaa",
             "tablerules-manuals",
-            "tableruels-morphs"
+            "tablerules-morphs"
             ],
           "folders": [
           ]
