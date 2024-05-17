@@ -13,7 +13,7 @@
             "name": "PhDave"
         }
     ],
-    "version": "0.0.5",
+    "version": "0.0.6",
     "compatibility":{
         "minimum": "11",
         "verified": "11.315"
@@ -88,6 +88,30 @@
             "type": "Actor",
             "system": "ep2e",
             "flags":{}
+        },
+        {
+            "name": "co-morphs",
+            "label": "Morphs",
+            "path": "packs/character-options-morphs",
+            "type": "Item",
+            "system": "ep2e",
+            "flags": {}
+        },
+        {
+            "name": "co-traits",
+            "label": "Traits",
+            "path": "packs/character-options-traits",
+            "type": "Item",
+            "system": "ep2e",
+            "flags": {}
+        },
+        {
+            "name": "co-ware",
+            "label": "Ware",
+            "path": "packs/character-options-ware",
+            "type": "Item",
+            "system": "ep2e",
+            "flags": {}
         }
     ],
     "packFolders": [
@@ -107,8 +131,20 @@
             ],
           "folders": [
           ]
-        }
-      ],
+        },
+        {
+            "name": "Character Options",
+            "sorting": "a",
+            "color": "#000000",
+            "packs": [
+              "co-morphs",
+              "co-traits",
+              "co-ware"
+              ],
+            "folders": [
+            ]
+          }
+        ],
     "url": "https://github.com/itteerde/ep2etr/",
     "manifest": "https://raw.githubusercontent.com/itteerde/ep2etr/main/ep2e-tr/module.json",
     "download": "https://github.com/itteerde/ep2etr/releases/download/v0.0.1/ep2e-tr.zip",
