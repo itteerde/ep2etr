@@ -13,7 +13,7 @@
             "name": "PhDave"
         }
     ],
-    "version": "0.0.6",
+    "version": "0.0.7",
     "compatibility":{
         "minimum": "11",
         "verified": "11.315"
@@ -93,7 +93,7 @@
             "name": "co-morphs",
             "label": "Morphs",
             "path": "packs/character-options-morphs",
-            "type": "Item",
+            "type": "Actor",
             "system": "ep2e",
             "flags": {}
         },
