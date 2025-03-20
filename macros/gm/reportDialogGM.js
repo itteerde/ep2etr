@@ -1,17 +1,8 @@
 
-const partyIds = [
-    "FTcEjiRQ0DU6Wwpe", // EGR_2.71828
-    "GWpcf0ilVIRkl17D", // Kumo Noire
-    "I5zQ7SgKvicAwf1A", // Nilk Narf
-    "W2s7B6H7vlv87OiX", // Sith
-    "KetJuJd3Ufj4klCF" // SysRig.ExE
-];
+const party = game.folders.find(f => f.name === "_Player Characters").contents;
 
 const macroLabel = "Report Dialog GM";
 const width = 1000;
-
-const party = partyIds.map(i => game.actors.get(i));
-//console.log(party);
 
 let dialogContent = `<div width=${width}px><h1>Summary</h1>`;
 dialogContent += party.reduce(function (html, a) {

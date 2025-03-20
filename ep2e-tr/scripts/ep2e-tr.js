@@ -279,6 +279,12 @@ Hooks.on("ready", function () {
         }
     }
 
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/hidden.svg', id: 'hidden', label: 'Hidden' });
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/covert_white.webp', id: 'covert', label: 'Covert' });
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/spotted_white.svg', id: 'spotted', label: 'Spotted' });
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/mesh/account_red.webp', id: 'administrator', label: 'Administrator' });
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/mesh/account_yellow.webp', id: 'security', label: 'Security' });
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/mesh/account_green.webp', id: 'user', label: 'User' });
 });
 
 console.log(`Tablerules has been loaded (${performance.now() - start_time}ms).`);
