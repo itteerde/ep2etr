@@ -1,5 +1,5 @@
-2025/03/20-23:10:38.785 4bf8 Recovering log #330
-2025/03/20-23:10:38.785 4bf8 Level-0 table #332: started
-2025/03/20-23:10:38.785 4bf8 Level-0 table #332: 16842 bytes OK
-2025/03/20-23:10:38.802 4bf8 Delete type=0 #330
-2025/03/20-23:10:38.802 4bf8 Delete type=3 #329
+2025/03/21-15:33:27.109 4ed0 Recovering log #335
+2025/03/21-15:33:27.111 4ed0 Level-0 table #337: started
+2025/03/21-15:33:27.113 4ed0 Level-0 table #337: 897 bytes OK
+2025/03/21-15:33:27.120 4ed0 Delete type=0 #335
+2025/03/21-15:33:27.120 4ed0 Delete type=3 #334

@@ -289,6 +289,7 @@ Hooks.on("ready", function () {
     CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/wifi_red.svg', id: 'offline', label: 'Offline' });
     CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/stealthed_white.svg', id: 'stealthed', label: 'Stealthed' });
     CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/burner.svg', id: 'burner', label: 'Burner Mesh ID' });
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/anonymous.svg', id: 'anonymous', label: 'Anonymizer' });
 });
 
 console.log(`Tablerules has been loaded (${performance.now() - start_time}ms).`);
