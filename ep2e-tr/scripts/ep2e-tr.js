@@ -285,6 +285,10 @@ Hooks.on("ready", function () {
     CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/mesh/account_red.webp', id: 'administrator', label: 'Administrator' });
     CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/mesh/account_yellow.webp', id: 'security', label: 'Security' });
     CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/mesh/account_green.webp', id: 'user', label: 'User' });
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/wifi_white.svg', id: 'online', label: 'Online' });
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/wifi_red.svg', id: 'offline', label: 'Offline' });
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/stealthed_white.svg', id: 'stealthed', label: 'Stealthed' });
+    CONFIG.statusEffects.push({ icon: 'modules/tablerules/icons/statuses/burner.svg', id: 'burner', label: 'Burner Mesh ID' });
 });
 
 console.log(`Tablerules has been loaded (${performance.now() - start_time}ms).`);
