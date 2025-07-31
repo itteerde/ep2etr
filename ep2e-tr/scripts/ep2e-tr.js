@@ -266,7 +266,7 @@ Hooks.on("ready", function () {
             game.settings.set("core", "globalInterfaceVolume", game.user.flags?.world?.globalInterfaceVolume ?? game.settings.get(MODULE_SCOPE, "globalInterfaceVolume"));
         }
 
-        ui.sidebar.tabs.playlists.render();
+        //ui.sidebar.tabs.playlists.render(); // workaround for v13. Did not test if the settings work with all sidebar states yet.
     }
 
     if (game.settings.get(MODULE_SCOPE, "modifyChatBubbles")) {
