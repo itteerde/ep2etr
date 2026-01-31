@@ -302,9 +302,12 @@ let damage = response.damage; // not multipliers for shaped charges (coneN)
 // knockdowns
 
 for (const t of tokens_controlled) {
-    let armor_items = t.actor.items.filter(i => i.system.state.equipped && (i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0));
-    let armor = { energy: 0, kinetic: 0 };
 
+    // filter the equipped armor items
+    let armor_items = t.actor.items.filter(i => i.system.state.equipped && (i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0));
+
+    // aggregate the armor values
+    let armor = { energy: 0, kinetic: 0 };
     if (t.actor.getFlag('ep2e', 'biological')) {
         await t.actor.setFlag(
             'ep2e',
@@ -315,7 +318,6 @@ for (const t of tokens_controlled) {
         armor.energy += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.energy');
         armor.kinetic += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.kinetic');
     }
-
     if (t.actor.getFlag('ep2e', 'synthetic')) {
         await t.actor.setFlag(
             'ep2e',
