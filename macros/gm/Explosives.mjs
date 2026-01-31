@@ -4,11 +4,6 @@
  * Points we would have to find by debugging are either the DUR/DR and Armor, or the function to assign damage.
  */
 
-// start the process
-// place MeasuredTemplate ? https://foundryvtt.com/api/classes/foundry.canvas.placeables.MeasuredTemplate.html
-// selection of affected Tokens (I tend to have the Macro tell the GM what to do, but have the GM select them, because otherwise we'd have to deal with cover and other exceptions)
-// configure blast range
-
 const MACRO_LABEL = 'Explosives AoE';
 
 /**
