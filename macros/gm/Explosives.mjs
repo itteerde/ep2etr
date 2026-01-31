@@ -13,9 +13,9 @@ const MACRO_LABEL = 'Explosives AoE';
 
 function distance(a, b, zA = 0) {
     return (
-        Math.abs(a.position.x - b.position.x) ** 2 +
-        Math.abs(a.position.y - b.position.y) ** 2 +
-        Math.abs((zA != 0 ? zA : a.document.elevation) - b.document.elevation) ** 2
+        (a.position.x - b.position.x) ** 2 +
+        (a.position.y - b.position.y) ** 2 +
+        ((zA != 0 ? zA : a.document.elevation) - b.document.elevation) ** 2
     ) ** 0.5;
 }
 
