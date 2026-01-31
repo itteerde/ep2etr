@@ -227,6 +227,10 @@ let dialogContent = `
             <label for="knockdown-checkbox">Resolve Knockdowns:</label>
             <input type="checkbox" name="knockdowns" id="knockdown-checkbox" checked/>
         </div>
+        <div>
+            <label for="pools-checkbox">Use Pools to Fray:</label>
+            <input type="checkbox" name="pools" id="pools-checkbox" checked/>
+        </div>
     </fieldset>
 `;
 
@@ -328,3 +332,4 @@ console.log(armor);
 
 // produce some nice ChatMessage summary
 ChatMessage.create({ content: chatMessageContent });
+// delete MeasuredTemplate. Should happen in all aborting cases if there are any after creating it, too
