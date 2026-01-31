@@ -295,11 +295,6 @@ template = (await template.drawPreview())[0];
 console.log({ template: template });
 
 let damage = response.damage; // not multipliers for shaped charges (coneN)
-// for affected Tokens roll Fray
-// for affected Tokens apply damage (what is the correct way to do that for the ep2e System?)
-
-// wounds
-// knockdowns
 
 for (const t of tokens_controlled) {
 
@@ -336,10 +331,15 @@ for (const t of tokens_controlled) {
 
     console.log(armor);
 
+    // Fray
+    // wounds
+    // knockdowns
+    // apply damage
+    // maybe add scrolling text for effect
+
 }
 
 
-// maybe add scrolling text for effect
 
 // do we do a preview Dialog?
 
