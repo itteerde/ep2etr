@@ -290,7 +290,7 @@ await template.drawPreview();
 
 
 
-let damage = response.damage;
+let damage = response.damage; // not multipliers for shaped charges (coneN)
 // for affected Tokens roll Fray
 // for affected Tokens apply damage (what is the correct way to do that for the ep2e System?)
 
