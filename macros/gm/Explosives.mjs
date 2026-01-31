@@ -181,18 +181,6 @@ class ExtendedTemplate extends foundry.canvas.placeables.MeasuredTemplate {
     }
 }
 
-const data = {
-    "t": "cone",
-    "distance": 35.913367984637695,
-    "direction": 66.36148710049312,
-    "angle": 53.13,
-    "borderColor": "#000000",
-    "hidden": false,
-    "flags": {}
-};
-const template = ExtendedTemplate.fromData(data);
-await template.drawPreview();
-
 if (canvas.tokens.controlled.length === 0) {
     ui.notifications.warn(`${MACRO_LABEL}: no Tokens selected, aborting.`);
     return;
@@ -219,8 +207,8 @@ let dialogContent = `
             <label for="shape-select">AoE Shape:</label>
             <select name="shape" id="shape-select">
                 <option value="circle">Circle</option>
-                <option value="shaped180">Shaped 180°</option>
-                <option value="shaped90">Shaped 90°</option>
+                <option value="cone180">Shaped 180°</option>
+                <option value="cone90">Shaped 90°</option>
             </select>
         </div>
         <div>
@@ -233,8 +221,6 @@ let dialogContent = `
         </div>
     </fieldset>
 `;
-
-createDraggableTemplate();
 
 // input required ignored, should validate input
 const response = await foundry.applications.api.DialogV2.wait({
@@ -266,9 +252,34 @@ if (!response.reduction || !Number.isInteger(response.reduction)) {
     return;
 }
 
+// save tokens as they will be deselected by dropping the ExtendedTemplate
+let tokens_controlled = canvas.tokens.controlled; // do we need anything token-wise, or can we go straight to actors?
+
+let measuredTemplateShape = '';
+let measuredTemplateAngle = 360;
+if (response.shape.startsWith('cone')) {
+    measuredTemplateShape = 'cone';
+    measuredTemplateAngle = response.shape.slice(4);
+} else {
+    measuredTemplateShape = 'circle'
+}
+
+const data = {
+    "t": measuredTemplateShape,
+    "distance": response.damage / response.reduction,
+    "direction": 66.36148710049312,
+    "angle": measuredTemplateAngle,
+    "borderColor": "#000000",
+    "hidden": false,
+    "flags": {}
+};
+const template = ExtendedTemplate.fromData(data);
+await template.drawPreview();
+
+
+
 let damage = response.damage;
 // for affected Tokens roll Fray
-let tokens_affected = canvas.tokens.controlled; // do we need anything token-wise, or can we go straight to actors?
 // for affected Tokens apply damage (what is the correct way to do that for the ep2e System?)
 
 // wounds
