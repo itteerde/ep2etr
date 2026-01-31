@@ -11,6 +11,14 @@
 
 const MACRO_LABEL = 'Explosives AoE';
 
+/**
+ * Compute distance between a and b.
+ * 
+ * @param {*} a "source" for this macro
+ * @param {*} b "affected" for this macro
+ * @param {*} zA elevation of "source". Note that MeasuredTemplate has an elevation.
+ * @returns the distance between a and b.
+ */
 function distance(a, b, zA = 0) {
     return (
         (a.position.x - b.position.x) ** 2 +
@@ -266,7 +274,7 @@ if (response.shape.startsWith('cone')) {
 
 const data = {
     "t": measuredTemplateShape,
-    "distance": response.damage / response.reduction,
+    "distance": Math.round(response.damage / response.reduction), // should probably be .ceil or .floor, but not sure which right now
     "direction": 66.36148710049312,
     "angle": measuredTemplateAngle,
     "borderColor": "#000000",
