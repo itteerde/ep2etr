@@ -231,6 +231,10 @@ let dialogContent = `
             <label for="pools-checkbox">Use Pools to Fray:</label>
             <input type="checkbox" name="pools" id="pools-checkbox" checked/>
         </div>
+        <div>
+            <label for="deleteTemplate-checkbox">Delete Template:</label>
+            <input type="checkbox" name="deleteTemplate" id="deleteTemplate-checkbox" checked/>
+        </div>
     </fieldset>
 `;
 
@@ -265,7 +269,7 @@ if (!response.reduction || !Number.isInteger(response.reduction)) {
 }
 
 // save tokens as they will be deselected by dropping the ExtendedTemplate
-let tokens_controlled = canvas.tokens.controlled; // do we need anything token-wise, or can we go straight to actors?
+let tokens_controlled = canvas.tokens.controlled; // do we need anything token-wise, or can we go straight to actors? Guess it is always better to have more stuff to work with. If readability suffers create an even more local variable to make the property paths shorter.
 
 let measuredTemplateShape = '';
 let measuredTemplateAngle = 360;
@@ -298,7 +302,7 @@ let damage = response.damage; // not multipliers for shaped charges (coneN)
 // knockdowns
 
 for (const t of tokens_controlled) {
-    let armor_items = t.actor.items.filter(i => i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0);
+    let armor_items = t.actor.items.filter(i => i.system.state.equipped && (i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0));
     let armor = { energy: 0, kinetic: 0 };
 
     if (t.actor.getFlag('ep2e', 'biological')) {
@@ -322,6 +326,7 @@ for (const t of tokens_controlled) {
         armor.kinetic += t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.kinetic');
     }
 
+    // go over all armor items the actor has (see filter above) and aggregate the armor values.
     armor_items.forEach(e => {
         armor.energy += e.system.armorValues.energy;
         armor.kinetic += e.system.armorValues.kinetic;
@@ -338,5 +343,8 @@ for (const t of tokens_controlled) {
 
 // produce some nice ChatMessage summary
 ChatMessage.create({ content: chatMessageContent });
+
 // delete MeasuredTemplate. Should happen in all aborting cases if there are any after creating it, too
-template.delete();
+if (response.deleteTemplate) {
+    template.delete();
+}
