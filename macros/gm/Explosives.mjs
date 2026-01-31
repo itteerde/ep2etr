@@ -19,11 +19,194 @@ function distance(a, b, zA = 0) {
     ) ** 0.5;
 }
 
+// https://foundryvtt.com/api/classes/foundry.canvas.placeables.MeasuredTemplate.html
+class ExtendedTemplate extends foundry.canvas.placeables.MeasuredTemplate {
+    /**
+     * Track the timestamp when the last mouse move event was captured.
+     * @type {number}
+     */
+    #moveTime = 0;
+
+    /* -------------------------------------------- */
+
+    /**
+     * The initially active CanvasLayer to re-activate after the workflow is complete.
+     * @type {CanvasLayer}
+     */
+    #initialLayer;
+
+    /* -------------------------------------------- */
+
+    /**
+     * Track the bound event handlers so they can be properly canceled later.
+     * @type {object}
+     */
+    #events;
+
+    /* -------------------------------------------- */
+
+    static fromData(data) {
+        // Prepare template data
+        const templateData = foundry.utils.mergeObject({
+            user: game.user.id,
+            direction: 0,
+            x: 0,
+            y: 0,
+            fillColor: game.user.color,
+        }, data);
+        // Return the template constructed from the item data
+        const cls = CONFIG.MeasuredTemplate.documentClass;
+        const template = new cls(templateData, { parent: canvas.scene });
+        const object = new this(template);
+        return object;
+    }
+
+    /* -------------------------------------------- */
+
+
+    drawPreview() {
+        const initialLayer = canvas.activeLayer;
+
+        // Draw the template and switch to the template layer
+        this.draw();
+        this.layer.activate();
+        this.layer.preview.addChild(this);
+
+        // Hide the sheet that originated the preview
+        this.actorSheet?.minimize();
+
+        // Activate interactivity
+        return this.activatePreviewListeners(initialLayer);
+    }
+
+    /* -------------------------------------------- */
+
+    /**
+     * Activate listeners for the template preview
+     * @param {CanvasLayer} initialLayer  The initially active CanvasLayer to re-activate after the workflow is complete
+     * @returns {Promise}                 A promise that resolves with the final measured template if created.
+     */
+    activatePreviewListeners(initialLayer) {
+        return new Promise((resolve, reject) => {
+            this.#initialLayer = initialLayer;
+            this.#events = {
+                cancel: this._onCancelPlacement.bind(this),
+                confirm: this._onConfirmPlacement.bind(this),
+                move: this._onMovePlacement.bind(this),
+                resolve,
+                reject,
+                rotate: this._onRotatePlacement.bind(this)
+            };
+
+            // Activate listeners
+            canvas.stage.on("mousemove", this.#events.move);
+            canvas.stage.on("mousedown", this.#events.confirm);
+            canvas.app.view.oncontextmenu = this.#events.cancel;
+            canvas.app.view.onwheel = this.#events.rotate;
+        });
+    }
+
+    /* -------------------------------------------- */
+
+    /**
+     * Shared code for when template placement ends by being confirmed or canceled.
+     * @param {Event} event  Triggering event that ended the placement.
+     */
+    async _finishPlacement(event) {
+        this.layer._onDragLeftCancel(event);
+        canvas.stage.off("mousemove", this.#events.move);
+        canvas.stage.off("mousedown", this.#events.confirm);
+        canvas.app.view.oncontextmenu = null;
+        canvas.app.view.onwheel = null;
+        this.#initialLayer.activate();
+    }
+
+    /* -------------------------------------------- */
+
+    /**
+     * Move the template preview when the mouse moves.
+     * @param {Event} event  Triggering mouse event.
+     */
+    _onMovePlacement(event) {
+        event.stopPropagation();
+        const now = Date.now(); // Apply a 20ms throttle
+        if (now - this.#moveTime <= 20) return;
+        const center = event.data.getLocalPosition(this.layer);
+        const interval = canvas.grid.type === CONST.GRID_TYPES.GRIDLESS ? 0 : 2;
+        const snapped = canvas.grid.getSnappedPosition(center.x, center.y, interval);
+        this.document.updateSource({ x: snapped.x, y: snapped.y });
+        this.refresh();
+        this.#moveTime = now;
+    }
+
+    /* -------------------------------------------- */
+
+    /**
+     * Rotate the template preview by 3˚ increments when the mouse wheel is rotated.
+     * @param {Event} event  Triggering mouse event.
+     */
+    _onRotatePlacement(event) {
+        if (event.ctrlKey) event.preventDefault(); // Avoid zooming the browser window
+        event.stopPropagation();
+        const delta = canvas.grid.type > CONST.GRID_TYPES.SQUARE ? 30 : 15;
+        const snap = event.shiftKey ? delta : 5;
+        const update = { direction: this.document.direction + (snap * Math.sign(event.deltaY)) };
+        this.document.updateSource(update);
+        this.refresh();
+    }
+
+    /* -------------------------------------------- */
+
+    /**
+     * Confirm placement when the left mouse button is clicked.
+     * @param {Event} event  Triggering mouse event.
+     */
+    async _onConfirmPlacement(event) {
+        await this._finishPlacement(event);
+        const interval = canvas.grid.type === CONST.GRID_TYPES.GRIDLESS ? 0 : 2;
+        const destination = canvas.grid.getSnappedPosition(this.document.x, this.document.y, interval);
+        this.document.updateSource(destination);
+        this.#events.resolve(canvas.scene.createEmbeddedDocuments("MeasuredTemplate", [this.document.toObject()]));
+    }
+
+    /* -------------------------------------------- */
+
+    /**
+     * Cancel placement when the right mouse button is clicked.
+     * @param {Event} event  Triggering mouse event.
+     */
+    async _onCancelPlacement(event) {
+        await this._finishPlacement(event);
+        this.#events.reject();
+    }
+}
+
+const data = {
+    "t": "cone",
+    "distance": 35.913367984637695,
+    "direction": 66.36148710049312,
+    "angle": 53.13,
+    "borderColor": "#000000",
+    "hidden": false,
+    "flags": {}
+};
+const template = ExtendedTemplate.fromData(data);
+await template.drawPreview();
+
+if (canvas.tokens.controlled.length === 0) {
+    ui.notifications.warn(`${MACRO_LABEL}: no Tokens selected, aborting.`);
+    return;
+}
+
 let dialogContent = `
     <fieldset>
         <div>
             <label for="damge-field">Damage:</label>
             <input type="number" name="damage" id="damage-field" min="1" placeholder="42" required autofocus/>
+        </div>
+        <div>
+            <label for="reduction-field">Reduction per Meter:</label>
+            <input type="number" name="reduction" id="reduction-field" min="2" step="1" value="2" required/>
         </div>
         <div>
             <label for="damagetype-select">Damage Type:</label>
@@ -51,6 +234,8 @@ let dialogContent = `
     </fieldset>
 `;
 
+createDraggableTemplate();
+
 // input required ignored, should validate input
 const response = await foundry.applications.api.DialogV2.wait({
     window: { title: "Explosives AoE" },
@@ -71,8 +256,13 @@ if (!response) {
 
 let chatMessageContent = ``;
 
-if (!response.damge) {
+if (!response.damage) {
     ui.notifications.error(`${MACRO_LABEL}: no number for damage provided. Damage number required.`, { permanent: true });
+    return;
+}
+
+if (!response.reduction || !Number.isInteger(response.reduction)) {
+    ui.notifications.error(`${MACRO_LABEL}: Reduction must be a natural number >= 2.`, { permanent: true });
     return;
 }
 
@@ -114,6 +304,8 @@ armor_items.forEach(e => {
 });
 
 console.log(armor);
+
+// do we do a preview Dialog?
 
 // produce some nice ChatMessage summary
 ChatMessage.create({ content: chatMessageContent });
