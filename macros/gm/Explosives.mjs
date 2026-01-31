@@ -285,10 +285,10 @@ const data = {
     "hidden": false,
     "flags": {}
 };
-const template = ExtendedTemplate.fromData(data);
-await template.drawPreview();
+let template = ExtendedTemplate.fromData(data);
+template = (await template.drawPreview())[0];
 
-
+console.log({ template: template });
 
 let damage = response.damage; // not multipliers for shaped charges (coneN)
 // for affected Tokens roll Fray
@@ -297,39 +297,46 @@ let damage = response.damage; // not multipliers for shaped charges (coneN)
 // wounds
 // knockdowns
 
-let armor_items = canvas.tokens.controlled[0].actor.items.filter(i => i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0);
-let armor = { energy: 0, kinetic: 0 };
+for (const t of tokens_controlled) {
+    let armor_items = t.actor.items.filter(i => i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0);
+    let armor = { energy: 0, kinetic: 0 };
 
-if (canvas.tokens.controlled[0].actor.getFlag('ep2e', 'biological')) {
-    await canvas.tokens.controlled[0].actor.setFlag(
-        'ep2e',
-        'biological.system.physicalHealth.damage',
-        canvas.tokens.controlled[0].actor.getFlag('ep2e', 'biological.system.physicalHealth.damage') + 10
-    );
+    if (t.actor.getFlag('ep2e', 'biological')) {
+        await t.actor.setFlag(
+            'ep2e',
+            'biological.system.physicalHealth.damage',
+            t.actor.getFlag('ep2e', 'biological.system.physicalHealth.damage') + 10
+        );
 
-    armor.energy += canvas.tokens.controlled[0].actor.getFlag('ep2e', 'biological.system.inherentArmor.energy');
-    armor.kinetic += canvas.tokens.controlled[0].actor.getFlag('ep2e', 'biological.system.inherentArmor.kinetic');
+        armor.energy += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.energy');
+        armor.kinetic += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.kinetic');
+    }
+
+    if (t.actor.getFlag('ep2e', 'synthetic')) {
+        await t.actor.setFlag(
+            'ep2e',
+            'synthetic.system.physicalHealth.damage',
+            t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.damage') + 10);
+
+        armor.energy += t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.energy');
+        armor.kinetic += t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.kinetic');
+    }
+
+    armor_items.forEach(e => {
+        armor.energy += e.system.armorValues.energy;
+        armor.kinetic += e.system.armorValues.kinetic;
+    });
+
+    console.log(armor);
+
 }
 
-if (canvas.tokens.controlled[0].actor.getFlag('ep2e', 'synthetic')) {
-    await canvas.tokens.controlled[0].actor.setFlag(
-        'ep2e',
-        'synthetic.system.physicalHealth.damage',
-        canvas.tokens.controlled[0].actor.getFlag('ep2e', 'synthetic.system.physicalHealth.damage') + 10);
 
-    armor.energy += canvas.tokens.controlled[0].actor.getFlag('ep2e', 'synthetic.system.inherentArmor.energy');
-    armor.kinetic += canvas.tokens.controlled[0].actor.getFlag('ep2e', 'synthetic.system.inherentArmor.kinetic');
-}
-
-armor_items.forEach(e => {
-    armor.energy += e.system.armorValues.energy;
-    armor.kinetic += e.system.armorValues.kinetic;
-});
-
-console.log(armor);
+// maybe add scrolling text for effect
 
 // do we do a preview Dialog?
 
 // produce some nice ChatMessage summary
 ChatMessage.create({ content: chatMessageContent });
 // delete MeasuredTemplate. Should happen in all aborting cases if there are any after creating it, too
+template.delete();
