@@ -296,9 +296,17 @@ for (const t of tokens_controlled) {
     // filter the equipped armor items
     let armor_items = t.actor.items.filter(i => i.system.state.equipped && (i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0));
 
+    let wt = 0;
+
     // aggregate the armor values
     let armor = { energy: 0, kinetic: 0 };
     if (t.actor.getFlag('ep2e', 'biological')) {
+
+        wt = Math.round(t.actor.getFlag(
+            'ep2e',
+            'biological.system.physicalHealth.baseDurability'
+        ) / 5);
+
         await t.actor.setFlag(
             'ep2e',
             'biological.system.physicalHealth.damage',
@@ -309,6 +317,12 @@ for (const t of tokens_controlled) {
         armor.kinetic += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.kinetic');
     }
     if (t.actor.getFlag('ep2e', 'synthetic')) {
+
+        wt = Math.round(t.actor.getFlag(
+            'ep2e',
+            'synthetic.system.physicalHealth.baseDurability'
+        ) / 5);
+
         await t.actor.setFlag(
             'ep2e',
             'synthetic.system.physicalHealth.damage',
@@ -324,7 +338,21 @@ for (const t of tokens_controlled) {
         armor.kinetic += e.system.armorValues.kinetic;
     });
 
-    console.log(armor);
+    //go over all equipped items modifying wt
+    t.actor.items.filter(
+        i => i.system.state.equipped && i.system?.passiveEffects?.find(pe => pe.stat === 'woundThreshold')
+    ).forEach(i => {
+        i.system.passiveEffects.filter(
+            e => e.stat === 'woundThreshold'
+        ).forEach(pe => {
+            wt += pe.modifier;
+        })
+    });
+
+    console.log({
+        wt: wt,
+        armor: armor
+    });
 
     // Fray
     // wounds
