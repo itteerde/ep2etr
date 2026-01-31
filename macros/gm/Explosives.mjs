@@ -9,6 +9,8 @@
 // selection of affected Tokens (I tend to have the Macro tell the GM what to do, but have the GM select them, because otherwise we'd have to deal with cover and other exceptions)
 // configure blast range
 
+const MACRO_LABEL = 'Explosives AoE';
+
 function distance(a, b, zA = 0) {
     return (
         Math.abs(a.position.x - b.position.x) ** 2 +
@@ -18,10 +20,10 @@ function distance(a, b, zA = 0) {
 }
 
 let dialogContent = `
-    <div>
+    <fieldset>
         <div>
             <label for="damge-field">Damage:</label>
-            <input type="text" name="damage" id="damage-field" placeholder="42" autofocus/>
+            <input type="number" name="damage" id="damage-field" min="1" placeholder="42" required autofocus/>
         </div>
         <div>
             <label for="damagetype-select">Damage Type:</label>
@@ -33,7 +35,7 @@ let dialogContent = `
         <div>
             <label for="shape-select">AoE Shape:</label>
             <select name="shape" id="shape-select">
-                <option value="circular">Cicle</option>
+                <option value="circle">Circle</option>
                 <option value="shaped180">Shaped 180°</option>
                 <option value="shaped90">Shaped 90°</option>
             </select>
@@ -42,9 +44,14 @@ let dialogContent = `
             <label for="elevation-field">Elevation:</label>
             <input type="text" name="elevation" id="elevation-field" size="10" value="0"/>
         </div>
-    </div>
+        <div>
+            <label for="knockdown-checkbox">Resolve Knockdowns:</label>
+            <input type="checkbox" name="knockdowns" id="knockdown-checkbox" checked/>
+        </div>
+    </fieldset>
 `;
 
+// input required ignored, should validate input
 const response = await foundry.applications.api.DialogV2.wait({
     window: { title: "Explosives AoE" },
     content: dialogContent,
@@ -57,13 +64,25 @@ const response = await foundry.applications.api.DialogV2.wait({
 });
 console.log({ response: response });
 
+if (!response) {
+    ui.notifications.info(`${MACRO_LABEL}: aborted, no updates to Tokens performed`);
+    return;
+}
 
+let chatMessageContent = ``;
 
-// roll damage
-let damage = 0;
+if (!response.damge) {
+    ui.notifications.error(`${MACRO_LABEL}: no number for damage provided. Damage number required.`, { permanent: true });
+    return;
+}
+
+let damage = response.damage;
 // for affected Tokens roll Fray
 let tokens_affected = canvas.tokens.controlled; // do we need anything token-wise, or can we go straight to actors?
 // for affected Tokens apply damage (what is the correct way to do that for the ep2e System?)
+
+// wounds
+// knockdowns
 
 let armor_items = canvas.tokens.controlled[0].actor.items.filter(i => i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0);
 let armor = { energy: 0, kinetic: 0 };
@@ -97,3 +116,4 @@ armor_items.forEach(e => {
 console.log(armor);
 
 // produce some nice ChatMessage summary
+ChatMessage.create({ content: chatMessageContent });
