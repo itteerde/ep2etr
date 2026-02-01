@@ -24,6 +24,26 @@ class LibItteerdeEp2e {
         }
         return false;
     }
+
+    /**
+     * Classifies the roll as success or failure.
+     * 
+     * @param {*} initiating_roll 
+     * @param {*} initiating_target 
+     * @param {*} affected_roll 
+     * @param {*} affected_target 
+     */
+    static classifyOpposed(initiating_roll, initiating_target, affected_roll, affected_target) {
+    }
+
+    /**
+     * Classifies the roll as success or failure.
+     * 
+     * @param {*} roll 
+     * @param {*} target 
+     */
+    static classifyUnOpposed(roll, target) {
+    }
 }
 
 /**
