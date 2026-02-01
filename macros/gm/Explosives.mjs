@@ -1,9 +1,3 @@
-/**
- * Change of strategy: Don't work with the System's obejects, but with what it expresses (for syncromization and persistence) in Core. It has to be a mixture of stuff from Actor (to be gotten as usual via canvase.tokens.controlled [.actor for each] or game.actors) and the System's Flags (actor.getFlag('ep2e', <theFlag>)). Modifications are to be written back accordingly, setFlag for the damage and wounds, likely everything needed for this Macro.
- * 
- * Note that getFlag is synchronous, but setFlag is async and needs to be waited for at least for some places (where the new value might be used later).
- */
-
 const MACRO_LABEL = 'Explosives AoE';
 
 class LibItteerdeEp2e {
@@ -462,10 +456,11 @@ for (const t of tokens_controlled) {
     // apply damage
 
     let damage_effective = damage;
+
     if (response.damagetype === 'energy') {
-        damage_effective -= armor.energy;
+        damage_effective -= (response.armorpiercing ? Math.round(armor.energy / 2) : armor.energy);
     } else {
-        damage_effective -= armor.kinetic;
+        damage_effective -= (response.armorpiercing ? Math.round(armor.kinetic / 2) : armor.kinetic);
     }
     if (damage_effective < 0) {
         damage_effective = 0;
