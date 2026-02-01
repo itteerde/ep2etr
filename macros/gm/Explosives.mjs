@@ -6,6 +6,26 @@
 
 const MACRO_LABEL = 'Explosives AoE';
 
+class LibItteerdeEp2e {
+
+    /**
+     * 
+     * @param {*} min minimum possible
+     * @param {*} max maximum possible
+     * @returns a random integer from min to max both inclusive using Math.random()
+     */
+    static randomInteger(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    static isCritical(roll) {
+        if (roll % 10 == Math.floor(roll / 10)) {
+            return true;
+        }
+        return false;
+    }
+}
+
 /**
  * Compute distance between a and b.
  * 
@@ -200,6 +220,10 @@ let dialogContent = `
             <input type="number" name="reduction" id="reduction-field" min="2" step="1" value="2" required/>
         </div>
         <div>
+            <label for="fray-field">Fray Target (not halved):</label>
+            <input type="number" name="fray" id="fray-field" min="0" step="1" placeholder="69" required/>
+        </div>
+        <div>
             <label for="damagetype-select">Damage Type:</label>
             <select name="damagetype" id="damagetype-select">
                 <option value="energy">Energy</option>
@@ -291,6 +315,7 @@ template = (await template.drawPreview())[0];
 console.log({ template: template });
 
 let damage = response.damage; // not multipliers for shaped charges (coneN)
+let fray_target = response.fray;
 
 for (const t of tokens_controlled) {
 
@@ -384,6 +409,8 @@ for (const t of tokens_controlled) {
     });
 
     // Fray
+    let fray_roll = LibItteerdeEp2e.randomInteger(0, 99);
+
     // wounds
     // knockdowns
     // apply damage
