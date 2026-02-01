@@ -322,12 +322,6 @@ for (const t of tokens_controlled) {
             'biological.system.physicalHealth.baseDurability'
         ) / 5);
 
-        await t.actor.setFlag(
-            'ep2e',
-            'biological.system.physicalHealth.damage',
-            t.actor.getFlag('ep2e', 'biological.system.physicalHealth.damage') + 10
-        );
-
         if (t.actor.getFlag('ep2e', 'biological.system.inherentArmor.energy')) {
             armor.energy += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.energy');
         }
@@ -396,10 +390,21 @@ for (const t of tokens_controlled) {
 
     let damage_effective = damage;
 
-    await t.actor.setFlag(
-        'ep2e',
-        'synthetic.system.physicalHealth.damage',
-        t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.damage') + damage_effective);
+    if (t.actor.getFlag('ep2e', 'biological')) {
+        await t.actor.setFlag(
+            'ep2e',
+            'biological.system.physicalHealth.damage',
+            t.actor.getFlag('ep2e', 'biological.system.physicalHealth.damage') + damage_effective
+        );
+    }
+
+    if (t.actor.getFlag('ep2e', 'synthetic')) {
+
+        await t.actor.setFlag(
+            'ep2e',
+            'synthetic.system.physicalHealth.damage',
+            t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.damage') + damage_effective);
+    }
 
     log_data.push({
         actor: t.actor,
