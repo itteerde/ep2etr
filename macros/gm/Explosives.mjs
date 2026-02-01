@@ -1,7 +1,7 @@
 /**
- * Resolve the use of area of effect explosives with macro assisted. Note that the ep2e System is obfuscated and minimized, therefore completely unreadable. One could try to find important points with debugging, but everything would have to be trials and guesses. The code is not readable and there is no documentation.
+ * Change of strategy: Don't work with the System's obejects, but with what it expresses (for syncromization and persistence) in Core. It has to be a mixture of stuff from Actor (to be gotten as usual via canvase.tokens.controlled [.actor for each] or game.actors) and the System's Flags (actor.getFlag('ep2e', <theFlag>)). Modifications are to be written back accordingly, setFlag for the damage and wounds, likely everything needed for this Macro.
  * 
- * Points we would have to find by debugging are either the DUR/DR and Armor, or the function to assign damage.
+ * Note that getFlag is synchronous, but setFlag is async and needs to be waited for at least for some places (where the new value might be used later).
  */
 
 const MACRO_LABEL = 'Explosives AoE';
