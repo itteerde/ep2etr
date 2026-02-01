@@ -361,11 +361,10 @@ let fray_target = response.fray;
 
 for (const t of tokens_controlled) {
 
-    // filter the equipped armor items
-    let armor_items = t.actor.items.filter(i => i.system.state?.equipped && (i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0));
-
     let wounds = { value: 0, effective: 0 };
     let wt = 0;
+    let dur_base = 0;
+    let dur_effective = dur_base;
     let fray = t.actor.system.aptitudes.ref * 2 + t.actor.system.skills.fray.points; // Are we looking for specializations? If so we need a list.
 
     // aggregate the armor values
@@ -384,10 +383,12 @@ for (const t of tokens_controlled) {
             }
         }
 
-        wt = Math.round(t.actor.getFlag(
+        dur_base = Math.round(t.actor.getFlag(
             'ep2e',
             'biological.system.physicalHealth.baseDurability'
-        ) / 5);
+        ));
+
+        wt = dur_base / 5;
 
         if (t.actor.getFlag('ep2e', 'biological.system.inherentArmor.energy')) {
             armor.energy += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.energy');
@@ -410,10 +411,12 @@ for (const t of tokens_controlled) {
             }
         }
 
-        wt = Math.round(t.actor.getFlag(
+        dur_base = Math.round(t.actor.getFlag(
             'ep2e',
             'synthetic.system.physicalHealth.baseDurability'
-        ) / 5);
+        ));
+
+        wt = dur_base / 5;
 
         if (t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.energy')) {
             armor.energy += t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.energy');
@@ -423,11 +426,14 @@ for (const t of tokens_controlled) {
         }
     }
 
-    // go over all armor items the actor has (see filter above) and aggregate the armor values.
+    // go over all armor items the actor has and aggregate the armor values.
+    let armor_items = t.actor.items.filter(i => i.system.state?.equipped && (i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0));
     armor_items.forEach(e => {
         armor.energy += e.system.armorValues.energy;
         armor.kinetic += e.system.armorValues.kinetic;
     });
+
+    //let dur_items = t.actor.items.filter(i => i.system.state?.equipped && ())
 
     //go over all equipped items modifying wt
     t.actor.items.filter(
