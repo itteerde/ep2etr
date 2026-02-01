@@ -296,12 +296,25 @@ for (const t of tokens_controlled) {
     // filter the equipped armor items
     let armor_items = t.actor.items.filter(i => i.system.state.equipped && (i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0));
 
+    let wounds = { value: 0, effective: 0 };
     let wt = 0;
     let fray = t.actor.system.aptitudes.ref * 2 + t.actor.system.skills.fray.points; // Are we looking for specializations? If so we need a list.
 
     // aggregate the armor values
     let armor = { energy: 0, kinetic: 0 };
     if (t.actor.getFlag('ep2e', 'biological')) {
+
+        wounds.value = t.actor.getFlag(
+            'ep2e',
+            'biological.system.physicalHealth.wounds'
+        );
+
+        wounds.effective = wounds.value;
+        if (t.actor.getFlag('ep2e', 'biological.system.painFilter')) {
+            if (wounds.value >= 1) {
+                wounds.effective = wounds.value - 1;
+            }
+        }
 
         wt = Math.round(t.actor.getFlag(
             'ep2e',
@@ -314,10 +327,26 @@ for (const t of tokens_controlled) {
             t.actor.getFlag('ep2e', 'biological.system.physicalHealth.damage') + 10
         );
 
-        armor.energy += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.energy');
-        armor.kinetic += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.kinetic');
+        if (t.actor.getFlag('ep2e', 'biological.system.inherentArmor.energy')) {
+            armor.energy += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.energy');
+        }
+        if (t.actor.getFlag('ep2e', 'biological.system.inherentArmor.kinetic')) {
+            armor.kinetic += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.kinetic');
+        }
     }
     if (t.actor.getFlag('ep2e', 'synthetic')) {
+
+        wounds.value = t.actor.getFlag(
+            'ep2e',
+            'synthetic.system.physicalHealth.wounds'
+        );
+
+        wounds.effective = wounds.value;
+        if (t.actor.getFlag('ep2e', 'synthetic.system.painFilter')) {
+            if (wounds.value >= 1) {
+                wounds.effective = wounds.value - 1;
+            }
+        }
 
         wt = Math.round(t.actor.getFlag(
             'ep2e',
@@ -329,8 +358,12 @@ for (const t of tokens_controlled) {
             'synthetic.system.physicalHealth.damage',
             t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.damage') + 10);
 
-        armor.energy += t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.energy');
-        armor.kinetic += t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.kinetic');
+        if (t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.energy')) {
+            armor.energy += t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.energy');
+        }
+        if (t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.kinetic')) {
+            armor.kinetic += t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.kinetic');
+        }
     }
 
     // go over all armor items the actor has (see filter above) and aggregate the armor values.
@@ -353,6 +386,7 @@ for (const t of tokens_controlled) {
     // Fray: Are there no Items modifying Fray?
 
     console.log({
+        wounds: wounds,
         fray: fray,
         wt: wt,
         armor: armor
