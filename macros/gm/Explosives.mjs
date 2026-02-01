@@ -517,7 +517,7 @@ log_data.forEach(e => {
                 <td>?</td>
                 <td>
                     <span style="font-weight: bold; color: #ee0000;">${e.damage_taken}</span>
-                    ( <span style="color: #aa0000;">${e.damage_dealt}</span> )
+                    ( <span style="color: #640000;">${e.damage_dealt}</span> )
                 </td>
             </tr>
     `;
