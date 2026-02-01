@@ -249,7 +249,7 @@ let dialogContent = `
         </div>
         <div>
             <label for="fray-field">Fray Target (not halved):</label>
-            <input type="number" name="fray" id="fray-field" min="0" step="1" placeholder="69" required/>
+            <input type="number" name="fray" id="fray-field" min="0" step="1" placeholder="-1" required/>
         </div>
         <div>
             <label for="damagetype-select">Damage Type:</label>
@@ -259,13 +259,27 @@ let dialogContent = `
             </select>
         </div>
         <div>
+            <label for="armorpiercing-checkbox">Armor Piercing:</label>
+            <input type="checkbox" name="armorpiercing" id="armorpiercing-checkbox"/>
+        </div>
+        <div>
             <label for="shape-select">AoE Shape:</label>
             <select name="shape" id="shape-select">
                 <option value="circle">Circle</option>
-                <option value="cone180">Shaped 180°</option>
-                <option value="cone90">Shaped 90°</option>
+                <option value="cone">Shaped</option>
             </select>
         </div>
+        <div>
+            <label for="angle-field">Angle:</label>
+            <input type="number" name="angle" id="angle-field" min="1" max="180" step="1" placeholder="-1"/>
+        </div>
+        <div>
+            <label for="blast-select">Blast Type:</label>
+            <select name="blasttype" id="blast-select">
+                <option value="centered">Centered</option>
+                <option value="uniform">Uniform</option>
+            </select>
+        </div> 
         <div>
             <label for="elevation-field">Elevation:</label>
             <input type="text" name="elevation" id="elevation-field" size="10" value="0"/>
@@ -348,7 +362,7 @@ let fray_target = response.fray;
 for (const t of tokens_controlled) {
 
     // filter the equipped armor items
-    let armor_items = t.actor.items.filter(i => i.system.state.equipped && (i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0));
+    let armor_items = t.actor.items.filter(i => i.system.state?.equipped && (i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0));
 
     let wounds = { value: 0, effective: 0 };
     let wt = 0;
@@ -417,7 +431,7 @@ for (const t of tokens_controlled) {
 
     //go over all equipped items modifying wt
     t.actor.items.filter(
-        i => i.system.state.equipped && i.system?.passiveEffects?.find(pe => pe.stat === 'woundThreshold')
+        i => i.system.state?.equipped && i.system?.passiveEffects?.find(pe => pe.stat === 'woundThreshold')
     ).forEach(i => {
         i.system.passiveEffects.filter(
             e => e.stat === 'woundThreshold'
