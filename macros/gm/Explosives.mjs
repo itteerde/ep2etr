@@ -328,7 +328,7 @@ for (const t of tokens_controlled) {
 
     // aggregate the armor values
     let armor = { energy: 0, kinetic: 0 };
-    if (t.actor.getFlag('ep2e', 'biological')) {
+    if (t.actor.getFlag('ep2e', 'biological.type') === 'biological') {
 
         wounds.value = t.actor.getFlag(
             'ep2e',
@@ -354,7 +354,7 @@ for (const t of tokens_controlled) {
             armor.kinetic += t.actor.getFlag('ep2e', 'biological.system.inherentArmor.kinetic');
         }
     }
-    if (t.actor.getFlag('ep2e', 'synthetic')) {
+    if (t.actor.getFlag('ep2e', 'synthetic.type') === 'synthetic') {
 
         wounds.value = t.actor.getFlag(
             'ep2e',
@@ -411,11 +411,17 @@ for (const t of tokens_controlled) {
     // Fray
     let fray_roll = LibItteerdeEp2e.randomInteger(0, 99);
 
-    // wounds
-    // knockdowns
     // apply damage
 
     let damage_effective = damage;
+    if (response.damagetype === 'energy') {
+        damage_effective -= armor.energy;
+    } else {
+        damage_effective -= armor.kinetic;
+    }
+    if (damage_effective < 0) {
+        damage_effective = 0;
+    }
 
     if (t.actor.getFlag('ep2e', 'biological')) {
         await t.actor.setFlag(
@@ -432,6 +438,26 @@ for (const t of tokens_controlled) {
             'synthetic.system.physicalHealth.damage',
             t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.damage') + damage_effective);
     }
+
+    // wounds
+    if (damage_effective >= wt) {
+        if (t.actor.getFlag('ep2e', 'biological.type') === 'biological') {
+            await t.actor.setFlag(
+                'ep2e',
+                'biological.system.physicalHealth.wounds',
+                t.actor.getFlag('ep2e', 'biological.system.physicalHealth.wounds') + Math.floor(damage_effective / wt)
+            );
+        }
+        if (t.actor.getFlag('ep2e', 'synthetic.type') === 'synthetic') {
+            await t.actor.setFlag(
+                'ep2e',
+                'synthetic.system.physicalHealth.wounds',
+                t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.wounds') + Math.floor(damage_effective / wt)
+            );
+        }
+    }
+
+    // knockdowns
 
     log_data.push({
         actor: t.actor,
