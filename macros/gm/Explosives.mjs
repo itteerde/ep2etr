@@ -297,6 +297,7 @@ for (const t of tokens_controlled) {
     let armor_items = t.actor.items.filter(i => i.system.state.equipped && (i.system.armorValues?.energy > 0 || i.system.armorValues?.kinetic > 0));
 
     let wt = 0;
+    let fray = t.actor.system.aptitudes.ref * 2 + t.actor.system.skills.fray.points; // Are we looking for specializations? If so we need a list.
 
     // aggregate the armor values
     let armor = { energy: 0, kinetic: 0 };
@@ -349,9 +350,13 @@ for (const t of tokens_controlled) {
         })
     });
 
+    // Fray: Are there no Items modifying Fray?
+
     console.log({
+        fray: fray,
         wt: wt,
         armor: armor
+
     });
 
     // Fray
