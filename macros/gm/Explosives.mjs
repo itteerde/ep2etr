@@ -252,6 +252,7 @@ if (!response) {
 }
 
 let chatMessageContent = ``;
+let log_data = {}; // add the modifications in order to report to console or ChatMessage
 
 if (!response.damage) {
     ui.notifications.error(`${MACRO_LABEL}: no number for damage provided. Damage number required.`, { permanent: true });
@@ -353,11 +354,6 @@ for (const t of tokens_controlled) {
             'synthetic.system.physicalHealth.baseDurability'
         ) / 5);
 
-        await t.actor.setFlag(
-            'ep2e',
-            'synthetic.system.physicalHealth.damage',
-            t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.damage') + 10);
-
         if (t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.energy')) {
             armor.energy += t.actor.getFlag('ep2e', 'synthetic.system.inherentArmor.energy');
         }
@@ -397,7 +393,17 @@ for (const t of tokens_controlled) {
     // wounds
     // knockdowns
     // apply damage
+
+    let damage_effective = damage;
+
+    await t.actor.setFlag(
+        'ep2e',
+        'synthetic.system.physicalHealth.damage',
+        t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.damage') + damage_effective);
+
+
     // maybe add scrolling text for effect
+    canvas.interface.createScrollingText(t.position, `${damage_effective}`, { fill: '0xcc0000' });
 
 }
 
