@@ -459,7 +459,12 @@ chatMessageContent += `
 log_data.forEach(e => {
     chatMessageContent += `
             <tr>
-                <td>${e.actor.name}</td><td>?</td><td>${e.damage_taken}(${e.damage_dealt})</td>
+                <td>${e.actor.name}</td>
+                <td>?</td>
+                <td>
+                    <span style="font-weight: bold; color: #ee0000;">${e.damage_taken}</span> (
+                    <span style="color: #aa0000;">${e.damage_dealt}</span>)
+                </td>
             </tr>
     `;
 });
