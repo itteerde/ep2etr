@@ -252,7 +252,7 @@ if (!response) {
 }
 
 let chatMessageContent = ``;
-let log_data = {}; // add the modifications in order to report to console or ChatMessage
+let log_data = []; // add the modifications in order to report to console or ChatMessage
 
 if (!response.damage) {
     ui.notifications.error(`${MACRO_LABEL}: no number for damage provided. Damage number required.`, { permanent: true });
@@ -401,6 +401,11 @@ for (const t of tokens_controlled) {
         'synthetic.system.physicalHealth.damage',
         t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.damage') + damage_effective);
 
+    log_data.push({
+        actor: t.actor,
+        damage_dealt: damage,
+        damage_taken: damage_effective
+    });
 
     // maybe add scrolling text for effect
     canvas.interface.createScrollingText(t.position, `${damage_effective}`, { fill: '0xcc0000' });
@@ -412,6 +417,24 @@ for (const t of tokens_controlled) {
 // do we do a preview Dialog?
 
 // produce some nice ChatMessage summary
+chatMessageContent += `
+    <div style="font-size: 12px;">
+        <table>
+            <tr>
+                <th>Actor</th><th>Distance</th><th>Damage</th>
+            </tr>
+`;
+log_data.forEach(e => {
+    chatMessageContent += `
+            <tr>
+                <td>${e.actor.name}</td><td>?</td><td>${e.damage_taken}(${e.damage_dealt})</td>
+            </tr>
+    `;
+});
+chatMessageContent += `
+        </table>
+    </div>
+`;
 ChatMessage.create({ content: chatMessageContent });
 
 // delete MeasuredTemplate. Should happen in all aborting cases if there are any after creating it, too
