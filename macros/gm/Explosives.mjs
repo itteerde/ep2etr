@@ -89,10 +89,14 @@ class LibEp2e {
      * 
      * @param {*} source the MeasuredTemplate created to specify position and in case of cone direction.
      * @param {*} target the token affected
-     * @returns keywords or maybe just the multiplier?
+     * @returns The multiplier to be applied for shaped charges damage. 1 for unshaped (circle) blasts.
      */
-    static classifyPosition(source, target) {
-        return 'infront' || 'behind' // or return the multiplier?
+    static blastPositionalMultiplier(source, target) {
+        if (source.t === 'circle') {
+            return 1;
+        }
+
+        return 3;
     }
 
 }
