@@ -339,8 +339,8 @@ let dialogContent = `
             <input type="number" name="reduction" id="reduction-field" min="2" step="1" value="2" required/>
         </div>
         <div>
-            <label for="attack-field">Their Attack, 0 for placed:</label>
-            <input type="number" name="attack" id="attack-field" min="0" step="1" value="0" required/>
+            <label for="attack-field">Their Attack, -1 for placed:</label>
+            <input type="number" name="attack" id="attack-field" min="-1" step="1" value="-1" required/>
         </div>
         <div>
             <label for="critical-checkbox">Critical:</label>
@@ -468,7 +468,7 @@ for (const t of tokens_controlled) {
         isOnBlastEdge: (blastDistance - distance <= 1.5)
     };
     // do we need critical on the UI? It is included in the Attack.
-    if (LibEp2e.classifyOpposed(fray_data.roll, Math.round(fray_data.skill / 2), 1, fray_data.attack) === 1) {
+    if (LibEp2e.classifyOpposed(fray_data.roll, Math.round(fray_data.skill / 2), fray_data.attack === -1 ? 1 : fray_data.attack, fray_data.attack) === 1) {
         fray_data.success = true;
     } else {
         fray_data.success = false;
