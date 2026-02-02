@@ -443,7 +443,7 @@ const measuredTemplateData = {
     "hidden": false,
     "flags": {}
 };
-let template = ExtendedTemplate.fromData(measuredTemplateData);
+let template = ExtendedTemplate.fromData(measuredTemplateData); // could put down a 2nd MeasuredTemplate for the Uniform Radius if not 0.
 template = (await template.drawPreview())[0];
 
 console.log({ template: template });
@@ -626,7 +626,7 @@ for (const t of tokens_controlled) {
         damage_taken: damage_effective,
         wounds_taken: wounds_taken,
         blastPositionalMultiplier: blastPositionalMultiplier,
-        fray: fray_data
+        fray_data: fray_data
     });
 
     console.log({
@@ -636,7 +636,7 @@ for (const t of tokens_controlled) {
         wounds: wounds,
         damage_dealt: damage,
         damage_taken: damage_effective,
-        fray: fray_data,
+        fray_data: fray_data,
         wt: wt,
         armor: armor,
         wounds_taken: wounds_taken,
@@ -665,7 +665,7 @@ chatMessageContent += `
     <div style="font-size: 12px;">
         <table style="margin: 0; padding: 0;">
             <tr>
-                <th style="text-align: start;">Actor</th><th>D.</th><th>Damage</th><th>W.</th>
+                <th style="text-align: start;">Actor</th><th title="Distance">D</th><th title="Fray">F</th><th title="Damage">D</th><th title="Wounds">W</th>
             </tr>
 `;
 log_data.forEach(e => {
@@ -677,13 +677,13 @@ log_data.forEach(e => {
 
     chatMessageContent += `
             <tr>
-                <td>${nameString}</td>
-                <td style="text-align: center;">${e.distance}</td>
-                <td style="text-align: center;">
-                    <span style="font-weight: bold; ${e.damage_taken > 0 ? 'color: #ee0000;' : 'color: #009900;'}">${e.damage_taken}</span>
-                    ( <span style="color: #999999;">${e.damage_dealt}</span> )
+                <td style="margin: 0; padding: 0;">${nameString}</td>
+                <td style="text-align: center; margin: 0; padding: 0;">${e.distance}</td>
+                <td style="text-align: center; margin: 0; padding: 0; font-weight: bold; ${e.fray_data.success ? 'color: #009900;' : 'color: #ee0000;'}">${e.fray_data.success ? '+' : '-'}</td>
+                <td style="text-align: center; margin: 0; padding: 0;">
+                    <span style="font-weight: bold;  margin: 0; padding: 0; ${e.damage_taken > 0 ? 'color: #ee0000;' : 'color: #009900;'}">${e.damage_taken}</span>
                 </td>
-                <td style="font-weight: bold; text-align: center;${e.wounds_taken > 0 ? 'color: #ee0000;' : 'color: #009900;'}">${e.wounds_taken}</td>
+                <td style="font-weight: bold; text-align: center; margin: 0; padding: 0; ${e.wounds_taken > 0 ? 'color: #ee0000;' : 'color: #009900;'}">${e.wounds_taken}</td>
             </tr>
     `;
 });
