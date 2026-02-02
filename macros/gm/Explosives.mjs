@@ -468,7 +468,16 @@ for (const t of tokens_controlled) {
         isOnBlastEdge: (blastDistance - distance <= 1.5)
     };
     // do we need critical on the UI? It is included in the Attack.
-    if (LibEp2e.classifyOpposed(fray_data.roll, Math.round(fray_data.skill / 2), fray_data.attack === -1 ? 1 : fray_data.attack, fray_data.attack) === 1) {
+    // determine what to do with pools if they are selected. Can pools be used to get rid of the halfing of the Fray Target, ignoring modifiers?
+    if (response.pools) {
+        // TODO: implement how to use pools if selected.
+    }
+    if (LibEp2e.classifyOpposed(
+        fray_data.roll, // ourRoll
+        Math.round((fray_data.skill - wounds.effective * 10) / 2), // ourSkill
+        fray_data.attack === -1 ? 1 : fray_data.attack, // their Roll
+        fray_data.attack // theirSkill
+    ) === 1) {
         fray_data.success = true;
     } else {
         fray_data.success = false;
