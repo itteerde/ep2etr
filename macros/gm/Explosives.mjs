@@ -288,6 +288,10 @@ let dialogContent = `
             </select>
         </div> 
         <div>
+            <label for="uniformradius-field">Uniform Radius:</label>
+            <input type="number" name="uniformradius" id="uniformradius-field" size="10" value="0"/>
+        </div>
+        <div>
             <label for="elevation-field">Elevation:</label>
             <input type="number" name="elevation" id="elevation-field" size="10" value="0"/>
         </div>
