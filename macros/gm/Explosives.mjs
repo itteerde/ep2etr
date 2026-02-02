@@ -51,14 +51,13 @@ class LibItteerdeEp2e {
      * 
      * @param {*} a "source" for this macro
      * @param {*} b "affected" for this macro
-     * @param {*} zA elevation of "source". Note that MeasuredTemplate has an elevation.
      * @returns the distance between a and b.
      */
-    static distance(a, b, zA = 0) {
+    static distance(a = { x: 0, y: 0, z: 0 }, b = { x: 0, y: 0, z: 0 }) {
         return (
-            (a.position.x - b.position.x) ** 2 +
-            (a.position.y - b.position.y) ** 2 +
-            ((zA != 0 ? zA : a.document.elevation) - b.document.elevation) ** 2
+            (a.x - b.x) ** 2 +
+            (a.y - b.y) ** 2 +
+            (a.z - b.z) ** 2
         ) ** 0.5;
     }
 }
@@ -450,6 +449,9 @@ for (const t of tokens_controlled) {
 
     });
 
+    // distance is needed for Fray and Damage.
+    let distance = LibItteerdeEp2e.distance(template, t);
+
     // Fray
     let fray_roll = LibItteerdeEp2e.randomInteger(0, 99);
 
@@ -504,6 +506,7 @@ for (const t of tokens_controlled) {
 
     log_data.push({
         actor: t.actor,
+        distance: distance,
         damage_dealt: damage,
         damage_taken: damage_effective
     });

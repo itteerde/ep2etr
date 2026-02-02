@@ -29,9 +29,9 @@ for (let n = 0; n <= 99; n++) {
     }
 }
 
-let pointA = { position: { x: 100, y: 100 }, document: { elevation: 0 } };
-let pointB = { position: { x: 103, y: 104 }, document: { elevation: 0 } };
-let pointC = { position: { x: 103, y: 104 }, document: { elevation: 12 } };
+let pointA = { x: 100, y: 100, z: 100 };
+let pointB = { x: 103, y: 104, z: 100 };
+let pointC = { x: 103, y: 104, z: 112 };
 if (!LibItteerde.distance(pointA, pointB) === 5) {
     throw new Error(`distance should have been 5, was ${LibItteerde.distance(pointA, pointB)}`);
 } else {
@@ -39,6 +39,11 @@ if (!LibItteerde.distance(pointA, pointB) === 5) {
 }
 if (!LibItteerde.distance(pointA, pointC) === 13) {
     throw new Error(`distance should have been 13, was ${LibItteerde.distance(pointA, pointC)}`);
+} else {
+    success++;
+}
+if (!LibItteerde.distance() === 0) {
+    throw new Error(`distance should have been 0, was ${LibItteerde.distance()}`);
 } else {
     success++;
 }

@@ -24,14 +24,13 @@ class LibItteerde {
      * 
      * @param {*} a "source" for this macro
      * @param {*} b "affected" for this macro
-     * @param {*} zA elevation of "source". Note that MeasuredTemplate has an elevation.
      * @returns the distance between a and b.
      */
-    static distance(a, b, zA) {
+    static distance(a = { x: 0, y: 0, z: 0 }, b = { x: 0, y: 0, z: 0 }) {
         return (
-            (a.position.x - b.position.x) ** 2 +
-            (a.position.y - b.position.y) ** 2 +
-            ((!zA ? 0 : a.document.elevation) - b.document.elevation) ** 2
+            (a.x - b.x) ** 2 +
+            (a.y - b.y) ** 2 +
+            (a.z - b.z) ** 2
         ) ** 0.5;
     }
 }
