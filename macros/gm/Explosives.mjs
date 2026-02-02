@@ -1,6 +1,6 @@
 const MACRO_LABEL = 'Explosives AoE';
 
-class LibItteerdeEp2e {
+class LibEp2e {
 
     /**
      * 
@@ -465,13 +465,13 @@ for (const t of tokens_controlled) {
     });
 
     // distance is needed for Fray and Damage.
-    let distance = Math.round(LibItteerdeEp2e.distance(
+    let distance = Math.round(LibEp2e.distance(
         { x: template.x, y: template.y, z: response.elevation },
         { x: t.position.x, y: t.position.y, z: t.document.elevation }
     ));
 
     // Fray
-    let fray_roll = LibItteerdeEp2e.randomInteger(0, 99);
+    let fray_roll = LibEp2e.randomInteger(0, 99);
 
     // apply damage
 
