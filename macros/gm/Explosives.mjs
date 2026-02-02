@@ -84,6 +84,17 @@ class LibEp2e {
         }
     }
 
+    /**
+     * check for in cone or behind
+     * 
+     * @param {*} source the MeasuredTemplate created to specify position and in case of cone direction.
+     * @param {*} target the token affected
+     * @returns keywords or maybe just the multiplier?
+     */
+    static classifyPosition(source, target) {
+        return 'infront' || 'behind' // or return the multiplier?
+    }
+
 }
 
 // https://foundryvtt.com/api/classes/foundry.canvas.placeables.MeasuredTemplate.html
