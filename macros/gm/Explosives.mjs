@@ -518,19 +518,20 @@ for (const t of tokens_controlled) {
     }
 
     // wounds
+    let wounds_taken = Math.floor(damage_effective / wt);
     if (damage_effective >= wt) {
         if (t.actor.getFlag('ep2e', 'biological.type') === 'biological') {
             await t.actor.setFlag(
                 'ep2e',
                 'biological.system.physicalHealth.wounds',
-                t.actor.getFlag('ep2e', 'biological.system.physicalHealth.wounds') + Math.floor(damage_effective / wt)
+                t.actor.getFlag('ep2e', 'biological.system.physicalHealth.wounds') + wounds_taken
             );
         }
         if (t.actor.getFlag('ep2e', 'synthetic.type') === 'synthetic') {
             await t.actor.setFlag(
                 'ep2e',
                 'synthetic.system.physicalHealth.wounds',
-                t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.wounds') + Math.floor(damage_effective / wt)
+                t.actor.getFlag('ep2e', 'synthetic.system.physicalHealth.wounds') + wounds_taken
             );
         }
     }
@@ -541,7 +542,8 @@ for (const t of tokens_controlled) {
         actor: t.actor,
         distance: distance,
         damage_dealt: damage,
-        damage_taken: damage_effective
+        damage_taken: damage_effective,
+        wounds_taken: wounds_taken
     });
 
     // maybe add scrolling text for effect
@@ -564,24 +566,25 @@ chatMessageContent += `
     <div style="font-size: 12px;">
         <table>
             <tr>
-                <th>Actor</th><th>Distance</th><th>Damage</th>
+                <th style="text-align: start;">Actor</th><th>D.</th><th>Damage</th><th>W.</th>
             </tr>
 `;
 log_data.forEach(e => {
 
     let nameString = e.actor.name;
     if (nameString.length > cmc.nameMaxLength) {
-        nameString = LibEp2e.trimToLength(nameString, 5);
+        nameString = LibEp2e.trimToLength(nameString, 8, { dots: cmc.nameReplaceCutWithDots });
     }
 
     chatMessageContent += `
             <tr>
                 <td>${nameString}</td>
-                <td>${e.distance}</td>
-                <td>
+                <td style="text-align: center;">${e.distance}</td>
+                <td style="text-align: center;">
                     <span style="font-weight: bold; color: #ee0000;">${e.damage_taken}</span>
-                    ( <span style="color: #640000;">${e.damage_dealt}</span> )
+                    ( <span style="color: #999999;">${e.damage_dealt}</span> )
                 </td>
+                <td style="font-weight: bold; text-align: center;${e.wounds_taken > 0 ? 'color: #ee0000;' : ''}">${e.wounds_taken}</td>
             </tr>
     `;
 });
