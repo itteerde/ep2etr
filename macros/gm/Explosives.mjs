@@ -395,14 +395,14 @@ let tokens_controlled = canvas.tokens.controlled; // do we need anything token-w
 
 let measuredTemplateShape = '';
 let measuredTemplateAngle = 360;
-if (response.shape.startsWith('cone')) {
+if (response.shape.startsWith('cone')) { // should probably be === now
     measuredTemplateShape = 'cone';
     measuredTemplateAngle = response.angle;
 } else {
     measuredTemplateShape = 'circle'
 }
 
-const data = {
+const measuredTemplateData = {
     "t": measuredTemplateShape,
     "distance": Math.round(response.damage / response.reduction), // should probably be .ceil or .floor, but not sure which right now
     "direction": 0,
@@ -411,12 +411,13 @@ const data = {
     "hidden": false,
     "flags": {}
 };
-let template = ExtendedTemplate.fromData(data);
+let template = ExtendedTemplate.fromData(measuredTemplateData);
 template = (await template.drawPreview())[0];
 
 console.log({ template: template });
 
 let damage = response.damage; // not multipliers for shaped charges (coneN)
+let blastDistance = response.uniformradius + Math.round(damage / response.reduction);
 let fray_target = response.fray;
 
 for (const t of tokens_controlled) {
@@ -514,8 +515,40 @@ for (const t of tokens_controlled) {
         { x: t.position.x, y: t.position.y, z: t.document.elevation }
     ));
 
-    // Fray
-    let fray_roll = LibEp2e.randomInteger(0, 99);
+    // Fray. Might be possible to write ich more pretty using the unopposed function. Probably have to. This becomes pure spaghetti otherwise. Rewrite!
+    let fray_data = {
+        skill: fray,
+        roll: LibEp2e.randomInteger(0, 99),
+        target: fray_target,
+        isOnBlastEdge: (blastDistance - distance <= 1.5)
+    };
+    if (!response.critial) {
+        if (LibEp2e.classifyUnOpposed(fray_data.roll, fray_data.skill) === 1) {
+            fray_data.success = true;
+        } else {
+            if (response.pools) {
+                let has_pool = false;
+                if (has_pool) {
+                    // consume pool
+                    // if we want that determine best use of pool (guess if we want to have this it needs to be before the first roll (no modifiers))
+                    // reroll
+                    // classify
+                } else {
+                    fray_data.success = false;
+                }
+            } else {
+                fray_data.success = false;
+            }
+        }
+    } else { // critical
+        if (!LibEp2e.isCritical(fray_data.roll)) {
+
+        } else { // both critical
+            if (LibEp2e.classifyUnOpposed(fray_data.roll, fray_data.skill)) {
+
+            }
+        }
+    }
 
     // apply damage
 
@@ -581,12 +614,14 @@ for (const t of tokens_controlled) {
         damage_dealt: damage,
         damage_taken: damage_effective,
         wounds_taken: wounds_taken,
-        blastPositionalMultiplier: blastPositionalMultiplier
+        blastPositionalMultiplier: blastPositionalMultiplier,
+        fray: {}
     });
 
     console.log({
         actor: t.actor.name,
         distance: distance,
+        blastDistance: blastDistance,
         wounds: wounds,
         damage_dealt: damage,
         damage_taken: damage_effective,
