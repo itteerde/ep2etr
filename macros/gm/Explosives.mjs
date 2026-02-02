@@ -1,4 +1,5 @@
 const MACRO_LABEL = 'Explosives AoE';
+const IS_DEBUG = false;
 
 class LibEp2e {
 
@@ -96,7 +97,7 @@ class LibEp2e {
             return 1;
         }
 
-        let blastDirection = source.direction;
+        let blastDirection = (source.direction + 90) % 360;
         let blastAngle = source.angle;
         let blastMultiplier = 1;
         if (source.angle <= 180) {
@@ -105,14 +106,25 @@ class LibEp2e {
         if (source.angle <= 90) {
             blastMultiplier = 3;
         }
-        let bearing = (Math.atan2(Math.abs(source.y - target.y), Math.abs(source.x - target.x)) * 180) / Math.PI;
+        let bearing = (Math.atan2(Math.abs(source.x - target.x), Math.abs(source.y - target.y)) * 180) / Math.PI;
 
         if (Math.abs(blastDirection - bearing) <= (0.5 * blastAngle)) {
-            return blastMultiplier;
         } else {
-            return 1 / blastMultiplier;
+            blastMultiplier = 1 / blastMultiplier;
         }
 
+        if (IS_DEBUG) {
+            console.log({
+                source: source,
+                target: target,
+                blastDirection: blastDirection,
+                blastAngle: blastAngle,
+                blastMultiplier: blastMultiplier,
+                bearing: bearing
+            });
+        }
+
+        return blastMultiplier;
     }
 
 }
@@ -496,15 +508,6 @@ for (const t of tokens_controlled) {
 
     // Fray: Are there no Items modifying Fray?
 
-    console.log({
-        actor: t.actor.name,
-        wounds: wounds,
-        fray: fray,
-        wt: wt,
-        armor: armor
-
-    });
-
     // distance is needed for Fray and Damage.
     let distance = Math.round(LibEp2e.distance(
         { x: template.x, y: template.y, z: response.elevation },
@@ -522,12 +525,15 @@ for (const t of tokens_controlled) {
     } else {
         damage_effective = Math.max(damage - ((distance - response.uniformradius) * response.reduction, 0));
     }
+    let blastPositionalMultiplier = LibEp2e.blastPositionalMultiplier(template, t);
+    damage_effective *= blastPositionalMultiplier;
 
     if (response.damagetype === 'energy') {
         damage_effective -= (response.armorpiercing ? Math.round(armor.energy / 2) : armor.energy);
     } else {
         damage_effective -= (response.armorpiercing ? Math.round(armor.kinetic / 2) : armor.kinetic);
     }
+    damage_effective = Math.round(damage_effective);
     if (damage_effective < 0) {
         damage_effective = 0;
     }
@@ -574,8 +580,24 @@ for (const t of tokens_controlled) {
         distance: distance,
         damage_dealt: damage,
         damage_taken: damage_effective,
-        wounds_taken: wounds_taken
+        wounds_taken: wounds_taken,
+        blastPositionalMultiplier: blastPositionalMultiplier
     });
+
+    console.log({
+        actor: t.actor.name,
+        distance: distance,
+        wounds: wounds,
+        damage_dealt: damage,
+        damage_taken: damage_effective,
+        fray: fray,
+        wt: wt,
+        armor: armor,
+        wounds_taken: wounds_taken,
+        blastPositionalMultiplier: blastPositionalMultiplier
+    });
+
+
 
     // maybe add scrolling text for effect
     canvas.interface.createScrollingText(t.position, `${damage_effective}`, { fill: '0xcc0000' });

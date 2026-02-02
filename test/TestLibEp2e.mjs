@@ -77,4 +77,15 @@ if (LibEp2e.trimToLength('Keith Void (in Envirosuit)', 8, { dots: true }) === 'K
     throw new Error(`expected 'Keith...', was ${LibEp2e.trimToLength('Keith Void (in Envirosuit)', 8, { dots: true })}`);
 }
 
+/*
+if (LibEp2e.blastPositionalMultiplier({ x: 20, y: 10, direction: 90 }, { x: 20, y: 30 }) === 3) {
+    success++;
+} else {
+    throw new Error(`3 expected, was ${LibEp2e.blastPositionalMultiplier({ x: 20, y: 10 }, { x: 20, y: 30 })}`);
+
+}
+
 console.log(`${success} successful tests.`);
+*/
+
+console.log(LibEp2e.blastPositionalMultiplier({ x: 20, y: 10, direction: 90 }, { x: 20, y: 30 }))
