@@ -564,7 +564,7 @@ let cmc = {
 // produce some nice ChatMessage summary
 chatMessageContent += `
     <div style="font-size: 12px;">
-        <table>
+        <table style="margin: 0; padding: 0;">
             <tr>
                 <th style="text-align: start;">Actor</th><th>D.</th><th>Damage</th><th>W.</th>
             </tr>
@@ -581,10 +581,10 @@ log_data.forEach(e => {
                 <td>${nameString}</td>
                 <td style="text-align: center;">${e.distance}</td>
                 <td style="text-align: center;">
-                    <span style="font-weight: bold; color: #ee0000;">${e.damage_taken}</span>
+                    <span style="font-weight: bold; ${e.damage_taken > 0 ? 'color: #ee0000;' : 'color: #009900;'}">${e.damage_taken}</span>
                     ( <span style="color: #999999;">${e.damage_dealt}</span> )
                 </td>
-                <td style="font-weight: bold; text-align: center;${e.wounds_taken > 0 ? 'color: #ee0000;' : ''}">${e.wounds_taken}</td>
+                <td style="font-weight: bold; text-align: center;${e.wounds_taken > 0 ? 'color: #ee0000;' : 'color: #009900;'}">${e.wounds_taken}</td>
             </tr>
     `;
 });
