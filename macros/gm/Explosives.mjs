@@ -20,15 +20,14 @@ class LibItteerdeEp2e {
     }
 
     /**
-     * Classifies the roll as success or failure.
+     * We need this for criticals.
      * 
-     * @param {*} initiating_roll 
-     * @param {*} initiating_target 
-     * @param {*} affected_roll 
-     * @param {*} affected_target 
-     * @returns 1 if initiating party wins, 0 otherwise. Numberical for counting.
+     * @param {*} ourRoll 
+     * @param {*} ourSkill 
+     * @param {*} theirRoll 
+     * @param {*} theirSkill 
      */
-    static classifyOpposed(initiating_roll, initiating_target, affected_roll, affected_target) {
+    static classifyOpposed(ourRoll, ourSkill, theirRoll, theirSkill) {
     }
 
     /**
@@ -254,6 +253,10 @@ let dialogContent = `
         <div>
             <label for="fray-field">Fray Target (not halved):</label>
             <input type="number" name="fray" id="fray-field" min="0" step="1" placeholder="-1" required/>
+        </div>
+        <div>
+            <label for="critical-checkbox">Critical:</label>
+            <input type="checkbox" name="critical" id="critical-checkbox"/>
         </div>
         <div>
             <label for="damagetype-select">Damage Type:</label>
