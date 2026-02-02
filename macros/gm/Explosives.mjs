@@ -27,8 +27,40 @@ class LibEp2e {
      * @param {*} ourSkill 
      * @param {*} theirRoll 
      * @param {*} theirSkill 
+     * @returns 1 if successful, otherwise 0. Numerical for counting.
      */
     static classifyOpposed(ourRoll, ourSkill, theirRoll, theirSkill) {
+
+        if (ourRoll > ourSkill) { // We fail. Should we look at theirs, if they fail worse, for example critcally?
+            return 0;
+        }
+
+        if (theirRoll > theirSkill) { // They fail. Should we look at theirs, if they fail worse, for example critcally?
+            return 1;
+        }
+
+        if (LibEp2e.isCritical(ourRoll) && !LibEp2e.isCritical(theirRoll)) {
+            return 1;
+        }
+
+        if (!LibEp2e.isCritical(ourRoll) && LibEp2e.isCritical(theirRoll)) {
+            return 0;
+        }
+
+        // both critical success
+        if (LibEp2e.isCritical(ourRoll) && LibEp2e.isCritical(theirRoll)) {
+            if (ourRoll > theirRoll) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+
+        if (ourRoll > theirRoll) { // no criticals, both succeed
+            return 1;
+        } else {
+            return 0;
+        }
     }
 
     /**
@@ -307,8 +339,8 @@ let dialogContent = `
             <input type="number" name="reduction" id="reduction-field" min="2" step="1" value="2" required/>
         </div>
         <div>
-            <label for="fray-field">Fray Target (not halved):</label>
-            <input type="number" name="fray" id="fray-field" min="0" step="1" placeholder="-1" required/>
+            <label for="attack-field">Their Attack, 0 for placed:</label>
+            <input type="number" name="attack" id="attack-field" min="0" step="1" value="0" required/>
         </div>
         <div>
             <label for="critical-checkbox">Critical:</label>
@@ -418,15 +450,29 @@ console.log({ template: template });
 
 let damage = response.damage; // not multipliers for shaped charges (coneN)
 let blastDistance = response.uniformradius + Math.round(damage / response.reduction);
-let fray_target = response.fray;
 
 for (const t of tokens_controlled) {
 
+    let distance = Math.round(LibEp2e.distance(
+        { x: template.x, y: template.y, z: response.elevation },
+        { x: t.position.x, y: t.position.y, z: t.document.elevation }
+    ));
     let wounds = { value: 0, effective: 0 };
     let wt = 0;
     let dur_base = 0;
     let dur_effective = dur_base;
-    let fray = t.actor.system.aptitudes.ref * 2 + t.actor.system.skills.fray.points; // Are we looking for specializations? If so we need a list.
+    let fray_data = {
+        skill: t.actor.system.aptitudes.ref * 2 + t.actor.system.skills.fray.points,
+        roll: LibEp2e.randomInteger(0, 99),
+        attack: response.attack,
+        isOnBlastEdge: (blastDistance - distance <= 1.5)
+    };
+    // do we need critical on the UI? It is included in the Attack.
+    if (LibEp2e.classifyOpposed(fray_data.roll, Math.round(fray_data.skill / 2), 1, fray_data.attack) === 1) {
+        fray_data.success = true;
+    } else {
+        fray_data.success = false;
+    }
 
     // aggregate the armor values
     let armor = { energy: 0, kinetic: 0 };
@@ -507,49 +553,6 @@ for (const t of tokens_controlled) {
         })
     });
 
-    // Fray: Are there no Items modifying Fray?
-
-    // distance is needed for Fray and Damage.
-    let distance = Math.round(LibEp2e.distance(
-        { x: template.x, y: template.y, z: response.elevation },
-        { x: t.position.x, y: t.position.y, z: t.document.elevation }
-    ));
-
-    // Fray. Might be possible to write ich more pretty using the unopposed function. Probably have to. This becomes pure spaghetti otherwise. Rewrite!
-    let fray_data = {
-        skill: fray,
-        roll: LibEp2e.randomInteger(0, 99),
-        target: fray_target,
-        isOnBlastEdge: (blastDistance - distance <= 1.5)
-    };
-    if (!response.critial) {
-        if (LibEp2e.classifyUnOpposed(fray_data.roll, fray_data.skill) === 1) {
-            fray_data.success = true;
-        } else {
-            if (response.pools) {
-                let has_pool = false;
-                if (has_pool) {
-                    // consume pool
-                    // if we want that determine best use of pool (guess if we want to have this it needs to be before the first roll (no modifiers))
-                    // reroll
-                    // classify
-                } else {
-                    fray_data.success = false;
-                }
-            } else {
-                fray_data.success = false;
-            }
-        }
-    } else { // critical
-        if (!LibEp2e.isCritical(fray_data.roll)) {
-
-        } else { // both critical
-            if (LibEp2e.classifyUnOpposed(fray_data.roll, fray_data.skill)) {
-
-            }
-        }
-    }
-
     // apply damage
 
     let damage_effective = 0;
@@ -560,6 +563,14 @@ for (const t of tokens_controlled) {
     }
     let blastPositionalMultiplier = LibEp2e.blastPositionalMultiplier(template, t);
     damage_effective *= blastPositionalMultiplier;
+
+    if (fray_data.success) {
+        if (fray_data.isOnBlastEdge) {
+            damage_effective = 0;
+        } else {
+            Math.round(damage_effective /= 2);
+        }
+    }
 
     if (response.damagetype === 'energy') {
         damage_effective -= (response.armorpiercing ? Math.round(armor.energy / 2) : armor.energy);
@@ -615,7 +626,7 @@ for (const t of tokens_controlled) {
         damage_taken: damage_effective,
         wounds_taken: wounds_taken,
         blastPositionalMultiplier: blastPositionalMultiplier,
-        fray: {}
+        fray: fray_data
     });
 
     console.log({
@@ -625,7 +636,7 @@ for (const t of tokens_controlled) {
         wounds: wounds,
         damage_dealt: damage,
         damage_taken: damage_effective,
-        fray: fray,
+        fray: fray_data,
         wt: wt,
         armor: armor,
         wounds_taken: wounds_taken,
