@@ -453,6 +453,7 @@ for (const t of tokens_controlled) {
     // Fray: Are there no Items modifying Fray?
 
     console.log({
+        actor: t.actor.name,
         wounds: wounds,
         fray: fray,
         wt: wt,
