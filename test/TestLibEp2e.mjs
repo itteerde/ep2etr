@@ -48,4 +48,26 @@ if (!LibEp2e.distance() === 0) {
     success++;
 }
 
+
+if (LibEp2e.classifyOpposed(50, 60, 49, 60) === 1) {
+    success++;
+} else {
+    throw new Error(`should have been a success: `, [50, 60, 49, 60]);
+}
+if (LibEp2e.classifyOpposed(0, 0, 49, 60) === 1) {
+    success++;
+} else {
+    throw new Error(`should have been a success: `, [0, 0, 49, 60]);
+}
+if (LibEp2e.classifyOpposed(11, 0, 49, 60) === 0) {
+    success++;
+} else {
+    throw new Error(`should have been a failure: `, [11, 0, 49, 60]);
+}
+if (LibEp2e.classifyOpposed(0, 60, 11, 60) === 0) {
+    success++;
+} else {
+    throw new Error(`should have been a failure: `, [0, 60, 11, 60]);
+}
+
 console.log(`${success} successful tests.`);

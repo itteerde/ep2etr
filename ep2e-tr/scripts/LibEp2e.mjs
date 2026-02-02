@@ -45,17 +45,35 @@ class LibEp2e {
      */
     static classifyOpposed(ourRoll, ourSkill, theirRoll, theirSkill) {
 
-        if (ourRoll > ourSkill) { // should we look at theirs, if they fail worse, for example critcally?
+        if (ourRoll > ourSkill) { // We fail. Should we look at theirs, if they fail worse, for example critcally?
+            return 0;
+        }
+
+        if (theirRoll > theirSkill) { // They fail. Should we look at theirs, if they fail worse, for example critcally?
+            return 1;
+        }
+
+        if (LibEp2e.isCritical(ourRoll) && !LibEp2e.isCritical(theirRoll)) {
+            return 1;
+        }
+
+        if (!LibEp2e.isCritical(ourRoll) && LibEp2e.isCritical(theirRoll)) {
             return 0;
         }
 
         // both critical success
-        if (LibEp2e.isCritical(ourRoll) && ourRoll <= ourSkill && LibEp2e.isCritical(theirRoll) && theirRoll <= theirSkill) {
+        if (LibEp2e.isCritical(ourRoll) && LibEp2e.isCritical(theirRoll)) {
             if (ourRoll > theirRoll) {
                 return 1;
             } else {
                 return 0;
             }
+        }
+
+        if (ourRoll > theirRoll) { // no criticals, both succeed
+            return 1;
+        } else {
+            return 0;
         }
     }
 
