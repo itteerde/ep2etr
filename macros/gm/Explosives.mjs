@@ -96,7 +96,23 @@ class LibEp2e {
             return 1;
         }
 
-        return 3;
+        let blastDirection = source.direction;
+        let blastAngle = source.angle;
+        let blastMultiplier = 1;
+        if (source.angle <= 180) {
+            blastMultiplier = 2;
+        }
+        if (source.angle <= 90) {
+            blastMultiplier = 3;
+        }
+        let bearing = (Math.atan2(Math.abs(source.y - target.y), Math.abs(source.x - target.x)) * 180) / Math.PI;
+
+        if (Math.abs(blastDirection - bearing) <= (0.5 * blastAngle)) {
+            return blastMultiplier;
+        } else {
+            return 1 / blastMultiplier;
+        }
+
     }
 
 }
