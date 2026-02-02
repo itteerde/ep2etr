@@ -91,4 +91,17 @@ class LibEp2e {
             (a.z - b.z) ** 2
         ) ** 0.5;
     }
+
+    static trimToLength(string, max, options = { dots: false, dots_character: '.', dots_length: 3 }) {
+
+        options = Object.assign({ dots: false, dots_character: '.', dots_length: 3 }, options);
+
+        if (!options.dots) {
+            return string.substring(0, max);
+        } else {
+            string = string.substring(0, max - options.dots_length);
+            string = string.padEnd(max, options.dots_character);
+            return string;
+        }
+    }
 }

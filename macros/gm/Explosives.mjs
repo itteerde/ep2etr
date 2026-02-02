@@ -70,8 +70,21 @@ class LibEp2e {
 
         return distance;
     }
-}
 
+    static trimToLength(string, max, options = { dots: false, dots_character: '.', dots_length: 3 }) {
+
+        options = Object.assign({ dots: false, dots_character: '.', dots_length: 3 }, options);
+
+        if (!options.dots) {
+            return string.substring(0, max);
+        } else {
+            string = string.substring(0, max - options.dots_length);
+            string = string.padEnd(max, options.dots_character);
+            return string;
+        }
+    }
+
+}
 
 // https://foundryvtt.com/api/classes/foundry.canvas.placeables.MeasuredTemplate.html
 class ExtendedTemplate extends foundry.canvas.placeables.MeasuredTemplate {
@@ -281,13 +294,6 @@ let dialogContent = `
             <input type="number" name="angle" id="angle-field" min="1" max="180" step="1" placeholder="-1"/>
         </div>
         <div>
-            <label for="blast-select">Blast Type:</label>
-            <select name="blasttype" id="blast-select">
-                <option value="centered">Centered</option>
-                <option value="uniform">Uniform</option>
-            </select>
-        </div> 
-        <div>
             <label for="uniformradius-field">Uniform Radius:</label>
             <input type="number" name="uniformradius" id="uniformradius-field" size="10" value="0"/>
         </div>
@@ -479,7 +485,12 @@ for (const t of tokens_controlled) {
 
     // apply damage
 
-    let damage_effective = damage;
+    let damage_effective = 0;
+    if (distance <= response.uniformradius) {
+        damage_effective = damage;
+    } else {
+        damage_effective = Math.max(damage - ((distance - response.uniformradius) * response.reduction, 0));
+    }
 
     if (response.damagetype === 'energy') {
         damage_effective -= (response.armorpiercing ? Math.round(armor.energy / 2) : armor.energy);
@@ -542,6 +553,12 @@ for (const t of tokens_controlled) {
 
 // do we do a preview Dialog?
 
+
+let cmc = {
+    nameMaxLength: 5,
+    nameReplaceCutWithDots: true
+} // ChatMessageConfiguration
+
 // produce some nice ChatMessage summary
 chatMessageContent += `
     <div style="font-size: 12px;">
@@ -551,9 +568,15 @@ chatMessageContent += `
             </tr>
 `;
 log_data.forEach(e => {
+
+    let nameString = e.actor.name;
+    if (nameString.length > cmc.nameMaxLength) {
+        nameString = LibEp2e.trimToLength(nameString, 5);
+    }
+
     chatMessageContent += `
             <tr>
-                <td>${e.actor.name}</td>
+                <td>${nameString}</td>
                 <td>${e.distance}</td>
                 <td>
                     <span style="font-weight: bold; color: #ee0000;">${e.damage_taken}</span>

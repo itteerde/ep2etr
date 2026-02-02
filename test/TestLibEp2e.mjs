@@ -70,4 +70,11 @@ if (LibEp2e.classifyOpposed(0, 60, 11, 60) === 0) {
     throw new Error(`should have been a failure: `, [0, 60, 11, 60]);
 }
 
+
+if (LibEp2e.trimToLength('Keith Void (in Envirosuit)', 8, { dots: true }) === 'Keith...') {
+    success++;
+} else {
+    throw new Error(`expected 'Keith...', was ${LibEp2e.trimToLength('Keith Void (in Envirosuit)', 8, { dots: true })}`);
+}
+
 console.log(`${success} successful tests.`);
