@@ -354,7 +354,7 @@ let measuredTemplateShape = '';
 let measuredTemplateAngle = 360;
 if (response.shape.startsWith('cone')) {
     measuredTemplateShape = 'cone';
-    measuredTemplateAngle = response.shape.slice(4);
+    measuredTemplateAngle = response.angle;
 } else {
     measuredTemplateShape = 'circle'
 }
@@ -362,7 +362,7 @@ if (response.shape.startsWith('cone')) {
 const data = {
     "t": measuredTemplateShape,
     "distance": Math.round(response.damage / response.reduction), // should probably be .ceil or .floor, but not sure which right now
-    "direction": 66.36148710049312,
+    "direction": 0,
     "angle": measuredTemplateAngle,
     "borderColor": "#000000",
     "hidden": false,
