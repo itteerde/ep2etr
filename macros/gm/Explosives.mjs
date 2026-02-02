@@ -47,18 +47,29 @@ class LibItteerdeEp2e {
     }
 
     /**
-     * Compute distance between a and b.
+     * Compute distance.
      * 
-     * @param {*} a "source" for this macro
-     * @param {*} b "affected" for this macro
+     * @param {Object} a point, {x: Number, y: Number, z: Number}, with x,y scalled optionally, z being the elevation (which is always scaled).
+     * @param {Object} b point, {x: Number, y: Number, z: Number}, with x,y scalled optionally, z being the elevation (which is always scaled).
+     * @param {Object} options ={scaling: true, is3d: true}. If saling is false x,y are not divided by the scenes unit distance. Otherwise they are. If is3d is false distance in z-Axis is ignored.
      * @returns the distance between a and b.
      */
-    static distance(a = { x: 0, y: 0, z: 0 }, b = { x: 0, y: 0, z: 0 }) {
-        return (
+    static distance(a = { x: 0, y: 0, z: 0 }, b = { x: 0, y: 0, z: 0 }, options = { scaling: true, is3d: true }) {
+
+        let distance = (
             (a.x - b.x) ** 2 +
-            (a.y - b.y) ** 2 +
-            (a.z - b.z) ** 2
+            (a.y - b.y) ** 2
         ) ** 0.5;
+
+        if (options.scaling) {
+            distance /= canvas.scene.grid.size;
+        }
+
+        if (options.is3d) {
+            distance = (distance ** 2 + (a.z - b.z) ** 2) ** 0.5;
+        }
+
+        return distance;
     }
 }
 
@@ -275,7 +286,7 @@ let dialogContent = `
         </div> 
         <div>
             <label for="elevation-field">Elevation:</label>
-            <input type="text" name="elevation" id="elevation-field" size="10" value="0"/>
+            <input type="number" name="elevation" id="elevation-field" size="10" value="0"/>
         </div>
         <div>
             <label for="knockdown-checkbox">Resolve Knockdowns:</label>
@@ -450,7 +461,10 @@ for (const t of tokens_controlled) {
     });
 
     // distance is needed for Fray and Damage.
-    let distance = LibItteerdeEp2e.distance(template, t);
+    let distance = Math.round(LibItteerdeEp2e.distance(
+        { x: template.x, y: template.y, z: response.elevation },
+        { x: t.position.x, y: t.position.y, z: t.document.elevation }
+    ));
 
     // Fray
     let fray_roll = LibItteerdeEp2e.randomInteger(0, 99);
@@ -532,7 +546,7 @@ log_data.forEach(e => {
     chatMessageContent += `
             <tr>
                 <td>${e.actor.name}</td>
-                <td>?</td>
+                <td>${e.distance}</td>
                 <td>
                     <span style="font-weight: bold; color: #ee0000;">${e.damage_taken}</span>
                     ( <span style="color: #640000;">${e.damage_dealt}</span> )
