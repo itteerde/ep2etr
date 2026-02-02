@@ -650,7 +650,7 @@ for (const t of tokens_controlled) {
         armor: armor,
         wounds_taken: wounds_taken,
         blastPositionalMultiplier: blastPositionalMultiplier
-    });
+    }); // could put data into the token's actor's flags, too -- but would cause problems for unlinked Tokens, so probably not. For looking up if it works the console should be enough.
 
 
 
