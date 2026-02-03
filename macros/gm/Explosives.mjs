@@ -470,7 +470,6 @@ for (const t of tokens_controlled) {
     let wounds = { value: 0, effective: 0 };
     let wt = 0;
     let dur_base = 0;
-    let dur_effective = dur_base;
     let fray_data = {
         skill: t.actor.system.aptitudes.ref * 2 + t.actor.system.skills.fray.points,
         roll: LibEp2e.randomInteger(0, 99),
@@ -559,8 +558,6 @@ for (const t of tokens_controlled) {
         armor.kinetic += e.system.armorValues.kinetic;
     });
 
-    //let dur_items = t.actor.items.filter(i => i.system.state?.equipped && ())
-
     //go over all equipped items modifying wt
     t.actor.items.filter(
         i => i.system.state?.equipped && i.system?.passiveEffects?.find(pe => pe.stat === 'woundThreshold')
@@ -571,6 +568,12 @@ for (const t of tokens_controlled) {
             wt += pe.modifier;
         })
     });
+
+    // As one kind of the items has both wt and dur we cannot get all dur items and apply modifiers, as we would raise double (assuming that isn't how it should be)
+    let toughness = t.actor.items.find(i => i.name.startsWith('Toughness'));
+    if (toughness) {
+        wt += toughness.system.levels.length;
+    }
 
     // apply damage
 
