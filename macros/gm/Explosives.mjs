@@ -578,7 +578,7 @@ for (const t of tokens_controlled) {
     if (distance <= response.uniformradius) {
         damage_effective = damage;
     } else {
-        damage_effective = Math.max(damage - ((distance - response.uniformradius) * response.reduction, 0));
+        damage_effective = Math.max((damage - (distance - response.uniformradius) * response.reduction), 0);
     }
     let blastPositionalMultiplier = LibEp2e.blastPositionalMultiplier(template, t);
     damage_effective *= blastPositionalMultiplier;
@@ -653,8 +653,10 @@ for (const t of tokens_controlled) {
             actor: t.actor.name,
             distance: distance,
             blastDistance: blastDistance,
+            uniformradius: response.uniformradius,
             wounds: wounds,
             damage_dealt: damage,
+            damage_type: response.damagetype,
             damage_taken: damage_effective,
             fray_data: fray_data,
             wt: wt,
