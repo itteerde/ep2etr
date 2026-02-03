@@ -124,7 +124,7 @@ class LibEp2e {
      * @param {*} target the token affected
      * @returns The multiplier to be applied for shaped charges damage. 1 for unshaped (circle) blasts.
      */
-    static blastPositionalMultiplier(source, target, options = { debug: IS_DEBUG }) {
+    static blastPositionalMultiplier(source, target, options = { debug: false }) {
         if (source.t === 'circle') {
             return 1;
         }
@@ -138,7 +138,7 @@ class LibEp2e {
         if (source.angle <= 90) {
             blastMultiplier = 3;
         }
-        //let bearing = (Math.atan2(Math.abs(source.x - target.x), Math.abs(source.y - target.y)) * 180) / Math.PI;
+
         let bearing = Math.atan2((target.x - source.x), (source.y - target.y));
         if (bearing < 0) {
             bearing += Math.PI * 2;
