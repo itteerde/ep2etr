@@ -349,12 +349,8 @@ let dialogContent = `
             <input type="number" name="reduction" id="reduction-field" min="2" step="1" value="2" required/>
         </div>
         <div>
-            <label for="attack-field">Their Attack, -1 for placed:</label>
+            <label for="attack-field">Attack Roll, -1 for placed:</label>
             <input type="number" name="attack" id="attack-field" min="-1" step="1" value="-1" required/>
-        </div>
-        <div>
-            <label for="critical-checkbox">Critical:</label>
-            <input type="checkbox" name="critical" id="critical-checkbox"/>
         </div>
         <div>
             <label for="damagetype-select">Damage Type:</label>
