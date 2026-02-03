@@ -574,6 +574,10 @@ for (const t of tokens_controlled) {
     if (toughness) {
         wt += toughness.system.levels.length;
     }
+    let frailty = t.actor.items.find(i => i.name.startsWith('Frailty'));
+    if (frailty) {
+        wt -= frailty.system.levels.length;
+    }
 
     // apply damage
 
