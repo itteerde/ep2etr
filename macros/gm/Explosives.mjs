@@ -124,7 +124,7 @@ class LibEp2e {
      * @param {*} target the token affected
      * @returns The multiplier to be applied for shaped charges damage. 1 for unshaped (circle) blasts.
      */
-    static blastPositionalMultiplier(source, target, options = { debug: false }) {
+    static blastPositionalMultiplier(source, target, options = { debug: IS_DEBUG }) {
         if (source.t === 'circle') {
             return 1;
         }
