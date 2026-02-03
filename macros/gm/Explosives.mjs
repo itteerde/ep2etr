@@ -1,5 +1,5 @@
 const MACRO_LABEL = 'Explosives AoE';
-const IS_DEBUG = false;
+const IS_DEBUG = true;
 
 class LibEp2e {
 
@@ -124,7 +124,7 @@ class LibEp2e {
      * @param {*} target the token affected
      * @returns The multiplier to be applied for shaped charges damage. 1 for unshaped (circle) blasts.
      */
-    static blastPositionalMultiplier(source, target) {
+    static blastPositionalMultiplier(source, target, options = { debug: IS_DEBUG }) {
         if (source.t === 'circle') {
             return 1;
         }
@@ -138,21 +138,31 @@ class LibEp2e {
         if (source.angle <= 90) {
             blastMultiplier = 3;
         }
-        let bearing = (Math.atan2(Math.abs(source.x - target.x), Math.abs(source.y - target.y)) * 180) / Math.PI;
+        //let bearing = (Math.atan2(Math.abs(source.x - target.x), Math.abs(source.y - target.y)) * 180) / Math.PI;
+        let bearing = Math.atan2((target.x - source.x), (source.y - target.y));
+        if (bearing < 0) {
+            bearing += Math.PI * 2;
+        }
+        bearing = (bearing * 180) / Math.PI;
 
-        if (Math.abs(blastDirection - bearing) <= (0.5 * blastAngle)) {
+        let diff = (bearing - blastDirection) % 360;
+        if (diff > 180) diff -= 360;
+        if (diff < -180) diff += 360;
+
+        if (Math.abs(diff) <= (0.5 * blastAngle)) {
         } else {
             blastMultiplier = 1 / blastMultiplier;
         }
 
-        if (IS_DEBUG) {
+        if (options.debug) {
             console.log({
                 source: source,
                 target: target,
                 blastDirection: blastDirection,
                 blastAngle: blastAngle,
                 blastMultiplier: blastMultiplier,
-                bearing: bearing
+                bearing: bearing,
+                diff: diff
             });
         }
 
@@ -639,17 +649,19 @@ for (const t of tokens_controlled) {
     });
 
     console.log({
-        actor: t.actor.name,
-        distance: distance,
-        blastDistance: blastDistance,
-        wounds: wounds,
-        damage_dealt: damage,
-        damage_taken: damage_effective,
-        fray_data: fray_data,
-        wt: wt,
-        armor: armor,
-        wounds_taken: wounds_taken,
-        blastPositionalMultiplier: blastPositionalMultiplier
+        explosives_data: {
+            actor: t.actor.name,
+            distance: distance,
+            blastDistance: blastDistance,
+            wounds: wounds,
+            damage_dealt: damage,
+            damage_taken: damage_effective,
+            fray_data: fray_data,
+            wt: wt,
+            armor: armor,
+            wounds_taken: wounds_taken,
+            blastPositionalMultiplier: blastPositionalMultiplier
+        }
     }); // could put data into the token's actor's flags, too -- but would cause problems for unlinked Tokens, so probably not. For looking up if it works the console should be enough.
 
 
