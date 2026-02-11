@@ -284,9 +284,11 @@ class ExtendedTemplate extends foundry.canvas.placeables.MeasuredTemplate {
         const now = Date.now(); // Apply a 20ms throttle
         if (now - this.#moveTime <= 20) return;
         const center = event.data.getLocalPosition(this.layer);
-        const interval = canvas.grid.type === CONST.GRID_TYPES.GRIDLESS ? 0 : 2;
-        const snapped = canvas.grid.getSnappedPoint(center, interval);
-        this.document.updateSource({ x: snapped.x, y: snapped.y });
+        // changes to .getSnappedPoint do not work, make it not snap even for grid as a workaround for the time being
+        //const interval = canvas.grid.type === CONST.GRID_TYPES.GRIDLESS ? 0 : 2;
+        //const snapped = canvas.grid.getSnappedPoint(center, interval);
+        //this.document.updateSource({ x: snapped.x, y: snapped.y });
+        this.document.updateSource(center);
         this.refresh();
         this.#moveTime = now;
     }
@@ -315,9 +317,11 @@ class ExtendedTemplate extends foundry.canvas.placeables.MeasuredTemplate {
      */
     async _onConfirmPlacement(event) {
         await this._finishPlacement(event);
-        const interval = canvas.grid.type === CONST.GRID_TYPES.GRIDLESS ? 0 : 2;
-        const destination = canvas.grid.getSnappedPoint(this.document, interval);
-        this.document.updateSource(destination);
+        // changes to .getSnappedPoint do not work, make it not snap even for grid as a workaround for the time being
+        //const interval = canvas.grid.type === CONST.GRID_TYPES.GRIDLESS ? 0 : 2;
+        //const destination = canvas.grid.getSnappedPoint(this.document, interval);
+        //this.document.updateSource(destination);
+        //this.document.updateSource(this.document);
         this.#events.resolve(canvas.scene.createEmbeddedDocuments("MeasuredTemplate", [this.document.toObject()]));
     }
 
